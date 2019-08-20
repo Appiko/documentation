@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="dart:math library API docs, for the Dart programming language.">
+  <title>dart:math library - Dart API</title>
+  <!-- required because all the links are pseudo-absolute -->
+  <base href="..">
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400i,400,300|Source+Sans+Pro:400,300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="static-assets/github.css">
+  <link rel="stylesheet" href="static-assets/styles.css">
+  <link rel="icon" href="static-assets/favicon.png">
+  
+</head>
+
+<body>
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="index.html">setup</a></li>
+    <li class="self-crumb">dart:math library</li>
+  </ol>
+  <div class="self-name">dart:math</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+  <div id="dartdoc-sidebar-left" class="col-xs-6 col-sm-3 col-md-2 sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+      <form class="search-sidebar" role="search">
+        <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+      </form>
+    </header>
+    
+    <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+      <li><a href="index.html">setup</a></li>
+      <li class="self-crumb">dart:math library</li>
+    </ol>
+    
+    <h5><span class="package-name">setup</span> <span class="package-kind">package</span></h5>
+    <ol>
+          <li class="section-title">Topics</li>
+            <li><a href="topics/Design-topic.html">Design</a></li>
+            <li><a href="topics/Widget-topic.html">Widget</a></li>
+            <li><a href="topics/Compound Widget-topic.html">Compound&nbsp;Widget</a></li>
+            <li><a href="topics/Page-topic.html">Page</a></li>
+            <li><a href="topics/SenseBeRx-topic.html">SenseBeRx</a></li>
+            <li><a href="topics/Algorithm-topic.html">Algorithm</a></li>
+            <li><a href="topics/Helper-topic.html">Helper</a></li>
+            <li><a href="topics/Model-topic.html">Model</a></li>
+            <li><a href="topics/Service-topic.html">Service</a></li>
+          <li class="section-title">Libraries</li>
+          <li><a href="ui_views_about_us_view/ui_views_about_us_view-library.html">about_us_view</a></li>
+          <li><a href="ui_widgets_advanced_option_tile/ui_widgets_advanced_option_tile-library.html">advanced_option_tile</a></li>
+          <li><a href="ui_widgets_advanced_option_wrapper/ui_widgets_advanced_option_wrapper-library.html">advanced_option_wrapper</a></li>
+          <li><a href="ui_widgets_ambient_fields/ui_widgets_ambient_fields-library.html">ambient_fields</a></li>
+          <li><a href="core_view_models_ambient_fields_model/core_view_models_ambient_fields_model-library.html">ambient_fields_model</a></li>
+          <li><a href="core_services_bluetooth_connection/core_services_bluetooth_connection-library.html">bluetooth_connection</a></li>
+          <li><a href="core_services_bluetooth_scan/core_services_bluetooth_scan-library.html">bluetooth_scan</a></li>
+          <li><a href="ui_widgets_bottom_action_bar/ui_widgets_bottom_action_bar-library.html">bottom_action_bar</a></li>
+          <li><a href="ui_widgets_bottom_nav/ui_widgets_bottom_nav-library.html">bottom_nav</a></li>
+          <li><a href="core_view_models_bottom_nav_model/core_view_models_bottom_nav_model-library.html">bottom_nav_model</a></li>
+          <li><a href="core_models_devices_sense_be_rx_1.0_camera/core_models_devices_sense_be_rx_1.0_camera-library.html">camera</a></li>
+          <li><a href="ui_widgets_camera_trigger_radio_options/ui_widgets_camera_trigger_radio_options-library.html">camera_trigger_radio_options</a></li>
+          <li><a href="core_view_models_camera_trigger_radio_options_model/core_view_models_camera_trigger_radio_options_model-library.html">camera_trigger_radio_options_model</a></li>
+          <li><a href="ui_devices_sense_be_rx_1.0_settings_camera_trriger_view/ui_devices_sense_be_rx_1.0_settings_camera_trriger_view-library.html">camera_trriger_view</a></li>
+          <li><a href="ui_colors/ui_colors-library.html">colors</a></li>
+          <li><a href="ui_views_create_profile_view/ui_views_create_profile_view-library.html">create_profile_view</a></li>
+          <li><a href="ui_widgets_custom_app_bar/ui_widgets_custom_app_bar-library.html">custom_app_bar</a></li>
+          <li><a href="ui_widgets_custom_divider/ui_widgets_custom_divider-library.html">custom_divider</a></li>
+          <li><a href="ui_widgets_custom_dropdown_button/ui_widgets_custom_dropdown_button-library.html">custom_dropdown_button</a></li>
+          <li><a href="ui_widgets_custom_radio_field/ui_widgets_custom_radio_field-library.html">custom_radio_field</a></li>
+          <li><a href="ui_widgets_custom_slider/ui_widgets_custom_slider-library.html">custom_slider</a></li>
+          <li><a href="ui_widgets_custom_switch_field/ui_widgets_custom_switch_field-library.html">custom_switch_field</a></li>
+          <li><a href="ui_widgets_custom_tab_bar/ui_widgets_custom_tab_bar-library.html">custom_tab_bar</a></li>
+          <li><a href="core_services_device/core_services_device-library.html">device</a></li>
+          <li><a href="ui_views_device_info_view/ui_views_device_info_view-library.html">device_info_view</a></li>
+          <li><a href="ui_views_device_settings_view/ui_views_device_settings_view-library.html">device_settings_view</a></li>
+          <li><a href="ui_devices_sense_be_rx_1.0_device_settings_view/ui_devices_sense_be_rx_1.0_device_settings_view-library.html">device_settings_view</a></li>
+          <li><a href="ui_devices_sense_pi_1.0_device_settings_view/ui_devices_sense_pi_1.0_device_settings_view-library.html">device_settings_view</a></li>
+          <li><a href="ui_widgets_dual_text_field/ui_widgets_dual_text_field-library.html">dual_text_field</a></li>
+          <li><a href="ui_widgets_half_press/ui_widgets_half_press-library.html">half_press</a></li>
+          <li><a href="ui_widgets_half_press_field/ui_widgets_half_press_field-library.html">half_press_field</a></li>
+          <li><a href="core_view_models_half_press_fields_model/core_view_models_half_press_fields_model-library.html">half_press_fields_model</a></li>
+          <li><a href="ui_devices_sense_be_rx_1.0_settings_half_press_settings_view/ui_devices_sense_be_rx_1.0_settings_half_press_settings_view-library.html">half_press_settings_view</a></li>
+          <li><a href="locators/locators-library.html">locators</a></li>
+          <li><a href="ui_devices_sense_be_rx_1.0_settings_long_press_settings/ui_devices_sense_be_rx_1.0_settings_long_press_settings-library.html">long_press_settings</a></li>
+          <li><a href="main/main-library.html">main</a></li>
+          <li><a href="ui_views_more_view/ui_views_more_view-library.html">more_view</a></li>
+          <li><a href="ui_devices_sense_be_rx_1.0_settings_motion_settings_view/ui_devices_sense_be_rx_1.0_settings_motion_settings_view-library.html">motion_settings_view</a></li>
+          <li><a href="ui_devices_sense_be_rx_1.0_settings_multiple_pictures_settings_view/ui_devices_sense_be_rx_1.0_settings_multiple_pictures_settings_view-library.html">multiple_pictures_settings_view</a></li>
+          <li><a href="ui_widgets_page_navigation_bar/ui_widgets_page_navigation_bar-library.html">page_navigation_bar</a></li>
+          <li><a href="core_services_permissions/core_services_permissions-library.html">permissions</a></li>
+          <li><a href="core_services_platform_services/core_services_platform_services-library.html">platform_services</a></li>
+          <li><a href="ui_widgets_popup_menu_item_button/ui_widgets_popup_menu_item_button-library.html">popup_menu_item_button</a></li>
+          <li><a href="ui_widgets_profile_app_bar/ui_widgets_profile_app_bar-library.html">profile_app_bar</a></li>
+          <li><a href="ui_devices_sense_be_rx_1.0_profiles_profile_summary_view/ui_devices_sense_be_rx_1.0_profiles_profile_summary_view-library.html">profile_summary_view</a></li>
+          <li><a href="core_services_profiles/core_services_profiles-library.html">profiles</a></li>
+          <li><a href="ui_views_profiles_view/ui_views_profiles_view-library.html">profiles_view</a></li>
+          <li><a href="ui_devices_sense_be_rx_1.0_settings_radio_settings_view/ui_devices_sense_be_rx_1.0_settings_radio_settings_view-library.html">radio_settings_view</a></li>
+          <li><a href="ui_views_scan_view/ui_views_scan_view-library.html">scan_view</a></li>
+          <li><a href="core_models_devices_sense_be_rx_1.0_sense_be_rx/core_models_devices_sense_be_rx_1.0_sense_be_rx-library.html">sense_be_rx</a></li>
+          <li><a href="core_services_sense_be_rx_service/core_services_sense_be_rx_service-library.html">sense_be_rx_service</a></li>
+          <li><a href="ui_devices_sense_be_rx_1.0_profiles_setting_summary_card/ui_devices_sense_be_rx_1.0_profiles_setting_summary_card-library.html">setting_summary_card</a></li>
+          <li><a href="ui_devices_sense_be_rx_1.0_profiles_setting_summary_page/ui_devices_sense_be_rx_1.0_profiles_setting_summary_page-library.html">setting_summary_page</a></li>
+          <li><a href="ui_devices_sense_be_rx_1.0_settings_setting_timepicker_screen/ui_devices_sense_be_rx_1.0_settings_setting_timepicker_screen-library.html">setting_timepicker_screen</a></li>
+          <li><a href="ui_setup_theme/ui_setup_theme-library.html">setup_theme</a></li>
+          <li><a href="core_services_shared_prefs/core_services_shared_prefs-library.html">shared_prefs</a></li>
+          <li><a href="ui_views_shop_view/ui_views_shop_view-library.html">shop_view</a></li>
+          <li><a href="ui_devices_sense_be_rx_1.0_settings_single_picture_settings_view/ui_devices_sense_be_rx_1.0_settings_single_picture_settings_view-library.html">single_picture_settings_view</a></li>
+          <li><a href="ui_widgets_single_text_field/ui_widgets_single_text_field-library.html">single_text_field</a></li>
+          <li><a href="core_models_devices_sense_be_rx_1.0_time/core_models_devices_sense_be_rx_1.0_time-library.html">time</a></li>
+          <li><a href="ui_widgets_time_of_day_fields/ui_widgets_time_of_day_fields-library.html">time_of_day_fields</a></li>
+          <li><a href="core_view_models_time_of_day_fields_model/core_view_models_time_of_day_fields_model-library.html">time_of_day_fields_model</a></li>
+          <li><a href="ui_devices_sense_be_rx_1.0_settings_timer_settings_view/ui_devices_sense_be_rx_1.0_settings_timer_settings_view-library.html">timer_settings_view</a></li>
+          <li><a href="ui_widgets_trigger_pulse_duration_fields/ui_widgets_trigger_pulse_duration_fields-library.html">trigger_pulse_duration_fields</a></li>
+          <li><a href="ui_devices_sense_be_rx_1.0_settings_video_settings_view/ui_devices_sense_be_rx_1.0_settings_video_settings_view-library.html">video_settings_view</a></li>
+          <li class="section-title">Dart</li>
+          <li><a href="dart-ui/dart-ui-library.html">dart:ui</a></li>
+          <li class="section-subtitle">Core</li>
+            <li class="section-subitem"><a href="dart-async/dart-async-library.html">dart:async</a></li>
+            <li class="section-subitem"><a href="dart-collection/dart-collection-library.html">dart:collection</a></li>
+            <li class="section-subitem"><a href="dart-convert/dart-convert-library.html">dart:convert</a></li>
+            <li class="section-subitem"><a href="dart-core/dart-core-library.html">dart:core</a></li>
+            <li class="section-subitem"><a href="dart-developer/dart-developer-library.html">dart:developer</a></li>
+            <li class="section-subitem"><a href="dart-math/dart-math-library.html">dart:math</a></li>
+            <li class="section-subitem"><a href="dart-typed_data/dart-typed_data-library.html">dart:typed_data</a></li>
+          <li class="section-subtitle">VM</li>
+            <li class="section-subitem"><a href="dart-io/dart-io-library.html">dart:io</a></li>
+            <li class="section-subitem"><a href="dart-isolate/dart-isolate-library.html">dart:isolate</a></li>
+    </ol>
+  </div>
+
+  <div id="dartdoc-main-content" class="col-xs-12 col-sm-9 col-md-8 main-content">
+      <div><h1><span class="kind-library">dart:math</span> library </h1></div>
+
+    <section class="desc markdown">
+      <p>Mathematical constants and functions, plus a random number generator.</p>
+<p>To use this library in your code:</p>
+<pre class="language-dart"><code>import 'dart:math';
+</code></pre>
+    </section>
+    
+    <section class="summary offset-anchor" id="classes">
+      <h2>Classes</h2>
+
+      <dl>
+        <dt id="MutableRectangle">
+          <span class="name "><a href="dart-math/MutableRectangle-class.html">MutableRectangle</a><span class="signature">&lt;<wbr><span class="type-parameter">T extends <a href="dart-core/num-class.html">num</a></span>&gt;</span></span>         
+        </dt>
+        <dd>
+          A class for representing two-dimensional axis-aligned rectangles with
+mutable properties.
+        </dd>
+        <dt id="Point">
+          <span class="name "><a href="dart-math/Point-class.html">Point</a><span class="signature">&lt;<wbr><span class="type-parameter">T extends <a href="dart-core/num-class.html">num</a></span>&gt;</span></span>         
+        </dt>
+        <dd>
+          A utility class for representing two-dimensional positions.
+        </dd>
+        <dt id="Random">
+          <span class="name "><a href="dart-math/Random-class.html">Random</a></span>         
+        </dt>
+        <dd>
+          A generator of random bool, int, or double values. <a href="dart-math/Random-class.html">[...]</a>
+        </dd>
+        <dt id="Rectangle">
+          <span class="name "><a href="dart-math/Rectangle-class.html">Rectangle</a><span class="signature">&lt;<wbr><span class="type-parameter">T extends <a href="dart-core/num-class.html">num</a></span>&gt;</span></span>         
+        </dt>
+        <dd>
+          A class for representing two-dimensional rectangles whose properties are
+immutable.
+        </dd>
+      </dl>
+    </section>
+
+
+    <section class="summary offset-anchor" id="constants">
+      <h2>Constants</h2>
+
+      <dl class="properties">
+        <dt id="e" class="constant">
+          <span class="name "><a href="dart-math/e-constant.html">e</a></span>
+          <span class="signature">&#8594; const <a href="dart-core/double-class.html">double</a></span>
+                  </dt>
+        <dd>
+          Base of the natural logarithms. <a href="dart-math/e-constant.html">[...]</a>
+                  
+  <div>
+            <span class="signature"><code>2.718281828459045</code></span>
+          </div>
+        </dd>
+        <dt id="ln2" class="constant">
+          <span class="name "><a href="dart-math/ln2-constant.html">ln2</a></span>
+          <span class="signature">&#8594; const <a href="dart-core/double-class.html">double</a></span>
+                  </dt>
+        <dd>
+          Natural logarithm of 2. <a href="dart-math/ln2-constant.html">[...]</a>
+                  
+  <div>
+            <span class="signature"><code>0.6931471805599453</code></span>
+          </div>
+        </dd>
+        <dt id="ln10" class="constant">
+          <span class="name "><a href="dart-math/ln10-constant.html">ln10</a></span>
+          <span class="signature">&#8594; const <a href="dart-core/double-class.html">double</a></span>
+                  </dt>
+        <dd>
+          Natural logarithm of 10. <a href="dart-math/ln10-constant.html">[...]</a>
+                  
+  <div>
+            <span class="signature"><code>2.302585092994046</code></span>
+          </div>
+        </dd>
+        <dt id="log2e" class="constant">
+          <span class="name "><a href="dart-math/log2e-constant.html">log2e</a></span>
+          <span class="signature">&#8594; const <a href="dart-core/double-class.html">double</a></span>
+                  </dt>
+        <dd>
+          Base-2 logarithm of <a href="dart-math/e-constant.html">e</a>.
+                  
+  <div>
+            <span class="signature"><code>1.4426950408889634</code></span>
+          </div>
+        </dd>
+        <dt id="log10e" class="constant">
+          <span class="name "><a href="dart-math/log10e-constant.html">log10e</a></span>
+          <span class="signature">&#8594; const <a href="dart-core/double-class.html">double</a></span>
+                  </dt>
+        <dd>
+          Base-10 logarithm of <a href="dart-math/e-constant.html">e</a>.
+                  
+  <div>
+            <span class="signature"><code>0.4342944819032518</code></span>
+          </div>
+        </dd>
+        <dt id="pi" class="constant">
+          <span class="name "><a href="dart-math/pi-constant.html">pi</a></span>
+          <span class="signature">&#8594; const <a href="dart-core/double-class.html">double</a></span>
+                  </dt>
+        <dd>
+          The PI constant.
+                  
+  <div>
+            <span class="signature"><code>3.1415926535897932</code></span>
+          </div>
+        </dd>
+        <dt id="sqrt1_2" class="constant">
+          <span class="name "><a href="dart-math/sqrt1_2-constant.html">sqrt1_2</a></span>
+          <span class="signature">&#8594; const <a href="dart-core/double-class.html">double</a></span>
+                  </dt>
+        <dd>
+          Square root of 1/2.
+                  
+  <div>
+            <span class="signature"><code>0.7071067811865476</code></span>
+          </div>
+        </dd>
+        <dt id="sqrt2" class="constant">
+          <span class="name "><a href="dart-math/sqrt2-constant.html">sqrt2</a></span>
+          <span class="signature">&#8594; const <a href="dart-core/double-class.html">double</a></span>
+                  </dt>
+        <dd>
+          Square root of 2.
+                  
+  <div>
+            <span class="signature"><code>1.4142135623730951</code></span>
+          </div>
+        </dd>
+      </dl>
+    </section>
+
+
+    <section class="summary offset-anchor" id="functions">
+      <h2>Functions</h2>
+
+      <dl class="callables">
+        <dt id="acos" class="callable">
+          <span class="name"><a href="dart-math/acos.html">acos</a></span><span class="signature">(<wbr><span class="parameter" id="acos-param-x"><span class="type-annotation"><a href="dart-core/num-class.html">num</a></span> <span class="parameter-name">x</span></span>)
+            <span class="returntype parameter">&#8594; <a href="dart-core/double-class.html">double</a></span>
+          </span>
+                  </dt>
+        <dd>
+          Converts <code>x</code> to a <a href="dart-core/double-class.html">double</a> and returns its arc cosine in radians. <a href="dart-math/acos.html">[...]</a>
+                  
+</dd>
+        <dt id="asin" class="callable">
+          <span class="name"><a href="dart-math/asin.html">asin</a></span><span class="signature">(<wbr><span class="parameter" id="asin-param-x"><span class="type-annotation"><a href="dart-core/num-class.html">num</a></span> <span class="parameter-name">x</span></span>)
+            <span class="returntype parameter">&#8594; <a href="dart-core/double-class.html">double</a></span>
+          </span>
+                  </dt>
+        <dd>
+          Converts <code>x</code> to a <a href="dart-core/double-class.html">double</a> and returns its arc sine in radians. <a href="dart-math/asin.html">[...]</a>
+                  
+</dd>
+        <dt id="atan" class="callable">
+          <span class="name"><a href="dart-math/atan.html">atan</a></span><span class="signature">(<wbr><span class="parameter" id="atan-param-x"><span class="type-annotation"><a href="dart-core/num-class.html">num</a></span> <span class="parameter-name">x</span></span>)
+            <span class="returntype parameter">&#8594; <a href="dart-core/double-class.html">double</a></span>
+          </span>
+                  </dt>
+        <dd>
+          Converts <code>x</code> to a <a href="dart-core/double-class.html">double</a> and returns its arc tangent in radians. <a href="dart-math/atan.html">[...]</a>
+                  
+</dd>
+        <dt id="atan2" class="callable">
+          <span class="name"><a href="dart-math/atan2.html">atan2</a></span><span class="signature">(<wbr><span class="parameter" id="atan2-param-a"><span class="type-annotation"><a href="dart-core/num-class.html">num</a></span> <span class="parameter-name">a</span>, </span> <span class="parameter" id="atan2-param-b"><span class="type-annotation"><a href="dart-core/num-class.html">num</a></span> <span class="parameter-name">b</span></span>)
+            <span class="returntype parameter">&#8594; <a href="dart-core/double-class.html">double</a></span>
+          </span>
+                  </dt>
+        <dd>
+          A variant of <a href="dart-math/atan.html">atan</a>. <a href="dart-math/atan2.html">[...]</a>
+                  
+</dd>
+        <dt id="cos" class="callable">
+          <span class="name"><a href="dart-math/cos.html">cos</a></span><span class="signature">(<wbr><span class="parameter" id="cos-param-radians"><span class="type-annotation"><a href="dart-core/num-class.html">num</a></span> <span class="parameter-name">radians</span></span>)
+            <span class="returntype parameter">&#8594; <a href="dart-core/double-class.html">double</a></span>
+          </span>
+                  </dt>
+        <dd>
+          Converts <code>radians</code> to a <a href="dart-core/double-class.html">double</a> and returns the cosine of the value. <a href="dart-math/cos.html">[...]</a>
+                  
+</dd>
+        <dt id="exp" class="callable">
+          <span class="name"><a href="dart-math/exp.html">exp</a></span><span class="signature">(<wbr><span class="parameter" id="exp-param-x"><span class="type-annotation"><a href="dart-core/num-class.html">num</a></span> <span class="parameter-name">x</span></span>)
+            <span class="returntype parameter">&#8594; <a href="dart-core/double-class.html">double</a></span>
+          </span>
+                  </dt>
+        <dd>
+          Converts <code>x</code> to a <a href="dart-core/double-class.html">double</a> and returns the natural exponent, <a href="dart-math/e-constant.html">e</a>,
+to the power <code>x</code>. <a href="dart-math/exp.html">[...]</a>
+                  
+</dd>
+        <dt id="log" class="callable">
+          <span class="name"><a href="dart-math/log.html">log</a></span><span class="signature">(<wbr><span class="parameter" id="log-param-x"><span class="type-annotation"><a href="dart-core/num-class.html">num</a></span> <span class="parameter-name">x</span></span>)
+            <span class="returntype parameter">&#8594; <a href="dart-core/double-class.html">double</a></span>
+          </span>
+                  </dt>
+        <dd>
+          Converts <code>x</code> to a <a href="dart-core/double-class.html">double</a> and returns the natural logarithm of the value. <a href="dart-math/log.html">[...]</a>
+                  
+</dd>
+        <dt id="max" class="callable">
+          <span class="name"><a href="dart-math/max.html">max</a></span><span class="signature">&lt;<wbr><span class="type-parameter">T extends <a href="dart-core/num-class.html">num</a></span>&gt;</span><span class="signature">(<wbr><span class="parameter" id="max-param-a"><span class="type-annotation">T</span> <span class="parameter-name">a</span>, </span> <span class="parameter" id="max-param-b"><span class="type-annotation">T</span> <span class="parameter-name">b</span></span>)
+            <span class="returntype parameter">&#8594; T</span>
+          </span>
+                  </dt>
+        <dd>
+          Returns the larger of two numbers. <a href="dart-math/max.html">[...]</a>
+                  
+</dd>
+        <dt id="min" class="callable">
+          <span class="name"><a href="dart-math/min.html">min</a></span><span class="signature">&lt;<wbr><span class="type-parameter">T extends <a href="dart-core/num-class.html">num</a></span>&gt;</span><span class="signature">(<wbr><span class="parameter" id="min-param-a"><span class="type-annotation">T</span> <span class="parameter-name">a</span>, </span> <span class="parameter" id="min-param-b"><span class="type-annotation">T</span> <span class="parameter-name">b</span></span>)
+            <span class="returntype parameter">&#8594; T</span>
+          </span>
+                  </dt>
+        <dd>
+          Returns the lesser of two numbers. <a href="dart-math/min.html">[...]</a>
+                  
+</dd>
+        <dt id="pow" class="callable">
+          <span class="name"><a href="dart-math/pow.html">pow</a></span><span class="signature">(<wbr><span class="parameter" id="pow-param-x"><span class="type-annotation"><a href="dart-core/num-class.html">num</a></span> <span class="parameter-name">x</span>, </span> <span class="parameter" id="pow-param-exponent"><span class="type-annotation"><a href="dart-core/num-class.html">num</a></span> <span class="parameter-name">exponent</span></span>)
+            <span class="returntype parameter">&#8594; <a href="dart-core/num-class.html">num</a></span>
+          </span>
+                  </dt>
+        <dd>
+          Returns <code>x</code> to the power of <code>exponent</code>. <a href="dart-math/pow.html">[...]</a>
+                  
+</dd>
+        <dt id="sin" class="callable">
+          <span class="name"><a href="dart-math/sin.html">sin</a></span><span class="signature">(<wbr><span class="parameter" id="sin-param-radians"><span class="type-annotation"><a href="dart-core/num-class.html">num</a></span> <span class="parameter-name">radians</span></span>)
+            <span class="returntype parameter">&#8594; <a href="dart-core/double-class.html">double</a></span>
+          </span>
+                  </dt>
+        <dd>
+          Converts <code>radians</code> to a <a href="dart-core/double-class.html">double</a> and returns the sine of the value. <a href="dart-math/sin.html">[...]</a>
+                  
+</dd>
+        <dt id="sqrt" class="callable">
+          <span class="name"><a href="dart-math/sqrt.html">sqrt</a></span><span class="signature">(<wbr><span class="parameter" id="sqrt-param-x"><span class="type-annotation"><a href="dart-core/num-class.html">num</a></span> <span class="parameter-name">x</span></span>)
+            <span class="returntype parameter">&#8594; <a href="dart-core/double-class.html">double</a></span>
+          </span>
+                  </dt>
+        <dd>
+          Converts <code>x</code> to a <a href="dart-core/double-class.html">double</a> and returns the positive square root of the
+value. <a href="dart-math/sqrt.html">[...]</a>
+                  
+</dd>
+        <dt id="tan" class="callable">
+          <span class="name"><a href="dart-math/tan.html">tan</a></span><span class="signature">(<wbr><span class="parameter" id="tan-param-radians"><span class="type-annotation"><a href="dart-core/num-class.html">num</a></span> <span class="parameter-name">radians</span></span>)
+            <span class="returntype parameter">&#8594; <a href="dart-core/double-class.html">double</a></span>
+          </span>
+                  </dt>
+        <dd>
+          Converts <code>radians</code> to a <a href="dart-core/double-class.html">double</a> and returns the tangent of the value. <a href="dart-math/tan.html">[...]</a>
+                  
+</dd>
+      </dl>
+    </section>
+
+
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-right" class="col-xs-6 col-sm-6 col-md-2 sidebar sidebar-offcanvas-right">
+    <h5>dart:math library</h5>
+    <ol>
+      <li class="section-title"><a href="dart-math/dart-math-library.html#classes">Classes</a></li>
+      <li><a href="dart-math/MutableRectangle-class.html">MutableRectangle</a></li>
+      <li><a href="dart-math/Point-class.html">Point</a></li>
+      <li><a href="dart-math/Random-class.html">Random</a></li>
+      <li><a href="dart-math/Rectangle-class.html">Rectangle</a></li>
+    
+    
+      <li class="section-title"><a href="dart-math/dart-math-library.html#constants">Constants</a></li>
+      <li><a href="dart-math/e-constant.html">e</a></li>
+      <li><a href="dart-math/ln2-constant.html">ln2</a></li>
+      <li><a href="dart-math/ln10-constant.html">ln10</a></li>
+      <li><a href="dart-math/log2e-constant.html">log2e</a></li>
+      <li><a href="dart-math/log10e-constant.html">log10e</a></li>
+      <li><a href="dart-math/pi-constant.html">pi</a></li>
+      <li><a href="dart-math/sqrt1_2-constant.html">sqrt1_2</a></li>
+      <li><a href="dart-math/sqrt2-constant.html">sqrt2</a></li>
+    
+    
+      <li class="section-title"><a href="dart-math/dart-math-library.html#functions">Functions</a></li>
+      <li><a href="dart-math/acos.html">acos</a></li>
+      <li><a href="dart-math/asin.html">asin</a></li>
+      <li><a href="dart-math/atan.html">atan</a></li>
+      <li><a href="dart-math/atan2.html">atan2</a></li>
+      <li><a href="dart-math/cos.html">cos</a></li>
+      <li><a href="dart-math/exp.html">exp</a></li>
+      <li><a href="dart-math/log.html">log</a></li>
+      <li><a href="dart-math/max.html">max</a></li>
+      <li><a href="dart-math/min.html">min</a></li>
+      <li><a href="dart-math/pow.html">pow</a></li>
+      <li><a href="dart-math/sin.html">sin</a></li>
+      <li><a href="dart-math/sqrt.html">sqrt</a></li>
+      <li><a href="dart-math/tan.html">tan</a></li>
+    
+    
+    
+    </ol>
+  </div><!--/sidebar-offcanvas-right-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    setup 1.0.0-alpha+002
+  </span>
+
+  
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="static-assets/typeahead.bundle.min.js"></script>
+<script src="static-assets/highlight.pack.js"></script>
+<script src="static-assets/URI.js"></script>
+<script src="static-assets/script.js"></script>
+
+
+</body>
+
+</html>

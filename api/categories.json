@@ -1,0 +1,1166 @@
+[
+  {
+    "name": "AboutUsView",
+    "qualifiedName": "about_us_view.AboutUsView",
+    "href": "ui_views_about_us_view/AboutUsView-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Page"
+    ]
+  },
+  {
+    "name": "AdvancedOptionTile",
+    "qualifiedName": "advanced_option_tile.AdvancedOptionTile",
+    "href": "ui_widgets_advanced_option_tile/AdvancedOptionTile-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Widget"
+    ]
+  },
+  {
+    "name": "AdvancedOptionWrapper",
+    "qualifiedName": "advanced_option_wrapper.AdvancedOptionWrapper",
+    "href": "ui_widgets_advanced_option_wrapper/AdvancedOptionWrapper-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Widget"
+    ]
+  },
+  {
+    "name": "AmbientFields",
+    "qualifiedName": "ambient_fields.AmbientFields",
+    "href": "ui_widgets_ambient_fields/AmbientFields-class.html",
+    "type": "class",
+    "categories": [
+      "Compound Widget",
+      "Design"
+    ]
+  },
+  {
+    "name": "AmbientFieldsModel",
+    "qualifiedName": "ambient_fields_model.AmbientFieldsModel",
+    "href": "core_view_models_ambient_fields_model/AmbientFieldsModel-class.html",
+    "type": "class",
+    "categories": [
+      "Model"
+    ]
+  },
+  {
+    "name": "BluetoothConnectionService",
+    "qualifiedName": "bluetooth_connection.BluetoothConnectionService",
+    "href": "core_services_bluetooth_connection/BluetoothConnectionService-class.html",
+    "type": "class",
+    "categories": [
+      "Service"
+    ]
+  },
+  {
+    "name": "BluetoothScanService",
+    "qualifiedName": "bluetooth_scan.BluetoothScanService",
+    "href": "core_services_bluetooth_scan/BluetoothScanService-class.html",
+    "type": "class",
+    "categories": [
+      "Service"
+    ]
+  },
+  {
+    "name": "BottomActionBar",
+    "qualifiedName": "bottom_action_bar.BottomActionBar",
+    "href": "ui_widgets_bottom_action_bar/BottomActionBar-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Widget"
+    ]
+  },
+  {
+    "name": "BottomNav",
+    "qualifiedName": "bottom_nav.BottomNav",
+    "href": "ui_widgets_bottom_nav/BottomNav-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Widget"
+    ]
+  },
+  {
+    "name": "BottomNavModel",
+    "qualifiedName": "bottom_nav_model.BottomNavModel",
+    "href": "core_view_models_bottom_nav_model/BottomNavModel-class.html",
+    "type": "class",
+    "categories": [
+      "Model"
+    ]
+  },
+  {
+    "name": "CameraSetting",
+    "qualifiedName": "camera.CameraSetting",
+    "href": "core_models_devices_sense_be_rx_1.0_camera/CameraSetting-class.html",
+    "type": "class",
+    "categories": [
+      "Model",
+      "SenseBeRx"
+    ],
+    "subcategories": [
+      "Camera"
+    ]
+  },
+  {
+    "name": "LongPressSetting",
+    "qualifiedName": "camera.LongPressSetting",
+    "href": "core_models_devices_sense_be_rx_1.0_camera/LongPressSetting-class.html",
+    "type": "class",
+    "categories": [
+      "Model",
+      "SenseBeRx"
+    ],
+    "subcategories": [
+      "Camera"
+    ]
+  },
+  {
+    "name": "MultiplePicturesSetting",
+    "qualifiedName": "camera.MultiplePicturesSetting",
+    "href": "core_models_devices_sense_be_rx_1.0_camera/MultiplePicturesSetting-class.html",
+    "type": "class",
+    "categories": [
+      "Model",
+      "SenseBeRx"
+    ],
+    "subcategories": [
+      "Camera"
+    ]
+  },
+  {
+    "name": "VideoSetting",
+    "qualifiedName": "camera.VideoSetting",
+    "href": "core_models_devices_sense_be_rx_1.0_camera/VideoSetting-class.html",
+    "type": "class",
+    "categories": [
+      "Model",
+      "SenseBeRx"
+    ],
+    "subcategories": [
+      "Camera"
+    ]
+  },
+  {
+    "name": "CameraTriggerRadioOptions",
+    "qualifiedName": "camera_trigger_radio_options.CameraTriggerRadioOptions",
+    "href": "ui_widgets_camera_trigger_radio_options/CameraTriggerRadioOptions-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Widget"
+    ]
+  },
+  {
+    "name": "CameraTriggerRadioOptionsModel",
+    "qualifiedName": "camera_trigger_radio_options_model.CameraTriggerRadioOptionsModel",
+    "href": "core_view_models_camera_trigger_radio_options_model/CameraTriggerRadioOptionsModel-class.html",
+    "type": "class",
+    "categories": [
+      "Model"
+    ]
+  },
+  {
+    "name": "CameraTriggerView",
+    "qualifiedName": "camera_trriger_view.CameraTriggerView",
+    "href": "ui_devices_sense_be_rx_1.0_settings_camera_trriger_view/CameraTriggerView-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Page",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "CreateProfileView",
+    "qualifiedName": "create_profile_view.CreateProfileView",
+    "href": "ui_views_create_profile_view/CreateProfileView-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Page"
+    ]
+  },
+  {
+    "name": "CustomAppBar",
+    "qualifiedName": "custom_app_bar.CustomAppBar",
+    "href": "ui_widgets_custom_app_bar/CustomAppBar-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Widget"
+    ]
+  },
+  {
+    "name": "CustomDivider",
+    "qualifiedName": "custom_divider.CustomDivider",
+    "href": "ui_widgets_custom_divider/CustomDivider-class.html",
+    "type": "class",
+    "categories": [
+      "Designd",
+      "Widget"
+    ]
+  },
+  {
+    "name": "CustomDropdownButton",
+    "qualifiedName": "custom_dropdown_button.CustomDropdownButton",
+    "href": "ui_widgets_custom_dropdown_button/CustomDropdownButton-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Widget"
+    ]
+  },
+  {
+    "name": "CustomRadioField",
+    "qualifiedName": "custom_radio_field.CustomRadioField",
+    "href": "ui_widgets_custom_radio_field/CustomRadioField-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Widget"
+    ]
+  },
+  {
+    "name": "CustomSlider",
+    "qualifiedName": "custom_slider.CustomSlider",
+    "href": "ui_widgets_custom_slider/CustomSlider-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Widget"
+    ]
+  },
+  {
+    "name": "CustomSwitchField",
+    "qualifiedName": "custom_switch_field.CustomSwitchField",
+    "href": "ui_widgets_custom_switch_field/CustomSwitchField-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Widget"
+    ]
+  },
+  {
+    "name": "CustomTabBar",
+    "qualifiedName": "custom_tab_bar.CustomTabBar",
+    "href": "ui_widgets_custom_tab_bar/CustomTabBar-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Widget"
+    ]
+  },
+  {
+    "name": "dart:async",
+    "qualifiedName": "dart:async",
+    "href": "dart-async/dart-async-library.html",
+    "type": "library",
+    "categories": [
+      "Core"
+    ]
+  },
+  {
+    "name": "dart:collection",
+    "qualifiedName": "dart:collection",
+    "href": "dart-collection/dart-collection-library.html",
+    "type": "library",
+    "categories": [
+      "Core"
+    ]
+  },
+  {
+    "name": "dart:convert",
+    "qualifiedName": "dart:convert",
+    "href": "dart-convert/dart-convert-library.html",
+    "type": "library",
+    "categories": [
+      "Core"
+    ]
+  },
+  {
+    "name": "dart:core",
+    "qualifiedName": "dart:core",
+    "href": "dart-core/dart-core-library.html",
+    "type": "library",
+    "categories": [
+      "Core"
+    ]
+  },
+  {
+    "name": "dart:developer",
+    "qualifiedName": "dart:developer",
+    "href": "dart-developer/dart-developer-library.html",
+    "type": "library",
+    "categories": [
+      "Core"
+    ]
+  },
+  {
+    "name": "dart:io",
+    "qualifiedName": "dart:io",
+    "href": "dart-io/dart-io-library.html",
+    "type": "library",
+    "categories": [
+      "VM"
+    ]
+  },
+  {
+    "name": "dart:isolate",
+    "qualifiedName": "dart:isolate",
+    "href": "dart-isolate/dart-isolate-library.html",
+    "type": "library",
+    "categories": [
+      "VM"
+    ]
+  },
+  {
+    "name": "dart:math",
+    "qualifiedName": "dart:math",
+    "href": "dart-math/dart-math-library.html",
+    "type": "library",
+    "categories": [
+      "Core"
+    ]
+  },
+  {
+    "name": "dart:typed_data",
+    "qualifiedName": "dart:typed_data",
+    "href": "dart-typed_data/dart-typed_data-library.html",
+    "type": "library",
+    "categories": [
+      "Core"
+    ]
+  },
+  {
+    "name": "Devices",
+    "qualifiedName": "device.Devices",
+    "href": "core_services_device/Devices-class.html",
+    "type": "class",
+    "categories": [
+      "Model"
+    ]
+  },
+  {
+    "name": "DeviceInfoView",
+    "qualifiedName": "device_info_view.DeviceInfoView",
+    "href": "ui_views_device_info_view/DeviceInfoView-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Page"
+    ]
+  },
+  {
+    "name": "DeviceSettingsView",
+    "qualifiedName": "device_settings_view.DeviceSettingsView",
+    "href": "ui_devices_sense_pi_1.0_device_settings_view/DeviceSettingsView-class.html",
+    "type": "class",
+    "categories": [
+      "Page"
+    ]
+  },
+  {
+    "name": "DeviceSettingsView",
+    "qualifiedName": "device_settings_view.DeviceSettingsView",
+    "href": "ui_devices_sense_be_rx_1.0_device_settings_view/DeviceSettingsView-class.html",
+    "type": "class",
+    "categories": [
+      "Page"
+    ]
+  },
+  {
+    "name": "DeviceSettingsView",
+    "qualifiedName": "device_settings_view.DeviceSettingsView",
+    "href": "ui_views_device_settings_view/DeviceSettingsView-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Page"
+    ]
+  },
+  {
+    "name": "DualTextField",
+    "qualifiedName": "dual_text_field.DualTextField",
+    "href": "ui_widgets_dual_text_field/DualTextField-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Widget"
+    ]
+  },
+  {
+    "name": "HalfPress",
+    "qualifiedName": "half_press.HalfPress",
+    "href": "ui_widgets_half_press/HalfPress-class.html",
+    "type": "class",
+    "categories": [
+      "Compound Widget",
+      "Design"
+    ]
+  },
+  {
+    "name": "HalfPressField",
+    "qualifiedName": "half_press_field.HalfPressField",
+    "href": "ui_widgets_half_press_field/HalfPressField-class.html",
+    "type": "class",
+    "categories": [
+      "Compound Widget",
+      "Design"
+    ]
+  },
+  {
+    "name": "HalfPressFieldsModel",
+    "qualifiedName": "half_press_fields_model.HalfPressFieldsModel",
+    "href": "core_view_models_half_press_fields_model/HalfPressFieldsModel-class.html",
+    "type": "class",
+    "categories": [
+      "Model"
+    ]
+  },
+  {
+    "name": "HalfPressSettingsView",
+    "qualifiedName": "half_press_settings_view.HalfPressSettingsView",
+    "href": "ui_devices_sense_be_rx_1.0_settings_half_press_settings_view/HalfPressSettingsView-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Page",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "LongPressSettingsView",
+    "qualifiedName": "long_press_settings.LongPressSettingsView",
+    "href": "ui_devices_sense_be_rx_1.0_settings_long_press_settings/LongPressSettingsView-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Page",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "MoreView",
+    "qualifiedName": "more_view.MoreView",
+    "href": "ui_views_more_view/MoreView-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Page"
+    ]
+  },
+  {
+    "name": "MotionSettingsView",
+    "qualifiedName": "motion_settings_view.MotionSettingsView",
+    "href": "ui_devices_sense_be_rx_1.0_settings_motion_settings_view/MotionSettingsView-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Page",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "MultiplePicturesSettingsView",
+    "qualifiedName": "multiple_pictures_settings_view.MultiplePicturesSettingsView",
+    "href": "ui_devices_sense_be_rx_1.0_settings_multiple_pictures_settings_view/MultiplePicturesSettingsView-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Page",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "PageNavigationBar",
+    "qualifiedName": "page_navigation_bar.PageNavigationBar",
+    "href": "ui_widgets_page_navigation_bar/PageNavigationBar-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Widget"
+    ]
+  },
+  {
+    "name": "PermissionsService",
+    "qualifiedName": "permissions.PermissionsService",
+    "href": "core_services_permissions/PermissionsService-class.html",
+    "type": "class",
+    "categories": [
+      "Service"
+    ]
+  },
+  {
+    "name": "PlatformServies",
+    "qualifiedName": "platform_services.PlatformServies",
+    "href": "core_services_platform_services/PlatformServies-class.html",
+    "type": "class",
+    "categories": [
+      "Service"
+    ]
+  },
+  {
+    "name": "PopupMenuItemButton",
+    "qualifiedName": "popup_menu_item_button.PopupMenuItemButton",
+    "href": "ui_widgets_popup_menu_item_button/PopupMenuItemButton-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Widget"
+    ]
+  },
+  {
+    "name": "ProfileAppBar",
+    "qualifiedName": "profile_app_bar.ProfileAppBar",
+    "href": "ui_widgets_profile_app_bar/ProfileAppBar-class.html",
+    "type": "class",
+    "categories": [
+      "Compound Widget",
+      "Design"
+    ]
+  },
+  {
+    "name": "ProfileSummaryView",
+    "qualifiedName": "profile_summary_view.ProfileSummaryView",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_profile_summary_view/ProfileSummaryView-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Page",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "ProfileFile",
+    "qualifiedName": "profiles.ProfileFile",
+    "href": "core_services_profiles/ProfileFile-class.html",
+    "type": "class",
+    "categories": [
+      "Model"
+    ]
+  },
+  {
+    "name": "ProfilesService",
+    "qualifiedName": "profiles.ProfilesService",
+    "href": "core_services_profiles/ProfilesService-class.html",
+    "type": "class",
+    "categories": [
+      "Service"
+    ]
+  },
+  {
+    "name": "ProfilesView",
+    "qualifiedName": "profiles_view.ProfilesView",
+    "href": "ui_views_profiles_view/ProfilesView-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Page"
+    ]
+  },
+  {
+    "name": "RadioSettingsView",
+    "qualifiedName": "radio_settings_view.RadioSettingsView",
+    "href": "ui_devices_sense_be_rx_1.0_settings_radio_settings_view/RadioSettingsView-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Page",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "ScanView",
+    "qualifiedName": "scan_view.ScanView",
+    "href": "ui_views_scan_view/ScanView-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Page"
+    ]
+  },
+  {
+    "name": "MotionSetting",
+    "qualifiedName": "sense_be_rx.MotionSetting",
+    "href": "core_models_devices_sense_be_rx_1.0_sense_be_rx/MotionSetting-class.html",
+    "type": "class",
+    "categories": [
+      "Model",
+      "SenseBeRx"
+    ],
+    "subcategories": [
+      "Sensor"
+    ]
+  },
+  {
+    "name": "RadioSetting",
+    "qualifiedName": "sense_be_rx.RadioSetting",
+    "href": "core_models_devices_sense_be_rx_1.0_sense_be_rx/RadioSetting-class.html",
+    "type": "class",
+    "categories": [
+      "Model",
+      "SenseBeRx"
+    ],
+    "subcategories": [
+      "Radio"
+    ]
+  },
+  {
+    "name": "SenseBeRx",
+    "qualifiedName": "sense_be_rx.SenseBeRx",
+    "href": "core_models_devices_sense_be_rx_1.0_sense_be_rx/SenseBeRx-class.html",
+    "type": "class",
+    "categories": [
+      "Model",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "SensorSetting",
+    "qualifiedName": "sense_be_rx.SensorSetting",
+    "href": "core_models_devices_sense_be_rx_1.0_sense_be_rx/SensorSetting-class.html",
+    "type": "class",
+    "categories": [
+      "Model",
+      "SenseBeRx"
+    ],
+    "subcategories": [
+      "Sensor"
+    ]
+  },
+  {
+    "name": "Setting",
+    "qualifiedName": "sense_be_rx.Setting",
+    "href": "core_models_devices_sense_be_rx_1.0_sense_be_rx/Setting-class.html",
+    "type": "class",
+    "categories": [
+      "Model",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "TimerSetting",
+    "qualifiedName": "sense_be_rx.TimerSetting",
+    "href": "core_models_devices_sense_be_rx_1.0_sense_be_rx/TimerSetting-class.html",
+    "type": "class",
+    "categories": [
+      "Model",
+      "SenseBeRx"
+    ],
+    "subcategories": [
+      "Sensor"
+    ]
+  },
+  {
+    "name": "SenseBeRxService",
+    "qualifiedName": "sense_be_rx_service.SenseBeRxService",
+    "href": "core_services_sense_be_rx_service/SenseBeRxService-class.html",
+    "type": "class",
+    "categories": [
+      "Algorithm",
+      "SenseBeRx",
+      "Service"
+    ]
+  },
+  {
+    "name": "ChangeTimeBottomSheet",
+    "qualifiedName": "setting_summary_card.ChangeTimeBottomSheet",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_card/ChangeTimeBottomSheet-class.html",
+    "type": "class",
+    "categories": [
+      "Compound Widget",
+      "Design",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "CirclePainter",
+    "qualifiedName": "setting_summary_card.CirclePainter",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_card/CirclePainter-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Widget"
+    ]
+  },
+  {
+    "name": "LongPressRow",
+    "qualifiedName": "setting_summary_card.LongPressRow",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_card/LongPressRow-class.html",
+    "type": "class",
+    "categories": [
+      "Compound Widget",
+      "Design",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "MotionRow",
+    "qualifiedName": "setting_summary_card.MotionRow",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_card/MotionRow-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "SenseBeRx",
+      "Widget"
+    ]
+  },
+  {
+    "name": "MultiplePicturesRow",
+    "qualifiedName": "setting_summary_card.MultiplePicturesRow",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_card/MultiplePicturesRow-class.html",
+    "type": "class",
+    "categories": [
+      "Compound Widget",
+      "Design",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "SettingSummaryCard",
+    "qualifiedName": "setting_summary_card.SettingSummaryCard",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_card/SettingSummaryCard-class.html",
+    "type": "class",
+    "categories": [
+      "Compound Widget",
+      "Design",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "TimeButton",
+    "qualifiedName": "setting_summary_card.TimeButton",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_card/TimeButton-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Widget"
+    ]
+  },
+  {
+    "name": "TimerRow",
+    "qualifiedName": "setting_summary_card.TimerRow",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_card/TimerRow-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "SenseBeRx",
+      "Widget"
+    ]
+  },
+  {
+    "name": "TriggerInfoText",
+    "qualifiedName": "setting_summary_card.TriggerInfoText",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_card/TriggerInfoText-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "SenseBeRx",
+      "Widget"
+    ]
+  },
+  {
+    "name": "VideoRow",
+    "qualifiedName": "setting_summary_card.VideoRow",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_card/VideoRow-class.html",
+    "type": "class",
+    "categories": [
+      "Compound Widget",
+      "Design",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "CameraSettingsTitleRow",
+    "qualifiedName": "setting_summary_page.CameraSettingsTitleRow",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_page/CameraSettingsTitleRow-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Widget"
+    ]
+  },
+  {
+    "name": "HalfPressAndTriggerPulseDurationRow",
+    "qualifiedName": "setting_summary_page.HalfPressAndTriggerPulseDurationRow",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_page/HalfPressAndTriggerPulseDurationRow-class.html",
+    "type": "class",
+    "categories": [
+      "Compound Widget",
+      "Design",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "HalfPressCard",
+    "qualifiedName": "setting_summary_page.HalfPressCard",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_page/HalfPressCard-class.html",
+    "type": "class",
+    "categories": [
+      "Compound Widget",
+      "Design",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "HalfPressRow",
+    "qualifiedName": "setting_summary_page.HalfPressRow",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_page/HalfPressRow-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "SenseBeRx",
+      "Widget"
+    ]
+  },
+  {
+    "name": "HalfPressTriggerTimeRow",
+    "qualifiedName": "setting_summary_page.HalfPressTriggerTimeRow",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_page/HalfPressTriggerTimeRow-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "SenseBeRx",
+      "Widget"
+    ]
+  },
+  {
+    "name": "ListCard",
+    "qualifiedName": "setting_summary_page.ListCard",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_page/ListCard-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Widget"
+    ]
+  },
+  {
+    "name": "LongPressCard",
+    "qualifiedName": "setting_summary_page.LongPressCard",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_page/LongPressCard-class.html",
+    "type": "class",
+    "categories": [
+      "Compound Widget",
+      "Design",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "MotionListCard",
+    "qualifiedName": "setting_summary_page.MotionListCard",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_page/MotionListCard-class.html",
+    "type": "class",
+    "categories": [
+      "Compound Widget",
+      "Design",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "MultiplePicturesCard",
+    "qualifiedName": "setting_summary_page.MultiplePicturesCard",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_page/MultiplePicturesCard-class.html",
+    "type": "class",
+    "categories": [
+      "Compound Widget",
+      "Design",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "RadioRow",
+    "qualifiedName": "setting_summary_page.RadioRow",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_page/RadioRow-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "SenseBeRx",
+      "Widget"
+    ]
+  },
+  {
+    "name": "SinglePictureCard",
+    "qualifiedName": "setting_summary_page.SinglePictureCard",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_page/SinglePictureCard-class.html",
+    "type": "class",
+    "categories": [
+      "Compound Widget",
+      "Design",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "TimeRow",
+    "qualifiedName": "setting_summary_page.TimeRow",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_page/TimeRow-class.html",
+    "type": "class",
+    "categories": [
+      "Compound Widget",
+      "Design",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "TimerListCard",
+    "qualifiedName": "setting_summary_page.TimerListCard",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_page/TimerListCard-class.html",
+    "type": "class",
+    "categories": [
+      "Compound Widget",
+      "Design",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "TriggerInfoCard",
+    "qualifiedName": "setting_summary_page.TriggerInfoCard",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_page/TriggerInfoCard-class.html",
+    "type": "class",
+    "categories": [
+      "Compound Widget",
+      "Design",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "TriggerPulseDurationRow",
+    "qualifiedName": "setting_summary_page.TriggerPulseDurationRow",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_page/TriggerPulseDurationRow-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "SenseBeRx",
+      "Widget"
+    ]
+  },
+  {
+    "name": "VideoCard",
+    "qualifiedName": "setting_summary_page.VideoCard",
+    "href": "ui_devices_sense_be_rx_1.0_profiles_setting_summary_page/VideoCard-class.html",
+    "type": "class",
+    "categories": [
+      "Compound Widget",
+      "Design",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "SettingTimepickerScreen",
+    "qualifiedName": "setting_timepicker_screen.SettingTimepickerScreen",
+    "href": "ui_devices_sense_be_rx_1.0_settings_setting_timepicker_screen/SettingTimepickerScreen-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Page",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "SetupTheme",
+    "qualifiedName": "setup_theme.SetupTheme",
+    "href": "ui_setup_theme/SetupTheme-class.html",
+    "type": "class",
+    "categories": [
+      "Compound Widget",
+      "Design"
+    ]
+  },
+  {
+    "name": "SharedPrefs",
+    "qualifiedName": "shared_prefs.SharedPrefs",
+    "href": "core_services_shared_prefs/SharedPrefs-class.html",
+    "type": "class",
+    "categories": [
+      "Service"
+    ]
+  },
+  {
+    "name": "ShopView",
+    "qualifiedName": "shop_view.ShopView",
+    "href": "ui_views_shop_view/ShopView-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Page"
+    ]
+  },
+  {
+    "name": "SinglePictureSettingsView",
+    "qualifiedName": "single_picture_settings_view.SinglePictureSettingsView",
+    "href": "ui_devices_sense_be_rx_1.0_settings_single_picture_settings_view/SinglePictureSettingsView-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Page",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "SingleTextField",
+    "qualifiedName": "single_text_field.SingleTextField",
+    "href": "ui_widgets_single_text_field/SingleTextField-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Widget"
+    ]
+  },
+  {
+    "name": "Ambient",
+    "qualifiedName": "time.Ambient",
+    "href": "core_models_devices_sense_be_rx_1.0_time/Ambient-class.html",
+    "type": "class",
+    "categories": [
+      "Model",
+      "SenseBeRx"
+    ],
+    "subcategories": [
+      "Time"
+    ]
+  },
+  {
+    "name": "AmbientStateValues",
+    "qualifiedName": "time.AmbientStateValues",
+    "href": "core_models_devices_sense_be_rx_1.0_time/AmbientStateValues-class.html",
+    "type": "class",
+    "categories": [
+      "Model",
+      "SenseBeRx"
+    ],
+    "subcategories": [
+      "Time"
+    ]
+  },
+  {
+    "name": "Time",
+    "qualifiedName": "time.Time",
+    "href": "core_models_devices_sense_be_rx_1.0_time/Time-class.html",
+    "type": "class",
+    "categories": [
+      "Model",
+      "SenseBeRx"
+    ],
+    "subcategories": [
+      "Time"
+    ]
+  },
+  {
+    "name": "TimeOfDay",
+    "qualifiedName": "time.TimeOfDay",
+    "href": "core_models_devices_sense_be_rx_1.0_time/TimeOfDay-class.html",
+    "type": "class",
+    "categories": [
+      "Model",
+      "SenseBeRx"
+    ],
+    "subcategories": [
+      "Time"
+    ]
+  },
+  {
+    "name": "getDateTimefromSeconds",
+    "qualifiedName": "time.getDateTimefromSeconds",
+    "href": "core_models_devices_sense_be_rx_1.0_time/getDateTimefromSeconds.html",
+    "type": "function",
+    "categories": [
+      "Helper"
+    ],
+    "subcategories": [
+      "Time"
+    ]
+  },
+  {
+    "name": "getMinSecTimeString",
+    "qualifiedName": "time.getMinSecTimeString",
+    "href": "core_models_devices_sense_be_rx_1.0_time/getMinSecTimeString.html",
+    "type": "function",
+    "categories": [
+      "Helper"
+    ],
+    "subcategories": [
+      "Time"
+    ]
+  },
+  {
+    "name": "getTimeInSeconds",
+    "qualifiedName": "time.getTimeInSeconds",
+    "href": "core_models_devices_sense_be_rx_1.0_time/getTimeInSeconds.html",
+    "type": "function",
+    "categories": [
+      "Helper"
+    ],
+    "subcategories": [
+      "Time"
+    ]
+  },
+  {
+    "name": "getTimeString",
+    "qualifiedName": "time.getTimeString",
+    "href": "core_models_devices_sense_be_rx_1.0_time/getTimeString.html",
+    "type": "function",
+    "categories": [
+      "Helper"
+    ],
+    "subcategories": [
+      "Time"
+    ]
+  },
+  {
+    "name": "TimeOfDayFields",
+    "qualifiedName": "time_of_day_fields.TimeOfDayFields",
+    "href": "ui_widgets_time_of_day_fields/TimeOfDayFields-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Widget"
+    ]
+  },
+  {
+    "name": "TimeOfDayFieldsModel",
+    "qualifiedName": "time_of_day_fields_model.TimeOfDayFieldsModel",
+    "href": "core_view_models_time_of_day_fields_model/TimeOfDayFieldsModel-class.html",
+    "type": "class",
+    "categories": [
+      "Model"
+    ]
+  },
+  {
+    "name": "TimerSettingsView",
+    "qualifiedName": "timer_settings_view.TimerSettingsView",
+    "href": "ui_devices_sense_be_rx_1.0_settings_timer_settings_view/TimerSettingsView-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Page",
+      "SenseBeRx"
+    ]
+  },
+  {
+    "name": "TriggerPulseDuration",
+    "qualifiedName": "trigger_pulse_duration_fields.TriggerPulseDuration",
+    "href": "ui_widgets_trigger_pulse_duration_fields/TriggerPulseDuration-class.html",
+    "type": "class",
+    "categories": [
+      "Compound Widget",
+      "Design"
+    ]
+  },
+  {
+    "name": "VideoSettingsView",
+    "qualifiedName": "video_settings_view.VideoSettingsView",
+    "href": "ui_devices_sense_be_rx_1.0_settings_video_settings_view/VideoSettingsView-class.html",
+    "type": "class",
+    "categories": [
+      "Design",
+      "Page",
+      "SenseBeRx"
+    ]
+  }
+]

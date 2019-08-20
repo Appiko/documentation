@@ -1,0 +1,37 @@
+var group__group__dev__id__fw__ver =
+[
+    [ "__attribute__", "struct____attribute____.html", [
+      [ "amplification", "struct____attribute____.html#aabcabe4ce008b7ea24d908e0f4d32fcf", null ],
+      [ "cam_trigs", "struct____attribute____.html#a428471a0463b46a25b832969b5e816cb", null ],
+      [ "data_size", "struct____attribute____.html#a3887f1e4ad18f060074092a9322c505f", null ],
+      [ "day", "struct____attribute____.html#a1d52873b50776e10f5cb83768af30666", null ],
+      [ "day_or_night", "struct____attribute____.html#a162322f5afe5100607cf06995aa5e624", null ],
+      [ "detect_window", "struct____attribute____.html#a5f9066f01bc492ca1e8b4fbe559c2704", null ],
+      [ "factory_code", "struct____attribute____.html#a586828ba7547c4ba682e4766b33feba2", null ],
+      [ "intr_trig_timer", "struct____attribute____.html#a6b38d5248517e9197eab227c41591fae", null ],
+      [ "ir_tx_conf", "struct____attribute____.html#a76eda903367f3b0a9373734f754c29cb", null ],
+      [ "ir_tx_pwr", "struct____attribute____.html#abb4e1433cade23b91f56f039adce79dd", null ],
+      [ "ir_tx_speed", "struct____attribute____.html#aa6716673127594e1f563f0dcee567bd4", null ],
+      [ "is_enable", "struct____attribute____.html#af1ea1faf2cf56cfa025d2f21e30201eb", null ],
+      [ "log_id", "struct____attribute____.html#a9e37def9f52fa72f138eb2694b0de5fa", null ],
+      [ "log_page_no", "struct____attribute____.html#a4ec00db84ac72697dbea6df8625b7844", null ],
+      [ "mode", "struct____attribute____.html#a5b2fd634172bbc7ae36e14d6bb074956", null ],
+      [ "mode", "struct____attribute____.html#a5b2fd634172bbc7ae36e14d6bb074956", null ],
+      [ "month", "struct____attribute____.html#abce806e30fc2bf8bd5553ebca4ad3543", null ],
+      [ "oper_time", "struct____attribute____.html#a857e8182120adea9971fac0df3ae6f7d", null ],
+      [ "pir_conf", "struct____attribute____.html#a231897356ab0dab8b0f840c1fadfa2c5", null ],
+      [ "pre_focus", "struct____attribute____.html#a53d32f241d85acdce1f1d24906b99b23", null ],
+      [ "prod_code", "struct____attribute____.html#a46da4bc20672756dbd086950b5f65462", null ],
+      [ "prod_rev", "struct____attribute____.html#a2aca6f1d472bc6f6a1160d2cf820da63", null ],
+      [ "serial_no", "struct____attribute____.html#a1807089d0390472741ea7c6a59f05fbe", null ],
+      [ "speed", "struct____attribute____.html#ac24b41ab8d2e2802f9300e8923b0790c", null ],
+      [ "threshold", "struct____attribute____.html#ac03fead3a60e9f491a7e43370fd40a5d", null ],
+      [ "timer_conf", "struct____attribute____.html#a79744d22c2c22ffd37fe1963232dfac0", null ],
+      [ "timer_interval", "struct____attribute____.html#af614954f0bdc2e5c53115ff2e48cd804", null ],
+      [ "trig_conf", "struct____attribute____.html#ad0e7abf04df8725ea863797ea02a6df8", null ],
+      [ "tssp_conf", "struct____attribute____.html#a8b9ab7412ecf54fea2913659f2b734d8", null ],
+      [ "year", "struct____attribute____.html#aaeaea5d4a6a1258330888f683c0bb0b2", null ]
+    ] ],
+    [ "dev_id_get", "group__group__dev__id__fw__ver.html#gae276026e175ad19dc651222ebe2d1a53", null ],
+    [ "fw_ver_get", "group__group__dev__id__fw__ver.html#gad70a01809cd9d937dc81695c346c33a4", null ]
+];

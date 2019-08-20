@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the pack function from the sense_be_rx library, for the Dart programming language.">
+  <title>pack function - sense_be_rx library - Dart API</title>
+  <!-- required because all the links are pseudo-absolute -->
+  <base href="..">
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400i,400,300|Source+Sans+Pro:400,300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="static-assets/github.css">
+  <link rel="stylesheet" href="static-assets/styles.css">
+  <link rel="icon" href="static-assets/favicon.png">
+  
+</head>
+
+<body>
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="index.html">setup</a></li>
+    <li><a href="core_models_devices_sense_be_rx_1.0_sense_be_rx/core_models_devices_sense_be_rx_1.0_sense_be_rx-library.html">sense_be_rx</a></li>
+    <li class="self-crumb">pack function</li>
+  </ol>
+  <div class="self-name">pack</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+  <div id="dartdoc-sidebar-left" class="col-xs-6 col-sm-3 col-md-2 sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+      <form class="search-sidebar" role="search">
+        <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+      </form>
+    </header>
+    
+    <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+      <li><a href="index.html">setup</a></li>
+      <li><a href="core_models_devices_sense_be_rx_1.0_sense_be_rx/core_models_devices_sense_be_rx_1.0_sense_be_rx-library.html">sense_be_rx</a></li>
+      <li class="self-crumb">pack function</li>
+    </ol>
+    
+    <h5>sense_be_rx library</h5>
+    <ol>
+      <li class="section-title"><a href="core_models_devices_sense_be_rx_1.0_sense_be_rx/core_models_devices_sense_be_rx_1.0_sense_be_rx-library.html#classes">Classes</a></li>
+      <li><a href="core_models_devices_sense_be_rx_1.0_sense_be_rx/MetaStructure-class.html">MetaStructure</a></li>
+      <li><a href="core_models_devices_sense_be_rx_1.0_sense_be_rx/MotionSetting-class.html">MotionSetting</a></li>
+      <li><a href="core_models_devices_sense_be_rx_1.0_sense_be_rx/RadioSetting-class.html">RadioSetting</a></li>
+      <li><a href="core_models_devices_sense_be_rx_1.0_sense_be_rx/SenseBeRx-class.html">SenseBeRx</a></li>
+      <li><a href="core_models_devices_sense_be_rx_1.0_sense_be_rx/SensorSetting-class.html">SensorSetting</a></li>
+      <li><a href="core_models_devices_sense_be_rx_1.0_sense_be_rx/Setting-class.html">Setting</a></li>
+      <li><a href="core_models_devices_sense_be_rx_1.0_sense_be_rx/TimerSetting-class.html">TimerSetting</a></li>
+    
+    
+    
+    
+      <li class="section-title"><a href="core_models_devices_sense_be_rx_1.0_sense_be_rx/core_models_devices_sense_be_rx_1.0_sense_be_rx-library.html#functions">Functions</a></li>
+      <li><a href="core_models_devices_sense_be_rx_1.0_sense_be_rx/pack.html">pack</a></li>
+      <li><a href="core_models_devices_sense_be_rx_1.0_sense_be_rx/unpack.html">unpack</a></li>
+    
+      <li class="section-title"><a href="core_models_devices_sense_be_rx_1.0_sense_be_rx/core_models_devices_sense_be_rx_1.0_sense_be_rx-library.html#enums">Enums</a></li>
+      <li><a href="core_models_devices_sense_be_rx_1.0_sense_be_rx/BatteryType-class.html">BatteryType</a></li>
+      <li><a href="core_models_devices_sense_be_rx_1.0_sense_be_rx/DeviceSpeed-class.html">DeviceSpeed</a></li>
+      <li><a href="core_models_devices_sense_be_rx_1.0_sense_be_rx/OperationTime-class.html">OperationTime</a></li>
+      <li><a href="core_models_devices_sense_be_rx_1.0_sense_be_rx/RadioChannel-class.html">RadioChannel</a></li>
+      <li><a href="core_models_devices_sense_be_rx_1.0_sense_be_rx/RadioSpeed-class.html">RadioSpeed</a></li>
+      <li><a href="core_models_devices_sense_be_rx_1.0_sense_be_rx/Trigger-class.html">Trigger</a></li>
+    
+    
+    </ol>
+  </div><!--/.sidebar-offcanvas-left-->
+
+  <div id="dartdoc-main-content" class="col-xs-12 col-sm-9 col-md-8 main-content">
+      <div><h1><span class="kind-function">pack</span> function </h1></div>
+
+    <section class="multi-line-signature">
+        <span class="returntype"><a href="dart-typed_data/Uint8List-class.html">Uint8List</a></span>
+                <span class="name ">pack</span>
+(<wbr><span class="parameter" id="pack-param-structure"><span class="type-annotation"><a href="core_models_devices_sense_be_rx_1.0_sense_be_rx/SenseBeRx-class.html">SenseBeRx</a></span> <span class="parameter-name">structure</span></span>)
+    </section>
+    
+    <section class="summary source-code" id="source">
+      <h2><span>Implementation</span></h2>
+      <pre class="language-dart"><code class="language-dart">Uint8List pack(SenseBeRx structure) {
+  ByteData packedData = ByteData(206);
+
+  &#47;&#47;&#47; Adding Operation time in order of Motion - Timer
+  int offset = -1;
+  packedData.setUint8(offset += 1, structure.operationTime[0]?.index ?? 3);
+  packedData.setUint8(offset += 1, structure.operationTime[1]?.index ?? 3);
+
+  structure.settings.forEach((setting) {
+    &#47;&#47; skip the last setting
+    if (setting.index != 8) {
+      switch (setting.sensorSetting.runtimeType) {
+        case MotionSetting:
+          MotionSetting sensorSetting = setting.sensorSetting;
+
+          &#47;&#47; **Trigger Type 1  Byte**
+          packedData.setUint8(offset += 1, Trigger.MOTION_ONLY.index);
+
+          &#47;&#47; **Sensor Setting 6 Bytes**
+          packedData.setUint8(offset += 1, 0x1); &#47;&#47; Is enable
+          packedData.setUint8(offset += 1, sensorSetting.numberOfTriggers);
+          &#47;&#47; TODO: Implement the sensitivity table
+          packedData.setUint16(
+              offset += 1, sensorSetting.sensitivity, Endian.little);
+          packedData.setUint16(
+              offset += 2, sensorSetting.downtime, Endian.little);
+
+          break;
+
+        case TimerSetting:
+          TimerSetting sensorSetting = setting.sensorSetting;
+          &#47;&#47; Trigger Type 1 Byte
+          packedData.setUint8(offset += 1, Trigger.TIMER_ONLY.index);
+
+          &#47;&#47; Sensor Settings 6 Bytes
+          packedData.setUint32(
+              offset += 1, sensorSetting.interval, Endian.little);
+          packedData.setUint16(offset += 4, 0, Endian.little);
+
+          break;
+
+        default:
+          packedData.setUint8(offset += 1, Trigger.NONE.index);
+          offset += 5;
+      }
+
+      &#47;&#47; **Camera Setting 7 Bytes**
+      packedData.setUint8(
+          offset += 2,
+          setting.cameraSetting.mode.index &lt;&lt; 3 |
+              (setting.cameraSetting.enableRadio ? 1 : 0) &lt;&lt; 2 |
+              (setting.cameraSetting.videoWithFullPress ? 1 : 0) &lt;&lt; 1 |
+              (setting.cameraSetting.enablePreFocus ? 1 : 0));
+
+      &#47;&#47;&#47; **Set [offsetBeforeCam] to add up 4 in the end as each switch case&#39;s last Uint value is not the same.
+      int offsetBeforeCam = offset;
+      switch (setting.cameraSetting.runtimeType) {
+        case MultiplePicturesSetting:
+          MultiplePicturesSetting cameraSetting = setting.cameraSetting;
+          packedData.setUint16(
+              offset += 1, cameraSetting.numberOfPictures, Endian.little);
+          packedData.setUint16(
+              offset += 2, cameraSetting.pictureInterval, Endian.little);
+          break;
+        case VideoSetting:
+          VideoSetting cameraSetting = setting.cameraSetting;
+          packedData.setUint16(
+              offset += 1, cameraSetting.videoDuration, Endian.little);
+          packedData.setUint8(offset += 2, cameraSetting.extensionTime);
+          packedData.setUint8(offset += 1, cameraSetting.numberOfExtensions);
+          break;
+        case LongPressSetting:
+          LongPressSetting cameraSetting = setting.cameraSetting;
+          packedData.setUint32(
+              offset += 1, cameraSetting.longPressDuration, Endian.little);
+          break;
+        default:
+      }
+      offset = offsetBeforeCam + 4;
+      packedData.setUint8(
+          offset += 1, setting.cameraSetting.triggerPulseDuration);
+      packedData.setUint8(
+          offset += 1, setting.cameraSetting.preFocusPulseDuration);
+
+      &#47;&#47; ** Time Settings 8 Bytes**
+      switch (setting.time.runtimeType) {
+        case TimeOfDay:
+          packedData.setUint32(offset += 1,
+              (setting.time as TimeOfDay).startTime, Endian.little);
+          packedData.setUint32(
+              offset += 4, (setting.time as TimeOfDay).endTime, Endian.little);
+          break;
+        case Ambient:
+          packedData.setUint32(offset += 1,
+              (setting.time as Ambient).lowerThreshold, Endian.little);
+          packedData.setUint32(offset += 4,
+              (setting.time as Ambient).higherThreshold, Endian.little);
+          break;
+        default:
+          offset += 5;
+      }
+      offset += 3;
+    }
+  });
+
+  &#47;&#47; ** Radio Settings 8 Bytes
+  packedData.setUint8(offset += 1, structure.radioSetting.radioChannel.index);
+  packedData.setUint8(
+      offset += 1, structure.radioSetting.radioOperationDuration);
+  packedData.setUint8(
+      offset += 1, structure.radioSetting.radioOperationFrequency);
+
+  &#47;&#47; ** Device Speed 1 Byte
+  packedData.setUint8(offset += 1, structure.deviceSpeed.index);
+
+  &#47;&#47; ** Battery Type 1 Byte
+  packedData.setUint8(offset += 1, structure.batteryType.index);
+  &#47;&#47; ** Device Name 16 Bytes
+  AsciiCodec()
+      .encode(structure.deviceName.padRight(16))
+      .forEach((byte) =&gt; packedData.setUint8(offset += 1, byte));
+
+  &#47;&#47; ** Current Time in seconds 4Bytes
+  packedData.setUint32(
+      offset += 1, getTimeInSeconds(DateTime.now()), Endian.little);
+
+  &#47;&#47; ** Today&#39;s date in dd, mm, yy format 3 Bytes
+  packedData.setUint8(offset += 4, DateTime.now().day);
+  packedData.setUint8(offset += 1, DateTime.now().month);
+  packedData.setUint8(offset += 1, DateTime.now().year % 2000);
+
+  assert(offset == 205);
+  return packedData.buffer.asUint8List();
+}</code></pre>
+    </section>
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-right" class="col-xs-6 col-sm-6 col-md-2 sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    setup 1.0.0-alpha+002
+  </span>
+
+  
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="static-assets/typeahead.bundle.min.js"></script>
+<script src="static-assets/highlight.pack.js"></script>
+<script src="static-assets/URI.js"></script>
+<script src="static-assets/script.js"></script>
+
+
+</body>
+
+</html>

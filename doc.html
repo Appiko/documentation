@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/Appiko/website/master/images/icon/favicon.ico">
+    <title>Appiko | Documentation</title>
+    <link rel="stylesheet" href="doc.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+<body>
+    <!-- <nav>
+        <ul>
+            <li>
+                <a href="https://appiko.org"><img src="https://appiko.org/images/logo/logo_text.png" width="100px"
+                        height="30px" alt="Appiko Logo"> </a>
+            </li>
+            <li>
+                <a id="setup" onclick="changeFrame('setup')">Setup</a>
+            </li>
+            <li>
+                <a class="active" id="firmware" onclick="changeFrame('firmware')">Firmware</a>
+            </li>
+            <li>
+                <a id="hardware" onclick="changeFrame('hardware')">Hardware</a>
+            </li>
+        </ul>
+    </nav>
+ -->
+
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+            <div class="nav-title">
+                <a href="https://appiko.org"><img src="https://appiko.org/images/logo/logo_text.png" width="100px"
+                        height="30px" alt="Appiko Logo"> </a>
+            </div>
+        </div>
+        <div class="nav-btn">
+            <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+
+        <div class="nav-links">
+
+            <a class="active" id="firmware" onclick="changeFrame('firmware')">Firmware</a>
+            <a id="hardware" onclick="changeFrame('hardware')">Hardware</a>
+            <a id="setup" onclick="changeFrame('setup')">Setup</a>
+        </div>
+    </div>
+    <iframe src=""></iframe>
+</body>
+<script>
+    window.onload = function () {
+        console.log("a");
+        paramVal = document.URL.replace(/.*view=([^&]*).*|(.*)/, '$1');
+        console.log(paramVal);
+
+        changeFrame(paramVal);
+    };
+    function changeFrame(frameName) {
+        switch (frameName) {
+            case "firmware":
+                document.getElementsByClassName("active")[0].setAttribute("class", "");
+                document.getElementById(frameName).setAttribute("class", "active");
+                document.getElementsByTagName("iframe")[0].setAttribute("src", "./nrf5x-firmware-doc/");
+                break;
+            case "setup":
+                document.getElementsByClassName("active")[0].setAttribute("class", "");
+                document.getElementById(frameName).setAttribute("class", "active");
+                document.getElementsByTagName("iframe")[0].setAttribute("src", "./api/");
+                break;
+            case "hardware":
+                document.getElementsByClassName("active")[0].setAttribute("class", "");
+                document.getElementById(frameName).setAttribute("class", "active");
+                document.getElementsByTagName("iframe")[0].setAttribute("src", "./hardware-docs.html");
+                break;
+            default:
+                document.getElementsByClassName("active")[0].setAttribute("class", "");
+                document.getElementById("hardware").setAttribute("class", "active");
+                document.getElementsByTagName("iframe")[0].setAttribute("src", "./hardware-docs.html");
+                break;
+        }
+    }
+
+</script>
+
+</html>

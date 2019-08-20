@@ -1,0 +1,10 @@
+var S2LP__General_8h =
+[
+    [ "ModeExtRef", "group__General__Exported__Types.html#ga87e2720bb24c37b4fe6bd2d79c7938a8", null ],
+    [ "S2LPGeneralGetDevicePN", "group__General__Exported__Functions.html#gac7408aa8266fe08434d6cc3ee9d4117f", null ],
+    [ "S2LPGeneralGetExtRef", "group__General__Exported__Functions.html#ga526b1ae6aa37ac03bc07084f54307c3b", null ],
+    [ "S2LPGeneralGetVersion", "group__General__Exported__Functions.html#ga7d6abf0334fb84855104154b286e6cb0", null ],
+    [ "S2LPGeneralSetExtRef", "group__General__Exported__Functions.html#ga245cbb2cc49e19dc472fc7a0d564fc8a", null ],
+    [ "S2LPRadioSetExternalSmpsMode", "group__General__Exported__Functions.html#ga0a0ff393b87490ace18b7f8f88250d22", null ],
+    [ "S2LPRefreshStatus", "group__General__Exported__Functions.html#ga59bb0e4a72d7c55488421df5629a1cab", null ]
+];
