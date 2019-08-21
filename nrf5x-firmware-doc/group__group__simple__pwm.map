@@ -1,0 +1,4 @@
+<map id="Simple PWM driver" name="Simple PWM driver">
+<area shape="rect" id="node1" href="$group__group__peripheral__modules.html" title="Modules that are strongly tied to peripheral(s) directly for their operation." alt="" coords="5,5,152,31"/>
+<area shape="rect" id="node2" title="A simple driver to get three PWM channels. This PWM module uses three GPIOTE channels and six PPI cha..." alt="" coords="200,5,347,31"/>
+</map>

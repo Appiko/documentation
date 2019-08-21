@@ -1,0 +1,4 @@
+<map id="GPIO level handler" name="GPIO level handler">
+<area shape="rect" id="node1" href="$group__group__peripheral__modules.html" title="Modules that are strongly tied to peripheral(s) directly for their operation." alt="" coords="5,5,152,31"/>
+<area shape="rect" id="node2" title="Driver to use GPIOTE port event to detect whenever any of multiple GPIO pins are at a specified polar..." alt="" coords="200,5,343,31"/>
+</map>

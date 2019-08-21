@@ -1,0 +1,8 @@
+<map id="hal_spim_is_busy" name="hal_spim_is_busy">
+<area shape="rect" id="node1" title="Function to check if SIPM module is available or not." alt="" coords="264,107,401,133"/>
+<area shape="rect" id="node2" href="$group__SPI__Private__Functions.html#ga217eab05b1331f3c0528ba9304f2649c" title="Send a command." alt="" coords="5,5,216,32"/>
+<area shape="rect" id="node3" href="$group__SPI__Private__Functions.html#ga76bb757551598c69f89519ab72b0b3fe" title="Read data from RX FIFO." alt="" coords="35,56,187,83"/>
+<area shape="rect" id="node4" href="$group__SPI__Private__Functions.html#ga3dc570be5fdaa65d3794dd2ab6da7453" title="Read single or multiple registers." alt="" coords="17,107,205,133"/>
+<area shape="rect" id="node5" href="$group__SPI__Private__Functions.html#gad1b424fd2ea10de18651d63cb15c9db0" title="Write data into TX FIFO." alt="" coords="33,157,188,184"/>
+<area shape="rect" id="node6" href="$group__SPI__Private__Functions.html#ga41f922750f17b09da9cea85dd92d494f" title="Write single or multiple registers." alt="" coords="15,208,206,235"/>
+</map>

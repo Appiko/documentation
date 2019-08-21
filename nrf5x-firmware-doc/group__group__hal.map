@@ -1,0 +1,15 @@
+<map id="Hardware Abstraction Layer" name="Hardware Abstraction Layer">
+<area shape="rect" id="node1" href="$group__group__hal__pwm.html" title="Hardware abstraction layer of the PWM peripheral in the nRF52 SoCs." alt="" coords="386,5,471,31"/>
+<area shape="rect" id="node2" href="$group__group__radio.html" title="Hardware abstraction layer of Radio peripheral." alt="" coords="384,55,473,80"/>
+<area shape="rect" id="node3" title="Hardware abstraction layer for the peripherals to be used with the hal defines in the SDK." alt="" coords="140,245,303,285"/>
+<area shape="rect" id="node4" href="$group__group__saadc.html" title="Hardware abstraction layer of the Successive Approximation Analog to Digital Converter (SAADC) periph..." alt="" coords="379,104,478,129"/>
+<area shape="rect" id="node5" href="$group__group__twim__driver.html" title="Hardware abstraction layer of the Two Wire Interface in Master mode. This driver is completely event ..." alt="" coords="365,153,492,179"/>
+<area shape="rect" id="node6" href="$group__group__uart__hal.html" title="Hardware abstraction layer of the UART peripheral. This is compatible with both nrf51 and nRF52 SoCs." alt="" coords="385,203,473,228"/>
+<area shape="rect" id="node7" href="$group__group__NOP__delay.html" title="Hardware abstraction layer creating us and ms delay using the processor&#39;s NOP instruction." alt="" coords="363,252,494,277"/>
+<area shape="rect" id="node8" href="$group__group__clocks.html" title="Hardware abstraction layer of the high frequency and low frequency clock." alt="" coords="381,301,476,327"/>
+<area shape="rect" id="node9" href="$group__group__wdt__driver.html" title="Hardware abstraction layer the watchdog timer peripheral in nRF5x SoCs." alt="" coords="351,351,507,376"/>
+<area shape="rect" id="node11" href="$group__group__hal__ppi.html" title="Hardware abstraction layer of the PPI peripheral in the nRF52 SoCs." alt="" coords="393,400,465,425"/>
+<area shape="rect" id="node12" href="$group__group__gpio.html" title="Hardware abstraction layer of the General Purpose Input Output peripheral." alt="" coords="387,449,471,475"/>
+<area shape="rect" id="node13" href="$group__group__spim__driver.html" title="Hardware abstraction layer of the SPI in Master mode. This driver is completely event driven and non&#45;..." alt="" coords="368,499,489,524"/>
+<area shape="rect" id="node10" href="$group__group__codebase.html" title="The various code&#45;base developed for the applications to use." alt="" coords="5,252,92,277"/>
+</map>

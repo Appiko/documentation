@@ -1,0 +1,4 @@
+<map id="Application error handler" name="Application error handler">
+<area shape="rect" id="node1" title="Handler which prints SoftDevice application error info over the configured logging channel when DEBUG..." alt="" coords="247,5,429,31"/>
+<area shape="rect" id="node2" href="$group__group__sd__assist.html" title="Contains libraries needed for working with the Nordic Semi SoftDevices." alt="" coords="5,5,199,31"/>
+</map>

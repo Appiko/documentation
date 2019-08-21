@@ -1,0 +1,4 @@
+<map id="EepromSpiInitialization" name="EepromSpiInitialization">
+<area shape="rect" id="node1" title="Initializes the SPI for the EEPROM. SPI, MISO, MOSI and SCLK are the same used for the SPIRIT1...." alt="" coords="211,5,384,32"/>
+<area shape="rect" id="node2" href="$group__IDENTIFICATION__FUNCTIONS.html#gab27863b6c135e18160035874fb5d3742" title="Read the status register." alt="" coords="5,5,163,32"/>
+</map>

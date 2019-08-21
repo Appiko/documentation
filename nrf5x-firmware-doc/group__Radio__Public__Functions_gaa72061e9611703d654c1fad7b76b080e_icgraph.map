@@ -1,0 +1,7 @@
+<map id="S2LPRadioGetXtalFrequency" name="S2LPRadioGetXtalFrequency">
+<area shape="rect" id="node1" title="Return the XTAL frequency." alt="" coords="535,71,741,98"/>
+<area shape="rect" id="node2" href="$group__Timer__Private__Functions.html#ga7ba8e999731692ac3c4c9275d1037caa" title="Computes the values of the rx_timeout timer counter and prescaler from the user time expressed in mil..." alt="" coords="247,5,477,47"/>
+<area shape="rect" id="node4" href="$group__Timer__Private__Functions.html#gac1363ee26e4decbc49c66d20e12d01a5" title="Computes the values of the rx_timeout given the timer counter and prescaler." alt="" coords="237,71,487,98"/>
+<area shape="rect" id="node5" href="$group__Timer__Public__Functions.html#gaeafbc78f088fcc44b6194b06c20d16b3" title="Computes and Return the RCO frequency. This frequency depends on the xtal frequency and the XTAL bit ..." alt="" coords="259,122,465,149"/>
+<area shape="rect" id="node3" href="$group__Timer__Public__Functions.html#ga31bc4e5e62906184faca46a72509b9dd" title="Set the RX timeout timer counter and prescaler from the desired value in ms. it is possible to fix th..." alt="" coords="5,13,189,39"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="ms_timer_stop" name="ms_timer_stop">
+<area shape="rect" id="node1" title=" " alt="" coords="657,183,776,209"/>
+<area shape="rect" id="node2" href="$group__group__ble__adv.html#ga3a35fe8feb9c20a900948a7bf963b2a0" title="Stop advertising." alt="" coords="480,107,588,133"/>
+<area shape="rect" id="node3" href="$group__group__ms__timer.html#ga552e89f725cc0c12b00c777cd36e744e" title=" " alt="" coords="473,157,595,184"/>
+<area shape="rect" id="node13" href="$group__group__out__pattern__gen.html#ga11badf418b5cff501c176b97667afe4d" title="Stop the output pattern generation and sets the output pins as specified in the arguments." alt="" coords="479,208,589,235"/>
+<area shape="rect" id="node15" href="$group__tx__rx__ctrl.html#ga3b7bfce991749d97475021d9838bb9e1" title="Function to disable detection for SenseBe Rx." alt="" coords="459,259,609,285"/>
+<area shape="rect" id="node4" href="$group__group__ble__adv.html#ga61ab99d7892563416c29b454a055a74f" title="Start advertising based on the parameters set." alt="" coords="259,5,370,32"/>
+<area shape="rect" id="node5" href="$group__testing__header.html#ga3f0ac093ff97486cbddad0332b88b01f" title="This fucntion is used to check on low frequency crystal. Without LF&#45;XTAL we cannot use RTC...." alt="" coords="265,56,364,83"/>
+<area shape="rect" id="node6" href="$group__group__device__tick.html#ga2c053c5dea33a24862feb822736f81d8" title="Initializes and starts the Device tick module. Provides a next interval event immediately...." alt="" coords="253,107,377,133"/>
+<area shape="rect" id="node9" href="$group__group__device__tick.html#ga507e0d604c32e83a029e96633c7c6ccc" title="The function to be called whenever the SoC wakes up to see if more than half the time of the current ..." alt="" coords="238,157,391,184"/>
+<area shape="rect" id="node10" href="$group__group__device__tick.html#ga5ffb5b1b09c412db7779f973a548e07c" title="Switches from the fast to slow mode or vice versa." alt="" coords="220,208,409,235"/>
+<area shape="rect" id="node12" href="$group__simple__statemachine.html#ga19ad533eee14c4c3287d45d33b2cdd48" title="Green state process checks if there is a button press to reset the timer." alt="" coords="257,259,373,285"/>
+<area shape="rect" id="node7" href="$group__sensebe__appln.html#gac457e2bbf06aad0fd48b76b834427693" title="Handler for all button related events." alt="" coords="28,81,148,108"/>
+<area shape="rect" id="node8" href="$group__sense__appln.html#gaaac89472859b67e946b474f84af004e5" title="The handler that is called whenever the application transitions to a new state." alt="" coords="5,132,171,159"/>
+<area shape="rect" id="node11" href="$group__sense__appln.html#gac457e2bbf06aad0fd48b76b834427693" title="Handler for all button related events." alt="" coords="28,208,148,235"/>
+<area shape="rect" id="node14" href="$group__cam__trigg__support.html#ga62e4cd26f638908ef80afc9c79bb123c" title="Function to stop PIR sensing." alt="" coords="219,309,411,336"/>
+</map>

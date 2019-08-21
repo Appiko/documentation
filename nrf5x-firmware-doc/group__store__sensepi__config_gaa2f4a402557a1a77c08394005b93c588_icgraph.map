@@ -1,0 +1,5 @@
+<map id="sensepi_store_config_write" name="sensepi_store_config_write">
+<area shape="rect" id="node1" title="Function to write the sensepi_config_t at address location received from get_next_location()." alt="" coords="211,27,369,69"/>
+<area shape="rect" id="node2" href="$group__sense__appln.html#gaaebf2f714faf35316967c04791b51580" title="function to load previous sensepi configuration present in flash memory" alt="" coords="21,5,147,32"/>
+<area shape="rect" id="node3" href="$group__cam__trigg__support.html#ga7f2e2fe3470f368d3909ec405ccd31b3" title="Function to start PIR sensing." alt="" coords="5,57,163,98"/>
+</map>

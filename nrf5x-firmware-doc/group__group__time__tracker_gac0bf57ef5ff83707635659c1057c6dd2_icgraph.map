@@ -1,0 +1,5 @@
+<map id="time_tracker_get_current_time_s" name="time_tracker_get_current_time_s">
+<area shape="rect" id="node1" title="Function to get current time in ms." alt="" coords="261,23,448,65"/>
+<area shape="rect" id="node2" href="$group__group__oper__manage.html#gaf4266d2e7d041e07ce850810ccf524b9" title="Function to check if there are any changes in active slots." alt="" coords="5,5,213,32"/>
+<area shape="rect" id="node3" href="$group__group__oper__manage.html#ga52605f2c983a4cca5ad4373fc7d592e3" title="Function to initiate new operation condition slot." alt="" coords="25,56,194,83"/>
+</map>

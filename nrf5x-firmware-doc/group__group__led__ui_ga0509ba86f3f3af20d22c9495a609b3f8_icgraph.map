@@ -1,0 +1,5 @@
+<map id="led_ui_type_stop_all" name="led_ui_type_stop_all">
+<area shape="rect" id="node1" title="Stop all sequence of a particular type." alt="" coords="245,31,400,57"/>
+<area shape="rect" id="node2" href="$group__cam__trigg__support.html#ga62e4cd26f638908ef80afc9c79bb123c" title="Function to stop PIR sensing." alt="" coords="5,5,197,32"/>
+<area shape="rect" id="node3" href="$group__sense__appln.html#gaaac89472859b67e946b474f84af004e5" title="The handler that is called whenever the application transitions to a new state." alt="" coords="19,56,184,83"/>
+</map>

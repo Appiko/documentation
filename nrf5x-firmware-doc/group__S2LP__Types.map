@@ -1,0 +1,15 @@
+<map id="Types" name="Types">
+<area shape="rect" id="node1" href="$group__Types__Exported__Variables.html" title=" " alt="" coords="303,5,491,31"/>
+<area shape="rect" id="node2" href="$group__S2LP__Libraries.html" title="This firmware implements libraries which allow the user to manage the features of S2LP without knowin..." alt="" coords="5,268,119,293"/>
+<area shape="rect" id="node6" title="Module for S2LP types definition." alt="" coords="167,268,228,293"/>
+<area shape="rect" id="node3" href="$group__Types__Private__TypesDefinitions.html" title=" " alt="" coords="319,55,474,95"/>
+<area shape="rect" id="node4" href="$group__Types__Private__Variables.html" title=" " alt="" coords="309,120,485,145"/>
+<area shape="rect" id="node5" href="$group__Types__Private__FunctionPrototypes.html" title=" " alt="" coords="276,169,517,195"/>
+<area shape="rect" id="node7" href="$group__Types__Exported__Constants.html" title=" " alt="" coords="301,219,493,244"/>
+<area shape="rect" id="node8" href="$group__Types__Private__Defines.html" title=" " alt="" coords="315,268,479,293"/>
+<area shape="rect" id="node9" href="$group__Types__Exported__Types.html" title=" " alt="" coords="313,317,480,343"/>
+<area shape="rect" id="node10" href="$group__Types__Private__Macros.html" title=" " alt="" coords="315,367,478,392"/>
+<area shape="rect" id="node11" href="$group__Types__Exported__Macros.html" title=" " alt="" coords="309,416,484,441"/>
+<area shape="rect" id="node12" href="$group__Types__Exported__Functions.html" title=" " alt="" coords="301,465,492,491"/>
+<area shape="rect" id="node13" href="$group__Types__Private__Functions.html" title=" " alt="" coords="307,515,486,540"/>
+</map>

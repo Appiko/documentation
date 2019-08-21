@@ -1,0 +1,5 @@
+<map id="Timer Wrapper" name="Timer Wrapper">
+<area shape="rect" id="node1" href="$group__S2LP__Libraries.html" title="This firmware implements libraries which allow the user to manage the features of S2LP without knowin..." alt="" coords="5,13,119,38"/>
+<area shape="rect" id="node3" title="Configuration and management of S2LP Timers using floating point." alt="" coords="167,13,285,38"/>
+<area shape="rect" id="node2" href="$group__Timer__ex__Exported__Types.html" title=" " alt="" coords="333,5,515,45"/>
+</map>

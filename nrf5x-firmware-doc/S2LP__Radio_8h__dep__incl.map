@@ -1,0 +1,26 @@
+<map id="/home/prathik/workspace/appiko/nrf5x&#45;firmware/application/rf_data_tx_rx/S2LP_Library/Inc/S2LP_Radio.h" name="/home/prathik/workspace/appiko/nrf5x&#45;firmware/application/rf_data_tx_rx/S2LP_Library/Inc/S2LP_Radio.h">
+<area shape="rect" id="node1" title="Configuration and management of S2&#45;LP RF Analog and Digital part." alt="" coords="1829,5,2015,91"/>
+<area shape="rect" id="node2" href="$S2LP__Config_8h.html" title="S2LP Configuration and useful defines ." alt="" coords="1829,139,2015,224"/>
+<area shape="rect" id="node15" href="$S2LP__Radio_8c.html" title="This file provides all the low level API to manage Analog and Digital radio part of S2&#45;LP." alt="" coords="3397,405,3585,491"/>
+<area shape="rect" id="node24" href="$SDK__Configuration__Common_8h.html" title="Common configuration header file." alt="" coords="1465,146,1710,217"/>
+<area shape="rect" id="node3" href="$rf__data__tx_2main_8c_source.html" title=" " alt="" coords="1097,287,1313,343"/>
+<area shape="rect" id="node4" href="$MCU__Interface_8h.html" title="Header file for low level S2LP SPI driver." alt="" coords="1979,279,2166,350"/>
+<area shape="rect" id="node16" href="$S2LP__Timer_8c.html" title="Configuration and management of S2&#45;LP timers." alt="" coords="3185,405,3373,491"/>
+<area shape="rect" id="node21" href="$MCU__Interface__template_8h.html" title="Header file for low level S2LP SPI driver. To be copied in the application floder and customized acco..." alt="" coords="1769,272,1955,357"/>
+<area shape="rect" id="node22" href="$SDK__BasicGeneric__A_8c.html" title="Example of transmission of S2&#45;LP Basic packets." alt="" coords="1337,279,1529,350"/>
+<area shape="rect" id="node23" href="$SDK__BasicGeneric__B_8c.html" title="Example of reception of S2&#45;LP Basic packets." alt="" coords="1553,279,1745,350"/>
+<area shape="rect" id="node5" href="$S2LP__Commands_8c.html" title="Management of S2&#45;LP Commands." alt="" coords="1979,405,2167,491"/>
+<area shape="rect" id="node6" href="$S2LP__Csma_8c.html" title="Configuration and management of S2&#45;LP CSMA." alt="" coords="2191,413,2434,483"/>
+<area shape="rect" id="node7" href="$S2LP__Fifo_8c.html" title="Configuration and management of S2&#45;LP Fifo." alt="" coords="2459,413,2689,483"/>
+<area shape="rect" id="node8" href="$S2LP__General_8c.html" title="Configuration and management of S2&#45;LP General functionalities." alt="" coords="2713,405,2901,491"/>
+<area shape="rect" id="node9" href="$S2LP__Gpio_8c.html" title="This file provides all the low level API to manage S2&#45;LP GPIO." alt="" coords="2925,413,3161,483"/>
+<area shape="rect" id="node10" href="$S2LP__PacketHandler_8c.html" title="Configuration and management of the common features of S2&#45;LP packets." alt="" coords="5,405,193,491"/>
+<area shape="rect" id="node11" href="$S2LP__PktBasic_8c.html" title="Configuration and management of S2&#45;LP Basic packets." alt="" coords="217,405,405,491"/>
+<area shape="rect" id="node12" href="$S2LP__PktStack_8c.html" title="Configuration and management of S2&#45;LP STack packets." alt="" coords="429,405,617,491"/>
+<area shape="rect" id="node13" href="$S2LP__PktWMbus_8c.html" title="Configuration and management of S2&#45;LP WMBUS packets." alt="" coords="641,405,829,491"/>
+<area shape="rect" id="node14" href="$S2LP__Qi_8c.html" title="Configuration and management of S2&#45;LP QI." alt="" coords="853,413,1073,483"/>
+<area shape="rect" id="node17" href="$S2LP__Timer__ex_8c.html" title="This file provides functions to manage S2&#45;LP debug." alt="" coords="1097,405,1285,491"/>
+<area shape="rect" id="node18" href="$S2LP__Types_8c.html" title="This file provides functions to manage S2&#45;LP debug." alt="" coords="1309,405,1497,491"/>
+<area shape="rect" id="node19" href="$SDK__EVAL__Spi__Driver_8c.html" title="This file provides all the low level SPI API to access to the device using a software watchdog timer ..." alt="" coords="1521,413,1720,483"/>
+<area shape="rect" id="node20" href="$S2LP__SDK__Util_8c_source.html" title=" " alt="" coords="1743,405,1954,491"/>
+</map>

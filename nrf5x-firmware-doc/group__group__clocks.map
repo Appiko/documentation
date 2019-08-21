@@ -1,0 +1,4 @@
+<map id="Clocks HAL" name="Clocks HAL">
+<area shape="rect" id="node1" href="$group__group__hal.html" title="Hardware abstraction layer for the peripherals to be used with the hal defines in the SDK." alt="" coords="5,5,168,45"/>
+<area shape="rect" id="node2" title="Hardware abstraction layer of the high frequency and low frequency clock." alt="" coords="216,13,311,38"/>
+</map>

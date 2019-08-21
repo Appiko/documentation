@@ -1,0 +1,5 @@
+<map id="Retrieve the device ID and firmware version" name="Retrieve the device ID and firmware version">
+<area shape="rect" id="node1" href="$group__ble__support.html" title="The PIR sense application&#39;s support file that handles ble operations." alt="" coords="520,5,679,60"/>
+<area shape="rect" id="node2" href="$group__group__util.html" title="Code as helpers for common tasks." alt="" coords="5,20,155,45"/>
+<area shape="rect" id="node3" title="For a product this module retrieves the device ID programmed in the board level test at factory and t..." alt="" coords="204,13,387,53"/>
+</map>

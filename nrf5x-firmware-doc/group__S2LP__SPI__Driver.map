@@ -1,0 +1,8 @@
+<map id="SPI Driver" name="SPI Driver">
+<area shape="rect" id="node1" href="$group__S2LP__Libraries.html" title="This firmware implements libraries which allow the user to manage the features of S2LP without knowin..." alt="" coords="5,80,119,105"/>
+<area shape="rect" id="node5" title="Header file for low level S2LP SPI driver." alt="" coords="167,80,253,105"/>
+<area shape="rect" id="node2" href="$group__SPI__Exported__Constants.html" title=" " alt="" coords="301,5,475,31"/>
+<area shape="rect" id="node3" href="$group__SPI__Exported__Types.html" title=" " alt="" coords="315,55,461,80"/>
+<area shape="rect" id="node4" href="$group__SPI__Exported__Functions.html" title=" " alt="" coords="303,104,473,129"/>
+<area shape="rect" id="node6" href="$group__SPI__Exported__Macros.html" title=" " alt="" coords="311,153,465,179"/>
+</map>

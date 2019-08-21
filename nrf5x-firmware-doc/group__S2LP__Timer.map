@@ -1,0 +1,15 @@
+<map id="Timer" name="Timer">
+<area shape="rect" id="node1" href="$group__S2LP__Libraries.html" title="This firmware implements libraries which allow the user to manage the features of S2LP without knowin..." alt="" coords="5,268,119,293"/>
+<area shape="rect" id="node5" title="Configuration and management of S2LP Timers." alt="" coords="167,268,227,293"/>
+<area shape="rect" id="node2" href="$group__Timer__Private__Defines.html" title=" " alt="" coords="289,5,451,31"/>
+<area shape="rect" id="node3" href="$group__Timer__Private__Variables.html" title=" " alt="" coords="283,55,457,80"/>
+<area shape="rect" id="node4" href="$group__Timer__Private__TypesDefinitions.html" title=" " alt="" coords="293,105,447,145"/>
+<area shape="rect" id="node6" href="$group__Timer__Private__Functions.html" title=" " alt="" coords="281,169,459,195"/>
+<area shape="rect" id="node7" href="$group__Timer__Exported__Constants.html" title=" " alt="" coords="275,219,465,244"/>
+<area shape="rect" id="node8" href="$group__Timer__Private__Macros.html" title=" " alt="" coords="289,268,451,293"/>
+<area shape="rect" id="node9" href="$group__Timer__Private__FunctionPrototypes.html" title=" " alt="" coords="285,318,455,358"/>
+<area shape="rect" id="node10" href="$group__Timer__Exported__Macros.html" title=" " alt="" coords="283,383,457,408"/>
+<area shape="rect" id="node11" href="$group__Timer__Public__Functions.html" title=" " alt="" coords="285,432,455,457"/>
+<area shape="rect" id="node12" href="$group__Timer__Exported__Functions.html" title=" " alt="" coords="275,481,465,507"/>
+<area shape="rect" id="node13" href="$group__Timer__Exported__Types.html" title=" " alt="" coords="287,531,453,556"/>
+</map>

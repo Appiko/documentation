@@ -1,0 +1,12 @@
+<map id="Radio" name="Radio">
+<area shape="rect" id="node1" href="$group__S2LP__Libraries.html" title="This firmware implements libraries which allow the user to manage the features of S2LP without knowin..." alt="" coords="5,194,119,219"/>
+<area shape="rect" id="node3" title="Configuration and management of S2LP RF Analog and Digital part." alt="" coords="167,194,225,219"/>
+<area shape="rect" id="node2" href="$group__Radio__Private__FunctionPrototypes.html" title=" " alt="" coords="283,5,452,45"/>
+<area shape="rect" id="node4" href="$group__Radio__Private__Macros.html" title=" " alt="" coords="287,70,447,95"/>
+<area shape="rect" id="node5" href="$group__Radio__Exported__Functions.html" title=" " alt="" coords="273,119,461,145"/>
+<area shape="rect" id="node6" href="$group__Radio__Private__Functions.html" title=" " alt="" coords="279,169,455,194"/>
+<area shape="rect" id="node7" href="$group__Radio__Private__Defines.html" title=" " alt="" coords="286,218,449,243"/>
+<area shape="rect" id="node8" href="$group__Radio__Public__Functions.html" title=" " alt="" coords="283,267,452,293"/>
+<area shape="rect" id="node9" href="$group__Radio__Exported__Types.html" title=" " alt="" coords="285,317,449,342"/>
+<area shape="rect" id="node10" href="$group__Radio__Private__Variables.html" title=" " alt="" coords="280,366,455,391"/>
+</map>

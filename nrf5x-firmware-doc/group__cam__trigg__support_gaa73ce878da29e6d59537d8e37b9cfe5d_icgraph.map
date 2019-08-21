@@ -1,0 +1,4 @@
+<map id="sensepi_cam_trigger_add_tick" name="sensepi_cam_trigger_add_tick">
+<area shape="rect" id="node1" title="Function to decide what to decide at current tick." alt="" coords="217,5,375,47"/>
+<area shape="rect" id="node2" href="$group__sense__appln.html#ga0d684888934142a1ea6316845654c28d" title="The next interval handler is used for providing a periodic tick to be used by the various modules of ..." alt="" coords="5,13,169,39"/>
+</map>

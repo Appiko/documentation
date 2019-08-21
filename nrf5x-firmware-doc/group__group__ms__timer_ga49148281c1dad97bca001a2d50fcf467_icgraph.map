@@ -1,0 +1,5 @@
+<map id="ms_timer_init" name="ms_timer_init">
+<area shape="rect" id="node1" title=" " alt="" coords="152,31,264,57"/>
+<area shape="rect" id="node2" href="$group__testing__header.html#ga3f0ac093ff97486cbddad0332b88b01f" title="This fucntion is used to check on low frequency crystal. Without LF&#45;XTAL we cannot use RTC...." alt="" coords="5,5,104,32"/>
+<area shape="rect" id="node3" href="$group__sense__appln.html#ga840291bc02cba5474a4cb46a9b9566fe" title="Function for application main entry." alt="" coords="27,56,82,83"/>
+</map>

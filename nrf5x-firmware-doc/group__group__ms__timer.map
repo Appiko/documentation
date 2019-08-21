@@ -1,0 +1,4 @@
+<map id="Millisecond timer" name="Millisecond timer">
+<area shape="rect" id="node1" title="Driver to use milli&#45;second timers using the RTC peripheral." alt="" coords="200,5,335,31"/>
+<area shape="rect" id="node2" href="$group__group__peripheral__modules.html" title="Modules that are strongly tied to peripheral(s) directly for their operation." alt="" coords="5,5,152,31"/>
+</map>

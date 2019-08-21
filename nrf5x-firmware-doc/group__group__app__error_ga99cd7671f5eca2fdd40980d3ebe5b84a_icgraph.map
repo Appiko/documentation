@@ -1,0 +1,9 @@
+<map id="app_error_fault_handler" name="app_error_fault_handler">
+<area shape="rect" id="node1" title="Callback to be invoked in case of fault i.e. unrecoverable errors occurring within the application or..." alt="" coords="601,56,779,83"/>
+<area shape="rect" id="node2" href="$group__sys__lvl__testing.html#gac20292bb47b59093357dcee5bc1650a5" title="Function for initializing the BLE stack by enabling the SoftDevice and the BLE event interrupt." alt="" coords="411,5,523,32"/>
+<area shape="rect" id="node6" href="$group__ble__support.html#gab36ac96212c975e07cf18105d603dd1a" title="Function for initializing the BLE stack by enabling the SoftDevice and the BLE event interrupt." alt="" coords="380,56,553,83"/>
+<area shape="rect" id="node7" href="$group__ble__support.html#ga628f52c0d07a02d36b18cc31bc80fe8e" title="Function for initializing the BLE stack by enabling the SoftDevice and the BLE event interrupt." alt="" coords="382,107,551,133"/>
+<area shape="rect" id="node3" href="$group__sys__lvl__testing.html#ga8a7877faee37858e5b25c152e6c07528" title="Function to start scanning." alt="" coords="243,5,332,32"/>
+<area shape="rect" id="node4" href="$group__sys__lvl__testing.html#ga4d71f418abdd6a9c73ca6b0f282b2b3e" title="IRQHandler for UART RX_DONE event." alt="" coords="108,5,195,32"/>
+<area shape="rect" id="node5" href="$group__sys__lvl__testing.html#ga840291bc02cba5474a4cb46a9b9566fe" title="MAIN." alt="" coords="5,5,60,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="button_ui_config_wake" name="button_ui_config_wake">
+<area shape="rect" id="node1" title="To enable/disable the button UI GPIOTE IRQ." alt="" coords="173,5,344,32"/>
+<area shape="rect" id="node2" href="$group__sense__appln.html#gac457e2bbf06aad0fd48b76b834427693" title="Handler for all button related events." alt="" coords="5,5,125,32"/>
+</map>

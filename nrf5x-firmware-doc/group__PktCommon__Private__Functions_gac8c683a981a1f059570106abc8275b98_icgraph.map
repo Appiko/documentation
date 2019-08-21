@@ -1,0 +1,4 @@
+<map id="S2LPGetPreambleLength" name="S2LPGetPreambleLength">
+<area shape="rect" id="node1" title="Return the PREAMBLE field Length mode for S2LP packets." alt="" coords="224,5,407,32"/>
+<area shape="rect" id="node2" href="$group__PktWMbus__Private__Functions.html#ga3bec7b59fd0d6789f75ad45d9dbd48d4" title="Return the S2LP WMBUS packet structure according to the specified parameters in the registers." alt="" coords="5,5,176,32"/>
+</map>

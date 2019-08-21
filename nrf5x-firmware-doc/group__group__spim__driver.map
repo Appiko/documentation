@@ -1,0 +1,4 @@
+<map id="SPI Master HAL" name="SPI Master HAL">
+<area shape="rect" id="node1" href="$group__group__hal.html" title="Hardware abstraction layer for the peripherals to be used with the hal defines in the SDK." alt="" coords="5,5,168,45"/>
+<area shape="rect" id="node2" title="Hardware abstraction layer of the SPI in Master mode. This driver is completely event driven and non&#45;..." alt="" coords="216,13,337,38"/>
+</map>

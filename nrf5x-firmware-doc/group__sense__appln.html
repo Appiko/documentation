@@ -27,7 +27,6 @@
 /* @license-end */
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
-<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -110,6 +109,19 @@ $(document).ready(function(){initNavTree('group__sense__appln.html','');});
 
 <p>The PIR sense application's main file that makes it operate.  
 <a href="#details">More...</a></p>
+<div class="dynheader">
+Collaboration diagram for The code for the PIR based Sense units.:</div>
+<div class="dyncontent">
+<center><table><tr><td><img src="group__sense__appln.png" border="0" alt="" usemap="#group____sense____appln"/>
+<map name="group____sense____appln" id="group____sense____appln">
+<area shape="rect"  href="group__ble__support.html" title="The PIR sense application&#39;s support file that handles ble operations." alt="" coords="361,5,520,60"/>
+<area shape="rect"  href="group__group__appln.html" title="All the applications that this repository contains." alt="" coords="5,99,108,124"/>
+<area shape="rect"  title="The PIR sense application&#39;s main file that makes it operate." alt="" coords="156,91,309,131"/>
+<area shape="rect"  href="group__store__sensepi__config.html" title="Functions to store and manage sensepi_configs in non volatile memory. This will enable the firmware t..." alt="" coords="357,84,524,139"/>
+<area shape="rect"  href="group__cam__trigg__support.html" title="The PIR sense application&#39;s support file that handles camera triggering." alt="" coords="361,163,520,217"/>
+</map>
+</td></tr></table></center>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
 Modules</h2></td></tr>
@@ -246,8 +258,10 @@ Variables</h2></td></tr>
 <p>By using this state machine approach we were able to avoid a lot of conflicting scenarios</p>
 <h3>Control Flow Diagram :</h3>
 <p>The state diagram for SensePi is given below:</p>
-<img src="./doc/app_flow.png" alt="" class="inline"/>
-<p>As one can see, the default state when SensePi starts it's operation is Sensing. If someone presses button present on SensePi, it'll go into Advertising state. There it'll wit for 3 mins for the Connection request. If it receives a connection request before 3 mins over, it'll connect with the requesting device.</p>
+<div class="image">
+<img src="app_flow.png" alt="app_flow.png"/>
+</div>
+   <p>As one can see, the default state when SensePi starts it's operation is Sensing. If someone presses button present on SensePi, it'll go into Advertising state. There it'll wit for 3 mins for the Connection request. If it receives a connection request before 3 mins over, it'll connect with the requesting device.</p>
 <p>Once SensePi connects with some device, it can remain in this state for 10 mins. After 10 mins timeout will occur and it'll go back to Sensing state. If a user have proper mobile device and proper application to change the configuration, a user can do it in these 10 mins. And a user can also terminate the connection by sending disconnect request.</p>
 <h3>Data Flow Diagram :</h3>
 <p>This State machine implementation is done by building a firmware application in a modular structure. There are 3 supporting modules which handles different aspects of firmware. Those modules are :</p>
@@ -261,8 +275,10 @@ Variables</h2></td></tr>
 <li>Data storage module</li>
 </ol>
 <p>An interactions between these modules and application can be represented as follow :</p>
-<img src="./doc/data_flow.png" alt="" class="inline"/>
-<p>In the context of this diagram communication means data transfer between any two modules. Here all the arrows represents a transfer of sensepi_config until specified otherwise. Data transfer happens bidirectionally between modules, except for 2 cases where it's unidirectional.</p>
+<div class="image">
+<img src="data_flow.png" alt="data_flow.png"/>
+</div>
+   <p>In the context of this diagram communication means data transfer between any two modules. Here all the arrows represents a transfer of sensepi_config until specified otherwise. Data transfer happens bidirectionally between modules, except for 2 cases where it's unidirectional.</p>
 <p>We can observe over there, all modules interact with the main application directly. Almost all the inter-module communication is done through the main application. Only once direct communication between two modules happens when Camera module saves latest configuration in Flash memory through Data storage module. Passing of new configuration from Bluetooth communication module to camera trigger module is also done through main application.</p>
 <p>On system power reset or firmware update, main application will load the latest configuration present in flash memory through Data storage module and will pass it on to Camera trigger module.</p>
 <h3>Different Modules of application</h3>

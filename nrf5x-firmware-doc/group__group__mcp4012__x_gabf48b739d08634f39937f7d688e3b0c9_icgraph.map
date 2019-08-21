@@ -1,0 +1,5 @@
+<map id="mcp4012_set_value" name="mcp4012_set_value">
+<area shape="rect" id="node1" title="This function is used to set the value of MCP4012 wiper value." alt="" coords="128,31,280,57"/>
+<area shape="rect" id="node2" href="$group__testing__header.html#ga23e497e5f8f54775442e9e68765a7487" title="This fucntion is used to check MCP4012 pot. In this function we will check an ratio between two signa..." alt="" coords="5,5,80,32"/>
+<area shape="rect" id="node3" href="$group__testing__header.html#ga97c5ee7d4cb7724958db2f3ab2600deb" title="This fucntion is used to check output RC very low frequency filter. This function will actully check ..." alt="" coords="9,56,76,83"/>
+</map>

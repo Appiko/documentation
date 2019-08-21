@@ -1,0 +1,5 @@
+<map id="sensebe_store_config_write" name="sensebe_store_config_write">
+<area shape="rect" id="node1" title="Function to write the sensebe_config_t at address location received from get_next_location()." alt="" coords="207,23,369,65"/>
+<area shape="rect" id="node2" href="$group__sensebe__appln.html#gaaebf2f714faf35316967c04791b51580" title="function to load previous sensebe configuration present in flash memory" alt="" coords="19,5,145,32"/>
+<area shape="rect" id="node3" href="$group__tx__rx__ctrl.html#ga64f1bd11dc04eb2befcce87e58860296" title="Function to enable detection for SenseBe Rx." alt="" coords="5,56,159,83"/>
+</map>

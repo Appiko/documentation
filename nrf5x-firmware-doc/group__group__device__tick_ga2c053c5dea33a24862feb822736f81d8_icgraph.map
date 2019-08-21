@@ -1,0 +1,5 @@
+<map id="device_tick_init" name="device_tick_init">
+<area shape="rect" id="node1" title="Initializes and starts the Device tick module. Provides a next interval event immediately...." alt="" coords="219,31,343,57"/>
+<area shape="rect" id="node2" href="$group__sensebe__appln.html#gac457e2bbf06aad0fd48b76b834427693" title="Handler for all button related events." alt="" coords="28,5,148,32"/>
+<area shape="rect" id="node3" href="$group__sense__appln.html#gaaac89472859b67e946b474f84af004e5" title="The handler that is called whenever the application transitions to a new state." alt="" coords="5,56,171,83"/>
+</map>

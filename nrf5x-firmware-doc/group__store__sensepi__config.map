@@ -1,0 +1,4 @@
+<map id="The support code to store sensepi_configs in flash" name="The support code to store sensepi_configs in flash">
+<area shape="rect" id="node1" title="Functions to store and manage sensepi_configs in non volatile memory. This will enable the firmware t..." alt="" coords="207,5,373,60"/>
+<area shape="rect" id="node2" href="$group__sense__appln.html" title="The PIR sense application&#39;s main file that makes it operate." alt="" coords="5,13,159,53"/>
+</map>

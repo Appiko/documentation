@@ -1,0 +1,4 @@
+<map id="mcp4012_init" name="mcp4012_init">
+<area shape="rect" id="node1" title="This function is used to initialize MCP4012 in our program. This will set wiper value of MCP4012 to z..." alt="" coords="239,5,349,32"/>
+<area shape="rect" id="node2" href="$group__cam__trigg__support.html#gac424d6b5a4987283695db70d0b0c8c63" title="Function to initiate SensePi_PIR module." alt="" coords="5,5,191,32"/>
+</map>

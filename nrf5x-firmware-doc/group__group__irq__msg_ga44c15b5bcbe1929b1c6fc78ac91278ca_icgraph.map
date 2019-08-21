@@ -1,0 +1,5 @@
+<map id="irq_msg_push" name="irq_msg_push">
+<area shape="rect" id="node1" title=" " alt="" coords="207,31,319,57"/>
+<area shape="rect" id="node2" href="$group__sense__appln.html#gac457e2bbf06aad0fd48b76b834427693" title="Handler for all button related events." alt="" coords="22,5,142,32"/>
+<area shape="rect" id="node3" href="$group__group__device__tick.html#ga507e0d604c32e83a029e96633c7c6ccc" title="The function to be called whenever the SoC wakes up to see if more than half the time of the current ..." alt="" coords="5,56,159,83"/>
+</map>

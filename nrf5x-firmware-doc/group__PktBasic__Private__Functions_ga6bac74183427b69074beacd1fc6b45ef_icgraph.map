@@ -1,0 +1,4 @@
+<map id="S2LPPktBasicGetAddressField" name="S2LPPktBasicGetAddressField">
+<area shape="rect" id="node1" title="Specify if the Address field for S2LP Basic packets is enabled or disabled." alt="" coords="280,5,496,32"/>
+<area shape="rect" id="node2" href="$group__PktBasic__Private__Functions.html#ga14890a011c1e940b5672b04b5fc9e1c6" title="Set the payload length for S2LP Basic packets. Since the packet length depends from the address and t..." alt="" coords="5,5,232,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Module to check battery status" name="Module to check battery status">
+<area shape="rect" id="node1" href="$group__group__peripheral__modules.html" title="Modules that are strongly tied to peripheral(s) directly for their operation." alt="" coords="5,13,152,38"/>
+<area shape="rect" id="node2" title="Simple module to check if battery is greater than 20%." alt="" coords="200,5,380,45"/>
+</map>

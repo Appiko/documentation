@@ -1,0 +1,6 @@
+<map id="The support code for the PIR based Sense units." name="The support code for the PIR based Sense units.">
+<area shape="rect" id="node1" title="The PIR sense application&#39;s support file that handles ble operations." alt="" coords="227,30,385,85"/>
+<area shape="rect" id="node3" href="$group__group__dev__id__fw__ver.html" title="For a product this module retrieves the device ID programmed in the board level test at factory and t..." alt="" coords="519,37,701,77"/>
+<area shape="rect" id="node2" href="$group__sensebe__appln.html" title="The active IR sense application&#39;s main file that makes it operate." alt="" coords="5,5,177,45"/>
+<area shape="rect" id="node4" href="$group__sense__appln.html" title="The PIR sense application&#39;s main file that makes it operate." alt="" coords="15,69,168,109"/>
+</map>
