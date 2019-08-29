@@ -1,18 +1,17 @@
 /*
-@ @licstart  The following is the entire license notice for the
+@licstart  The following is the entire license notice for the
 JavaScript code in this file.
 
-Copyright (C) 1997-2017 by Dimitri van Heesch
+Copyright (C) 1997-2019 by Dimitri van Heesch
 
 This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
+it under the terms of version 2 of the GNU General Public License as published by
+the Free Software Foundation
 
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along
 with this program; if not, write to the Free Software Foundation, Inc.,
@@ -24,7 +23,7 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "Appiko", "index.html", [
-    [ "Appiko nRF52 firmware", "index.html", "index" ],
+    [ "Appiko nRF52 firmware", "index.html", null ],
     [ "TODO", "todo.html", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Data Structures", "annotated.html", [
@@ -53,20 +52,22 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "CBUF_8h.html",
-"board__no_8h_source.html",
-"group__Csma__Exported__Functions.html#ga567b44325b41e9c9de0309867e41932c",
-"group__Gpio__Exported__Types.html#gga16e1c622c4a0a136f26724b992b32586ac5973b7487f6d2a04470ca2187289d5d",
-"group__PktCommon__Exported__Functions.html#ga836380756812ded0abbca60c811989dd",
-"group__PktWMbus__Exported__Functions.html#ga39a37d9ed67f61567fd5afab2b367cfc",
-"group__Radio__Private__Functions.html#ga53894e48ee530db2c395fc320b2c6d66",
-"group__SDK__EVAL__Gpio__Exported__Types.html#gga18a3e287b24fc73b43562380e8d0a9efad891dd926080c5b4d7851088de55686a",
-"group__Timer__Exported__Types.html#ggad65a147ca62da79b9550f0696ff3fdf9a91946640779eea43e7f84c99039cec5d",
-"group__ble__support.html#ggac1ce8c092632c560e1e92f65122c5f92ae003ec1158e3a4e295616ced12af154e",
-"group__group__ble__adv.html#ga994606bbd1514022f18fdf6c87042ecb",
-"group__group__simple__adc.html#ga672ce0019e42f25fc673f00ca1416fdb",
-"group__sensebe__appln.html#gga2d9ddadb1f2ddf5196506eeaccb04d6ba7a691a2430ec26878897b5fbc9c22a4c",
-"nvm__logger_8h_source.html",
-"struct____attribute____.html#a6b38d5248517e9197eab227c41591fae"
+"ble__testing_2led__sequences_2led__seq_8c.html#a2bb3b5c36ab930bd896eaa6b295b1628",
+"group__Commands__Exported__Types.html#gga1a5fb952787691343312ef65dd6454d5ab3e9919bd524478a0a18cb59f3adfce7",
+"group__Gpio__Exported__Types.html#gga16e1c622c4a0a136f26724b992b32586a2fa15d5b27a06373b38cedc9ec7974b1",
+"group__PktCommon__Exported__Functions.html#ga33f773835dad2bb889713895aa167897",
+"group__PktStack__Private__Functions.html#ga21f0b6b2eb362a74a1bb2ffd1bf3b9ad",
+"group__Radio__Exported__Types.html#ggaa690f5919560218e67a502b02c9e799aabefc24cd7aef49cd164b55ed806d4337",
+"group__SDK__EVAL__Gpio__Exported__Functions.html#ga9b0cec69e953b3fd330e17e4b8c3e936",
+"group__Timer__Exported__Functions.html#gacd2e26223bed22719fe40b5e5c25ba12",
+"group__ble__support.html#gaffbe4fc67d44b98bcef7130fa92a7c47",
+"group__board__sense__rev4.html#ga0ff0f704800fdfaf8a9b8daf6e77483e",
+"group__group__hal__ppi.html#gga50c3fb0c843471295417bf5b76e02b60a02680bac47a08fe0125738ce7cd08e2c",
+"group__group__uart__hal.html#gga6a62311eeeea6a7087e21cf202f3c46ba7da875332f275525388f811d537f9c71",
+"group__sys__config.html",
+"sensebe__rx_2led__sequences_2led__seq_8h.html#a15af2c786353b810da0783b36a4aca33a5f3702191d1169602764f33b8d0ed585",
+"struct____attribute____.html#a28377b6906d822f1b766114c58779e33",
+"structhal__twim__init__config__t.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

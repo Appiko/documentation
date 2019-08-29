@@ -1,4 +1,0 @@
-<map id="sensebe_tx_rx_add_ticks" name="sensebe_tx_rx_add_ticks">
-<area shape="rect" id="node1" title="Function to handle add tick event." alt="" coords="217,5,403,32"/>
-<area shape="rect" id="node2" href="$group__sensebe__appln.html#ga0d684888934142a1ea6316845654c28d" title="The next interval handler is used for providing a periodic tick to be used by the various modules of ..." alt="" coords="5,5,169,32"/>
-</map>

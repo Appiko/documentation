@@ -1,4 +1,0 @@
-<map id="out_gen_stop" name="out_gen_stop">
-<area shape="rect" id="node1" title="Stop the output pattern generation and sets the output pins as specified in the arguments." alt="" coords="245,5,355,32"/>
-<area shape="rect" id="node2" href="$group__cam__trigg__support.html#ga62e4cd26f638908ef80afc9c79bb123c" title="Function to stop PIR sensing." alt="" coords="5,5,197,32"/>
-</map>

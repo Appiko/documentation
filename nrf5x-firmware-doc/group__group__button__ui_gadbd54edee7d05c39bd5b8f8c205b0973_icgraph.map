@@ -1,4 +1,0 @@
-<map id="button_ui_add_tick" name="button_ui_add_tick">
-<area shape="rect" id="node1" title="The ticks that need to be sent to the button UI module for its processing." alt="" coords="217,5,363,32"/>
-<area shape="rect" id="node2" href="$group__sense__appln.html#ga0d684888934142a1ea6316845654c28d" title="The next interval handler is used for providing a periodic tick to be used by the various modules of ..." alt="" coords="5,5,169,32"/>
-</map>

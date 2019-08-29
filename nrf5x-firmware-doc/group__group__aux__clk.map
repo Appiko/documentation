@@ -1,4 +1,4 @@
 <map id="Auxiliary clock management" name="Auxiliary clock management">
-<area shape="rect" id="node1" href="$group__group__peripheral__modules.html" title="Modules that are strongly tied to peripheral(s) directly for their operation." alt="" coords="5,5,152,31"/>
+<area shape="rect" id="node1" href="$group__group__peripheral__modules.html" title="Modules that are strongly tied to peripheral(s) directly for their operation" alt="" coords="5,5,152,31"/>
 <area shape="rect" id="node2" title="Module to manage auxiliary clock used by other modules like pir_sense and tssp_detect...." alt="" coords="200,5,409,31"/>
 </map>

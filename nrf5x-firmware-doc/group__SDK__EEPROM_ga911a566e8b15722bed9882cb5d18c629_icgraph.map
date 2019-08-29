@@ -1,4 +1,0 @@
-<map id="EepromCsXnucleoPinInitialization" name="EepromCsXnucleoPinInitialization">
-<area shape="rect" id="node1" title="Initialization of the CSn pin of the EEPROM for XNUCLEO boards." alt="" coords="211,5,452,32"/>
-<area shape="rect" id="node2" href="$group__IDENTIFICATION__FUNCTIONS.html#gab27863b6c135e18160035874fb5d3742" title="Read the status register." alt="" coords="5,5,163,32"/>
-</map>

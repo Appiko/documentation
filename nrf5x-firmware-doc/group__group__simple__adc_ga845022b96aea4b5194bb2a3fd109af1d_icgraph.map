@@ -1,7 +1,0 @@
-<map id="simple_adc_get_value" name="simple_adc_get_value">
-<area shape="rect" id="node1" title="This function initializes the SAADC peripheral, gets an ADC value and then deinitializes The function..." alt="" coords="261,81,428,108"/>
-<area shape="rect" id="node2" href="$group__group__battery__check.html#ga6cf99b8a14e31294dd6868f1c211b967" title="Function to get battery status. It&#39;ll convert battery ADC value to 8bit." alt="" coords="24,5,195,32"/>
-<area shape="rect" id="node3" href="$group__group__led__light__sense.html#gafb0617ca8b02632d0c80d125cb574cbf" title="Get the light value by measuring the voltage a LED&#39;s anode." alt="" coords="52,56,167,83"/>
-<area shape="rect" id="node4" href="$group__group__oper__manage.html#gaf4266d2e7d041e07ce850810ccf524b9" title="Function to check if there are any changes in active slots." alt="" coords="5,107,213,133"/>
-<area shape="rect" id="node5" href="$group__testing__header.html#ga97c5ee7d4cb7724958db2f3ab2600deb" title="This fucntion is used to check output RC very low frequency filter. This function will actully check ..." alt="" coords="76,157,143,184"/>
-</map>

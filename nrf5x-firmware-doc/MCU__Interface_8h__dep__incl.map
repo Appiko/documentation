@@ -15,8 +15,8 @@
 <area shape="rect" id="node18" href="$S2LP__Qi_8c.html" title="Configuration and management of S2&#45;LP QI." alt="" coords="2881,131,3101,202"/>
 <area shape="rect" id="node19" href="$S2LP__Timer__ex_8c.html" title="This file provides functions to manage S2&#45;LP debug." alt="" coords="3125,124,3313,209"/>
 <area shape="rect" id="node20" href="$S2LP__Types_8c.html" title="This file provides functions to manage S2&#45;LP debug." alt="" coords="3337,124,3525,209"/>
-<area shape="rect" id="node21" href="$SDK__EVAL__Spi__Driver_8c.html" title="This file provides all the low level SPI API to access to the device using a software watchdog timer ..." alt="" coords="3549,131,3748,202"/>
-<area shape="rect" id="node22" href="$S2LP__SDK__Util_8c_source.html" title=" " alt="" coords="3771,124,3982,209"/>
+<area shape="rect" id="node21" href="$SDK__EVAL__Spi__Driver_8c.html" title="This file provides all the low level SPI API to access to the device using a software watchdog timer ..." alt="" coords="3549,131,3745,202"/>
+<area shape="rect" id="node22" href="$S2LP__SDK__Util_8c_source.html" title=" " alt="" coords="3770,124,3981,209"/>
 <area shape="rect" id="node3" href="$rf__data__tx_2main_8c_source.html" title=" " alt="" coords="218,272,434,328"/>
 <area shape="rect" id="node4" href="$MCU__Interface__template_8h.html" title="Header file for low level S2LP SPI driver. To be copied in the application floder and customized acco..." alt="" coords="458,257,645,343"/>
 <area shape="rect" id="node7" href="$SDK__BasicGeneric__A_8c.html" title="Example of transmission of S2&#45;LP Basic packets." alt="" coords="669,265,861,335"/>

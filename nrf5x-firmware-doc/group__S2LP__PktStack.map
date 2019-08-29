@@ -1,10 +1,10 @@
 <map id="Pkt STack" name="Pkt STack">
 <area shape="rect" id="node1" href="$group__S2LP__Libraries.html" title="This firmware implements libraries which allow the user to manage the features of S2LP without knowin..." alt="" coords="5,156,119,181"/>
-<area shape="rect" id="node3" title="Configuration and management of S2LP STack packets." alt="" coords="167,156,253,181"/>
-<area shape="rect" id="node2" href="$group__PktStack__Private__Functions.html" title=" " alt="" coords="301,5,504,31"/>
-<area shape="rect" id="node4" href="$group__PktStack__Exported__Types.html" title=" " alt="" coords="329,55,477,95"/>
-<area shape="rect" id="node5" href="$group__PktStack__Exported__Functions.html" title=" " alt="" coords="329,119,477,159"/>
-<area shape="rect" id="node6" href="$group__PktStack__Private__Defines.html" title=" " alt="" coords="308,184,497,209"/>
-<area shape="rect" id="node7" href="$group__PktStack__Exported__Macros.html" title=" " alt="" coords="329,234,477,274"/>
-<area shape="rect" id="node8" href="$group__PktStack__Private__Macros.html" title=" " alt="" coords="309,299,496,324"/>
+<area shape="rect" id="node3" title="Configuration and management of S2LP STack packets." alt="" coords="167,156,251,181"/>
+<area shape="rect" id="node2" href="$group__PktStack__Private__Functions.html" title=" " alt="" coords="299,5,499,31"/>
+<area shape="rect" id="node4" href="$group__PktStack__Exported__Types.html" title=" " alt="" coords="325,55,472,95"/>
+<area shape="rect" id="node5" href="$group__PktStack__Exported__Functions.html" title=" " alt="" coords="325,119,472,159"/>
+<area shape="rect" id="node6" href="$group__PktStack__Private__Defines.html" title=" " alt="" coords="305,184,492,209"/>
+<area shape="rect" id="node7" href="$group__PktStack__Exported__Macros.html" title=" " alt="" coords="325,234,472,274"/>
+<area shape="rect" id="node8" href="$group__PktStack__Private__Macros.html" title=" " alt="" coords="306,299,491,324"/>
 </map>

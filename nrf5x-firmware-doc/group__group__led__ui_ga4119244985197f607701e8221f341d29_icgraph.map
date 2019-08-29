@@ -1,4 +1,0 @@
-<map id="led_ui_single_start" name="led_ui_single_start">
-<area shape="rect" id="node1" title="Start a sequence to play once." alt="" coords="219,13,363,39"/>
-<area shape="rect" id="node2" href="$group__tx__rx__ctrl.html#gac4c4ce8a50d609a12187a4049cbc0a8c" title=" " alt="" coords="5,5,171,47"/>
-</map>

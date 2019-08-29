@@ -1,15 +1,15 @@
 <map id="Platforms" name="Platforms">
-<area shape="rect" id="node1" href="$group__board__hackable.html" title="The hackaBLE board for development and testing. https://github.com/electronut/ElectronutLabs&#45;hackaBLE..." alt="" coords="191,5,277,31"/>
-<area shape="rect" id="node2" href="$group__board__bluey__1v1.html" title="The defines for the Bluey board 1.1 by Electonut." alt="" coords="180,55,288,80"/>
-<area shape="rect" id="node3" href="$group__board__sensebe__rev1.html" title="Board definitions for the 2nd revision of the transreceiver unit of SenseBe active motion sensor by A..." alt="" coords="154,105,314,145"/>
-<area shape="rect" id="node4" href="$group__board__sensebe__rev3.html" title="Board definitions for the 3rd revision of the transceiver unit of SenseBe active motion sensor by App..." alt="" coords="154,169,314,209"/>
-<area shape="rect" id="node5" href="$group__board__pca10040.html" title="The nRF52 Development Kit (DK) platform PCA10040." alt="" coords="155,233,313,259"/>
-<area shape="rect" id="node6" href="$group__board__pca10028.html" title="The nRF51 Development Kit (DK) platform PCA10028." alt="" coords="155,283,313,308"/>
-<area shape="rect" id="node7" href="$group__board__sensebe__rx__rev1.html" title="Board definitions for the 1st revision of the receiver unit of SenseBe active motion sensor by Appiko..." alt="" coords="158,333,310,373"/>
-<area shape="rect" id="node8" href="$group__board__sensebe__rx__rev2.html" title="Board definitions for the 2nd revision of the receiver unit of SenseBe active motion sensor by Appiko..." alt="" coords="158,397,310,437"/>
+<area shape="rect" id="node1" href="$group__board__hackable.html" title="The hackaBLE board for development and testing. https://github.com/electronut/ElectronutLabs&#45;hackaBLE..." alt="" coords="191,5,275,31"/>
+<area shape="rect" id="node2" href="$group__board__bluey__1v1.html" title="The defines for the Bluey board 1.1 by Electonut." alt="" coords="179,55,287,80"/>
+<area shape="rect" id="node3" href="$group__board__sensebe__rev1.html" title="Board definitions for the 2nd revision of the transreceiver unit of SenseBe active motion sensor by A..." alt="" coords="154,105,313,145"/>
+<area shape="rect" id="node4" href="$group__board__sensebe__rev3.html" title="Board definitions for the 3rd revision of the transceiver unit of SenseBe active motion sensor by App..." alt="" coords="154,169,313,209"/>
+<area shape="rect" id="node5" href="$group__board__pca10040.html" title="The nRF52 Development Kit (DK) platform PCA10040." alt="" coords="155,233,312,259"/>
+<area shape="rect" id="node6" href="$group__board__pca10028.html" title="The nRF51 Development Kit (DK) platform PCA10028." alt="" coords="155,283,312,308"/>
+<area shape="rect" id="node7" href="$group__board__sensebe__rx__rev1.html" title="Board definitions for the 1st revision of the receiver unit of SenseBe active motion sensor by Appiko..." alt="" coords="158,333,309,373"/>
+<area shape="rect" id="node8" href="$group__board__sensebe__rx__rev2.html" title="Board definitions for the 2nd revision of the receiver unit of SenseBe active motion sensor by Appiko..." alt="" coords="158,397,309,437"/>
 <area shape="rect" id="node9" title="All the hardware platforms that the applications can run on." alt="" coords="5,312,91,337"/>
-<area shape="rect" id="node10" href="$group__board__sense__rev2.html" title="The second revision of the animal detector unit by Appiko." alt="" coords="143,461,325,487"/>
-<area shape="rect" id="node11" href="$group__board__sense__rev3.html" title="The third revision of the animal detector unit by Appiko." alt="" coords="143,511,325,536"/>
-<area shape="rect" id="node12" href="$group__board__sense__rev4.html" title="Board definitions for the 4th revision of the passive motion sensor by Appiko." alt="" coords="139,560,329,585"/>
-<area shape="rect" id="node13" href="$group__board__detect__rev1.html" title="The first revision of the animal detector unit by Appiko." alt="" coords="141,609,327,635"/>
+<area shape="rect" id="node10" href="$group__board__sense__rev2.html" title="The second revision of the animal detector unit by Appiko." alt="" coords="143,461,324,487"/>
+<area shape="rect" id="node11" href="$group__board__sense__rev3.html" title="The third revision of the animal detector unit by Appiko." alt="" coords="143,511,324,536"/>
+<area shape="rect" id="node12" href="$group__board__sense__rev4.html" title="Board definitions for the 4th revision of the passive motion sensor by Appiko." alt="" coords="139,560,328,585"/>
+<area shape="rect" id="node13" href="$group__board__detect__rev1.html" title="The first revision of the animal detector unit by Appiko." alt="" coords="141,609,326,635"/>
 </map>

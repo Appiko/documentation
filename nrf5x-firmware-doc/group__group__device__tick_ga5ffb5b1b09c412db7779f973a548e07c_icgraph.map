@@ -1,4 +1,0 @@
-<map id="device_tick_switch_mode" name="device_tick_switch_mode">
-<area shape="rect" id="node1" title="Switches from the fast to slow mode or vice versa." alt="" coords="173,5,363,32"/>
-<area shape="rect" id="node2" href="$group__sense__appln.html#gac457e2bbf06aad0fd48b76b834427693" title="Handler for all button related events." alt="" coords="5,5,125,32"/>
-</map>

@@ -2,24 +2,24 @@
 <area shape="rect" id="node1" href="$group__group__oper__manage.html" title="Module to keep track of operational conditions (i.e. Time of day, ambient light) of Appiko device." alt="" coords="358,5,521,45"/>
 <area shape="rect" id="node2" href="$group__group__button__ui.html" title="Driver for the generating all the button related UI events for the application." alt="" coords="344,70,535,95"/>
 <area shape="rect" id="node3" href="$group__group__ms__timer.html" title="Driver to use milli&#45;second timers using the RTC peripheral." alt="" coords="372,119,507,145"/>
-<area shape="rect" id="node4" title="Modules that are strongly tied to peripheral(s) directly for their operation." alt="" coords="140,530,287,555"/>
+<area shape="rect" id="node4" title="Modules that are strongly tied to peripheral(s) directly for their operation" alt="" coords="140,530,287,555"/>
 <area shape="rect" id="node5" href="$group__group__pir__sense.html" title="Driver use detect motion based on threshold from a PIR sensor based on PPI based automated ADC sampli..." alt="" coords="396,169,483,194"/>
-<area shape="rect" id="node6" href="$group__group__time__tracker.html" title="Module to keep track of time in MS_TIMER ticks format." alt="" coords="360,218,519,243"/>
+<area shape="rect" id="node6" href="$group__group__time__tracker.html" title="Module to keep track of time in MS_TIMER ticks format." alt="" coords="361,218,518,243"/>
 <area shape="rect" id="node7" href="$group__group__us__timer.html" title="Driver to use micro&#45;second timers using the TIMER peripheral." alt="" coords="368,267,511,293"/>
 <area shape="rect" id="node8" href="$group__group__gpio__level.html" title="Driver to use GPIOTE port event to detect whenever any of multiple GPIO pins are at a specified polar..." alt="" coords="368,317,511,342"/>
 <area shape="rect" id="node9" href="$group__group__out__pattern__gen.html" title="Output pattern generator module is used for generating a one time digital signal pattern on a number ..." alt="" coords="347,366,531,391"/>
 <area shape="rect" id="node10" href="$group__group__led__ui.html" title="This module is responsible for managing the LED UI by playing and stopping the different UI sequences..." alt="" coords="357,416,521,456"/>
-<area shape="rect" id="node11" href="$group__group__uart__printf.html" title="UART Driver for sending printf messages. To be used in conjunction with tinyprintf...." alt="" coords="391,481,488,506"/>
+<area shape="rect" id="node11" href="$group__group__uart__printf.html" title="UART Driver for sending printf messages. To be used in conjunction with tinyprintf...." alt="" coords="391,481,487,506"/>
 <area shape="rect" id="node12" href="$group__group__aux__clk.html" title="Module to manage auxiliary clock used by other modules like pir_sense and tssp_detect...." alt="" coords="335,530,544,555"/>
 <area shape="rect" id="node13" href="$group__group__battery__check.html" title="Simple module to check if battery is greater than 20%." alt="" coords="349,580,529,620"/>
 <area shape="rect" id="node14" href="$group__group__ble__adv.html" title="Driver of the radio to generate BLE advertisements with scan responses." alt="" coords="363,645,516,670"/>
 <area shape="rect" id="node15" href="$group__group__profiler__timer.html" title="Driver to use timer for code profiling and time&#45;stamping." alt="" coords="386,694,493,719"/>
 <area shape="rect" id="node17" href="$group__group__tssp__detect.html" title="Driver for TSSP IR beam detector." alt="" coords="360,743,519,769"/>
-<area shape="rect" id="node18" href="$group__group__cam__trig.html" title="Driver triggers the camera according to configuration sent by application. This Driver uses out_patte..." alt="" coords="378,793,501,818"/>
+<area shape="rect" id="node18" href="$group__group__cam__trig.html" title="Driver triggers the camera according to configuration sent by application. This Driver uses out_patte..." alt="" coords="379,793,500,818"/>
 <area shape="rect" id="node19" href="$group__group__simple__adc.html" title="A simple driver for the SAADC unit to get ADC values. The spec of this module are: 12 bit resolution,..." alt="" coords="369,842,510,867"/>
 <area shape="rect" id="node20" href="$group__group__led__light__sense.html" title="Light sensing based on sensing the charge accumulated due to the incident light on a reverse biased L..." alt="" coords="369,892,509,932"/>
 <area shape="rect" id="node21" href="$group__group__simple__pwm.html" title="A simple driver to get three PWM channels. This PWM module uses three GPIOTE channels and six PPI cha..." alt="" coords="366,957,513,982"/>
 <area shape="rect" id="node22" href="$group__group__mcp4012__x.html" title="This file contains the declarations required to drive MCP4012 pot. These simple funtion helps user to..." alt="" coords="376,1006,503,1031"/>
-<area shape="rect" id="node23" href="$group__group__device__tick.html" title="Driver for the device tick generator. This module is responsible for generating the next interval eve..." alt="" coords="385,1055,493,1081"/>
+<area shape="rect" id="node23" href="$group__group__device__tick.html" title="Driver for the device tick generator. This module is responsible for generating the next interval eve..." alt="" coords="386,1055,493,1081"/>
 <area shape="rect" id="node16" href="$group__group__codebase.html" title="The various code&#45;base developed for the applications to use." alt="" coords="5,530,92,555"/>
 </map>

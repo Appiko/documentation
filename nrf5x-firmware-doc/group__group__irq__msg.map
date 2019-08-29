@@ -1,4 +1,4 @@
 <map id="IRQ to main thread message passer" name="IRQ to main thread message passer">
-<area shape="rect" id="node1" href="$group__group__util.html" title="Code as helpers for common tasks." alt="" coords="5,13,155,38"/>
-<area shape="rect" id="node2" title="This module is used to pass messages from any higher priority interrupts to lower priority ones or th..." alt="" coords="203,5,348,45"/>
+<area shape="rect" id="node1" href="$group__group__util.html" title="Code as helpers for common tasks" alt="" coords="5,13,155,38"/>
+<area shape="rect" id="node2" title="This module is used to pass messages from any higher priority interrupts to the main thread so that t..." alt="" coords="203,5,348,45"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="Watchdog timer HAL" name="Watchdog timer HAL">
 <area shape="rect" id="node1" href="$group__group__hal.html" title="Hardware abstraction layer for the peripherals to be used with the hal defines in the SDK." alt="" coords="5,5,168,45"/>
-<area shape="rect" id="node2" title="Hardware abstraction layer the watchdog timer peripheral in nRF5x SoCs." alt="" coords="216,13,372,38"/>
+<area shape="rect" id="node2" title="Hardware abstraction layer the watchdog timer peripheral in nRF5x SoCs." alt="" coords="216,13,371,38"/>
 </map>

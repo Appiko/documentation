@@ -1,4 +1,4 @@
 <map id="UART HAL" name="UART HAL">
 <area shape="rect" id="node1" href="$group__group__hal.html" title="Hardware abstraction layer for the peripherals to be used with the hal defines in the SDK." alt="" coords="5,5,168,45"/>
-<area shape="rect" id="node2" title="Hardware abstraction layer of the UART peripheral. This is compatible with both nrf51 and nRF52 SoCs." alt="" coords="216,13,304,38"/>
+<area shape="rect" id="node2" title="Hardware abstraction layer of the UART peripheral. This is compatible with both nrf51 and nRF52 SoCs." alt="" coords="216,13,303,38"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="Hello World RTT printf" name="Hello World RTT printf">
-<area shape="rect" id="node1" title="A simple application that blinks a LED and outputs a printf statement over SEGGER&#39;s Real Time Transfe..." alt="" coords="156,5,323,31"/>
+<area shape="rect" id="node1" title="A simple application that blinks a LED and outputs a printf statement over SEGGER&#39;s Real Time Transfe..." alt="" coords="156,5,320,31"/>
 <area shape="rect" id="node2" href="$group__group__appln.html" title="All the applications that this repository contains." alt="" coords="5,5,108,31"/>
 </map>

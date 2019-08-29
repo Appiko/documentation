@@ -1,6 +1,6 @@
 var group__sense__appln =
 [
-    [ "The support code for the PIR based Sense units.", "group__ble__support.html", "group__ble__support" ],
+    [ "The support code for the active IR based Sense units.", "group__ble__support.html", "group__ble__support" ],
     [ "The support code for the PIR based Sense units.", "group__cam__trigg__support.html", "group__cam__trigg__support" ],
     [ "The support code to store sensepi_configs in flash", "group__store__sensepi__config.html", "group__store__sensepi__config" ],
     [ "ADV_FAST_TICK_INTERVAL_MS", "group__sense__appln.html#gaa67321f795c0e68791a9053de12bd89d", null ],
@@ -19,6 +19,9 @@ var group__sense__appln =
     [ "SENSE_SLOW_TICK_INTERVAL_MS", "group__sense__appln.html#ga33a48436c281d9f3fd2cbb5aaae94096", null ],
     [ "WDT_PERIOD_MS", "group__sense__appln.html#gabf9fca60b97e8efc2c0077351d419136", null ],
     [ "sense_states", "group__sense__appln.html#ga2d9ddadb1f2ddf5196506eeaccb04d6b", [
+      [ "SENSING", "group__sensebe__appln.html#gga2d9ddadb1f2ddf5196506eeaccb04d6baed51a3eb49b0821ae3e05edb2190af4a", null ],
+      [ "ADVERTISING", "group__sensebe__appln.html#gga2d9ddadb1f2ddf5196506eeaccb04d6bae29f3b2d40a72a9da4425122b92c7075", null ],
+      [ "CONNECTED", "group__sensebe__appln.html#gga2d9ddadb1f2ddf5196506eeaccb04d6ba7a691a2430ec26878897b5fbc9c22a4c", null ],
       [ "SENSING", "group__sensebe__appln.html#gga2d9ddadb1f2ddf5196506eeaccb04d6baed51a3eb49b0821ae3e05edb2190af4a", null ],
       [ "ADVERTISING", "group__sensebe__appln.html#gga2d9ddadb1f2ddf5196506eeaccb04d6bae29f3b2d40a72a9da4425122b92c7075", null ],
       [ "CONNECTED", "group__sensebe__appln.html#gga2d9ddadb1f2ddf5196506eeaccb04d6ba7a691a2430ec26878897b5fbc9c22a4c", null ],

@@ -1,4 +1,4 @@
 <map id="Operational condition management" name="Operational condition management">
 <area shape="rect" id="node1" title="Module to keep track of operational conditions (i.e. Time of day, ambient light) of Appiko device." alt="" coords="200,5,363,45"/>
-<area shape="rect" id="node2" href="$group__group__peripheral__modules.html" title="Modules that are strongly tied to peripheral(s) directly for their operation." alt="" coords="5,13,152,38"/>
+<area shape="rect" id="node2" href="$group__group__peripheral__modules.html" title="Modules that are strongly tied to peripheral(s) directly for their operation" alt="" coords="5,13,152,38"/>
 </map>

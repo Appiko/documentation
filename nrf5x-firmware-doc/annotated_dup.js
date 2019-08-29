@@ -34,6 +34,7 @@ var annotated_dup =
     [ "saadc_limit", "structsaadc__limit.html", null ],
     [ "SAfcInit", "structSAfcInit.html", "structSAfcInit" ],
     [ "SCsmaInit", "structSCsmaInit.html", "structSCsmaInit" ],
+    [ "senseberx_ble_adv_data_t", "structsenseberx__ble__adv__data__t.html", null ],
     [ "sensepi_cam_trigger_init_config_t", "structsensepi__cam__trigger__init__config__t.html", "structsensepi__cam__trigger__init__config__t" ],
     [ "SGpioInit", "structSGpioInit.html", "structSGpioInit" ],
     [ "SRadioInit", "structSRadioInit.html", "structSRadioInit" ],

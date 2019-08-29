@@ -1,4 +1,4 @@
 <map id="Simple ADC driver" name="Simple ADC driver">
-<area shape="rect" id="node1" href="$group__group__peripheral__modules.html" title="Modules that are strongly tied to peripheral(s) directly for their operation." alt="" coords="5,5,152,31"/>
+<area shape="rect" id="node1" href="$group__group__peripheral__modules.html" title="Modules that are strongly tied to peripheral(s) directly for their operation" alt="" coords="5,5,152,31"/>
 <area shape="rect" id="node2" title="A simple driver for the SAADC unit to get ADC values. The spec of this module are: 12 bit resolution,..." alt="" coords="200,5,341,31"/>
 </map>

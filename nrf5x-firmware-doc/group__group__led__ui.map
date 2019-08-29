@@ -1,4 +1,4 @@
 <map id="Module that manages the LED UI" name="Module that manages the LED UI">
-<area shape="rect" id="node1" href="$group__group__peripheral__modules.html" title="Modules that are strongly tied to peripheral(s) directly for their operation." alt="" coords="5,13,152,38"/>
+<area shape="rect" id="node1" href="$group__group__peripheral__modules.html" title="Modules that are strongly tied to peripheral(s) directly for their operation" alt="" coords="5,13,152,38"/>
 <area shape="rect" id="node2" title="This module is responsible for managing the LED UI by playing and stopping the different UI sequences..." alt="" coords="200,5,364,45"/>
 </map>

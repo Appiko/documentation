@@ -1,4 +1,0 @@
-<map id="out_gen_init" name="out_gen_init">
-<area shape="rect" id="node1" title="Initialize the output pattern generator module with the information of the pins on which the pattern ..." alt="" coords="181,5,284,32"/>
-<area shape="rect" id="node2" href="$group__group__cam__trig.html#gaf9173d66a3e28a5cf2ca2df96790bcff" title="Function to initiate output pins." alt="" coords="5,5,133,32"/>
-</map>

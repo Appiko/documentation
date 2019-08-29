@@ -1,4 +1,0 @@
-<map id="SdkEvalGpioGetLevel" name="SdkEvalGpioGetLevel">
-<area shape="rect" id="node1" title="Returns the level of a specified GPIO." alt="" coords="232,5,395,32"/>
-<area shape="rect" id="node2" href="$group__SDK__EVAL__Gpio__Private__Functions.html#gaab6d69356e9cf4577638c113282add9e" title="check the logic(0 or 1) at the SDN pin." alt="" coords="5,5,184,32"/>
-</map>
