@@ -7,6 +7,7 @@ var dir_d75c23162a2652451dce46d2e7e8aead =
     [ "LSM6D_testing", "dir_68f459b7330a022b463b0466e3ed0930.html", "dir_68f459b7330a022b463b0466e3ed0930" ],
     [ "product_id_extract", "dir_86a855fa151f868030f19ed5582a1241.html", "dir_86a855fa151f868030f19ed5582a1241" ],
     [ "product_id_gen", "dir_454088255c8f4d69eba7213e303f1069.html", "dir_454088255c8f4d69eba7213e303f1069" ],
+    [ "pwm_motor_driver", "dir_27705eee1544813a172e09a4e6b122e0.html", "dir_27705eee1544813a172e09a4e6b122e0" ],
     [ "rf_data_rx", "dir_0f5a73e32db3b2eccc7979979c11cb60.html", "dir_0f5a73e32db3b2eccc7979979c11cb60" ],
     [ "rf_data_tx", "dir_7f8b68bda647cf5101c885687e1625d5.html", "dir_7f8b68bda647cf5101c885687e1625d5" ],
     [ "rf_data_tx_rx", "dir_eeae24ee2ae2430c5086d4802bed50ad.html", "dir_eeae24ee2ae2430c5086d4802bed50ad" ],
