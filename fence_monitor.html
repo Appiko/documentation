@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>
+        Fence based Elephant Early Warning System - HackMD
+    </title>
+    <link rel="icon" type="image/png" href="https://hackmd.io/favicon.png">
+    <link rel="apple-touch-icon" href="https://hackmd.io/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" integrity="sha256-3iu9jgsy9TpTwXKb7bNQzqWekRX7pPK+2OLj3R922fo=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css" integrity="sha256-QiWfLIsCT02Sdwkogf6YMiQlj4NE84MKkzEMkZnMGdg=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.min.css" integrity="sha256-vtR0hSWRc3Tb26iuN2oZHt3KRUomwTufNIf5/4oeCyg=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/css/basic/emojify.min.css" integrity="sha256-UOrvMOsSDSrW6szVLe8ZDZezBxh5IoIfgTwdNDgTjiU=" crossorigin="anonymous" />
+    <style>
+        @charset "UTF-8";@import url(https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i|Source+Code+Pro:300,400,500|Source+Sans+Pro:300,300i,400,400i,600,600i|Source+Serif+Pro&subset=latin-ext);.hljs{display:block;background:#fff;padding:.5em;color:#333;overflow-x:auto}.hljs-comment,.hljs-meta{color:#969896}.hljs-emphasis,.hljs-quote,.hljs-string,.hljs-strong,.hljs-template-variable,.hljs-variable{color:#df5000}.hljs-keyword,.hljs-selector-tag,.hljs-type{color:#a71d5d}.hljs-attribute,.hljs-bullet,.hljs-literal,.hljs-number,.hljs-symbol{color:#0086b3}.hljs-built_in,.hljs-builtin-name{color:#005cc5}.hljs-name,.hljs-section{color:#63a35c}.hljs-tag{color:#333}.hljs-attr,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-id,.hljs-selector-pseudo,.hljs-title{color:#795da3}.hljs-addition{color:#55a532;background-color:#eaffea}.hljs-deletion{color:#bd2c00;background-color:#ffecec}.hljs-link{text-decoration:underline}.markdown-body{font-size:16px;line-height:1.5;word-wrap:break-word}.markdown-body:after,.markdown-body:before{display:table;content:""}.markdown-body:after{clear:both}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body .absent{color:#c00}.markdown-body .anchor{float:left;padding-right:4px;margin-left:-20px;line-height:1}.markdown-body .anchor:focus{outline:none}.markdown-body blockquote,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-top:0;margin-bottom:16px}.markdown-body hr{height:.25em;padding:0;margin:24px 0;background-color:#e7e7e7;border:0}.markdown-body blockquote{font-size:16px;padding:0 1em;color:#777;border-left:.25em solid #ddd}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body kbd,.popover kbd{display:inline-block;padding:3px 5px;font-size:11px;line-height:10px;color:#555;vertical-align:middle;background-color:#fcfcfc;border:1px solid #ccc;border-bottom-color:#bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb}.markdown-body .loweralpha{list-style-type:lower-alpha}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{margin-top:24px;margin-bottom:16px;font-weight:600;line-height:1.25}.markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{color:#000;vertical-align:middle;visibility:hidden}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}.markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{visibility:visible}.markdown-body h1 code,.markdown-body h1 tt,.markdown-body h2 code,.markdown-body h2 tt,.markdown-body h3 code,.markdown-body h3 tt,.markdown-body h4 code,.markdown-body h4 tt,.markdown-body h5 code,.markdown-body h5 tt,.markdown-body h6 code,.markdown-body h6 tt{font-size:inherit}.markdown-body h1{font-size:2em}.markdown-body h1,.markdown-body h2{padding-bottom:.3em;border-bottom:1px solid #eee}.markdown-body h2{font-size:1.5em}.markdown-body h3{font-size:1.25em}.markdown-body h4{font-size:1em}.markdown-body h5{font-size:.875em}.markdown-body h6{font-size:.85em;color:#777}.markdown-body ol,.markdown-body ul{padding-left:2em}.markdown-body ol.no-list,.markdown-body ul.no-list{padding:0;list-style-type:none}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-top:0;margin-bottom:0}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dl{padding:0}.markdown-body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}.markdown-body dl dd{padding:0 16px;margin-bottom:16px}.markdown-body table{display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}.markdown-body table th{font-weight:700}.markdown-body table td,.markdown-body table th{padding:6px 13px;border:1px solid #ddd}.markdown-body table tr{background-color:#fff;border-top:1px solid #ccc}.markdown-body table tr:nth-child(2n){background-color:#f8f8f8}.markdown-body img{max-width:100%;box-sizing:content-box;background-color:#fff}.markdown-body img[align=right]{padding-left:20px}.markdown-body img[align=left]{padding-right:20px}.markdown-body .emoji{max-width:none;vertical-align:text-top;background-color:transparent}.markdown-body span.frame{display:block;overflow:hidden}.markdown-body span.frame>span{display:block;float:left;width:auto;padding:7px;margin:13px 0 0;overflow:hidden;border:1px solid #ddd}.markdown-body span.frame span img{display:block;float:left}.markdown-body span.frame span span{display:block;padding:5px 0 0;clear:both;color:#333}.markdown-body span.align-center{display:block;overflow:hidden;clear:both}.markdown-body span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}.markdown-body span.align-center span img{margin:0 auto;text-align:center}.markdown-body span.align-right{display:block;overflow:hidden;clear:both}.markdown-body span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}.markdown-body span.align-right span img{margin:0;text-align:right}.markdown-body span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}.markdown-body span.float-left span{margin:13px 0 0}.markdown-body span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}.markdown-body span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}.markdown-body code,.markdown-body tt{padding:0;padding-top:.2em;padding-bottom:.2em;margin:0;font-size:85%;background-color:rgba(0,0,0,.04);border-radius:3px}.markdown-body code:after,.markdown-body code:before,.markdown-body tt:after,.markdown-body tt:before{letter-spacing:-.2em;content:"\00a0"}.markdown-body code br,.markdown-body tt br{display:none}.markdown-body del code{text-decoration:inherit}.markdown-body pre{word-wrap:normal}.markdown-body pre>code{padding:0;margin:0;font-size:100%;word-break:normal;white-space:pre;background:transparent;border:0}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{padding:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#f7f7f7;border-radius:3px}.markdown-body pre code,.markdown-body pre tt{display:inline;max-width:auto;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}.markdown-body pre code:after,.markdown-body pre code:before,.markdown-body pre tt:after,.markdown-body pre tt:before{content:normal}.markdown-body .csv-data td,.markdown-body .csv-data th{padding:5px;overflow:hidden;font-size:12px;line-height:1;text-align:left;white-space:nowrap}.markdown-body .csv-data .blob-line-num{padding:10px 8px 9px;text-align:right;background:#fff;border:0}.markdown-body .csv-data tr{border-top:0}.markdown-body .csv-data th{font-weight:700;background:#f8f8f8;border-top:0}.news .alert .markdown-body blockquote{padding:0 0 0 40px;border:0 none}.activity-tab .news .alert .commits,.activity-tab .news .markdown-body blockquote{padding-left:0}.task-list-item{list-style-type:none}.task-list-item label{font-weight:400}.task-list-item.enabled label{cursor:pointer}.task-list-item+.task-list-item{margin-top:3px}.task-list-item-checkbox{float:left;margin:.31em 0 .2em -1.3em!important;vertical-align:middle;cursor:default!important}.markdown-body{padding-top:40px;padding-bottom:40px;max-width:758px;overflow:visible!important}.markdown-body .emoji{vertical-align:top}.markdown-body pre{border:inherit!important}.markdown-body code{color:inherit!important}.markdown-body pre code .wrapper{display:-moz-inline-flex;display:-ms-inline-flex;display:-o-inline-flex;display:inline-flex}.markdown-body pre code .gutter{float:left;overflow:hidden;-webkit-user-select:none;user-select:none}.markdown-body pre code .gutter.linenumber{text-align:right;position:relative;display:inline-block;cursor:default;z-index:4;padding:0 8px 0 0;min-width:20px;box-sizing:content-box;color:#afafaf!important;border-right:3px solid #6ce26c!important}.markdown-body pre code .gutter.linenumber>span:before{content:attr(data-linenumber)}.markdown-body pre code .code{float:left;margin:0 0 0 16px}.markdown-body .gist .line-numbers{border-left:none;border-top:none;border-bottom:none}.markdown-body .gist .line-data{border:none}.markdown-body .gist table{border-spacing:0;border-collapse:inherit!important}.markdown-body code[data-gist-id]{background:none;padding:0}.markdown-body code[data-gist-id]:after,.markdown-body code[data-gist-id]:before{content:""}.markdown-body code[data-gist-id] .blob-num{border:unset}.markdown-body code[data-gist-id] table{overflow:unset;margin-bottom:unset}.markdown-body code[data-gist-id] table tr{background:unset}.markdown-body[dir=rtl] pre{direction:ltr}.markdown-body[dir=rtl] code{direction:ltr;unicode-bidi:embed}.markdown-body .alert>p{margin-bottom:0}.markdown-body pre.abc,.markdown-body pre.flow-chart,.markdown-body pre.graphviz,.markdown-body pre.mermaid,.markdown-body pre.sequence-diagram{text-align:center;background-color:inherit;border-radius:0;white-space:inherit}.markdown-body pre.abc>code,.markdown-body pre.flow-chart>code,.markdown-body pre.graphviz>code,.markdown-body pre.mermaid>code,.markdown-body pre.sequence-diagram>code{text-align:left}.markdown-body pre.abc>svg,.markdown-body pre.flow-chart>svg,.markdown-body pre.graphviz>svg,.markdown-body pre.mermaid>svg,.markdown-body pre.sequence-diagram>svg{max-width:100%;height:100%}.markdown-body pre>code.wrap{white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word}.markdown-body .alert>p,.markdown-body .alert>ul{margin-bottom:0}.markdown-body summary{display:list-item}.markdown-body summary:focus{outline:none}.markdown-body details summary{cursor:pointer}.markdown-body details:not([open])>:not(summary){display:none}.markdown-body figure{margin:1em 40px}.markdown-body .mark,.markdown-body mark{background-color:#fff1a7}.vimeo,.youtube{cursor:pointer;display:table;text-align:center;background-position:50%;background-repeat:no-repeat;background-size:contain;background-color:#000;overflow:hidden}.vimeo,.youtube{position:relative;width:100%}.youtube{padding-bottom:56.25%}.vimeo img{width:100%;object-fit:contain;z-index:0}.youtube img{object-fit:cover;z-index:0}.vimeo iframe,.youtube iframe,.youtube img{width:100%;height:100%;position:absolute;top:0;left:0}.vimeo iframe,.youtube iframe{vertical-align:middle;z-index:1}.vimeo .icon,.youtube .icon{position:absolute;height:auto;width:auto;top:50%;left:50%;transform:translate(-50%,-50%);color:#fff;opacity:.3;transition:opacity .2s;z-index:0}.vimeo:hover .icon,.youtube:hover .icon{opacity:.6;transition:opacity .2s}.slideshare .inner,.speakerdeck .inner{position:relative;width:100%}.slideshare .inner iframe,.speakerdeck .inner iframe{position:absolute;top:0;bottom:0;left:0;right:0;width:100%;height:100%}.MJX_Assistive_MathML{display:none}.ui-infobar{position:relative;z-index:2;max-width:760px;margin:25px auto -25px;padding:0 15px;color:#777}.toc .invisable-node{list-style-type:none}.ui-toc{position:fixed;bottom:20px;z-index:998}.ui-toc-label{opacity:.3;background-color:#ccc;border:none;transition:opacity .2s}.ui-toc .open .ui-toc-label{opacity:1;color:#fff;transition:opacity .2s}.ui-toc-label:focus{opacity:.3;background-color:#ccc;color:#000}.ui-toc-label:hover{opacity:1;background-color:#ccc;transition:opacity .2s}.ui-toc-dropdown{margin-top:23px;margin-bottom:20px;padding-left:10px;padding-right:10px;max-width:45vw;width:25vw;max-height:70vh;overflow:auto;text-align:inherit}.ui-toc-dropdown>.toc{max-height:calc(70vh - 100px);overflow:auto}.ui-toc-dropdown[dir=rtl] .nav{padding-right:0;letter-spacing:.0029em}.ui-toc-dropdown a{overflow:hidden;text-overflow:ellipsis;white-space:pre}.ui-toc-dropdown .nav>li>a{display:block;padding:4px 20px;font-size:13px;font-weight:500;color:#767676}.ui-toc-dropdown .nav>li:first-child:last-child > ul,.ui-toc-dropdown .toc.expand ul{display:block}.ui-toc-dropdown .nav>li>a:focus,.ui-toc-dropdown .nav>li>a:hover{padding-left:19px;color:#000;text-decoration:none;background-color:transparent;border-left:1px solid #000}.ui-toc-dropdown[dir=rtl] .nav>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav>li>a:hover{padding-right:19px;border-left:none;border-right:1px solid #000}.ui-toc-dropdown .nav>.active:focus>a,.ui-toc-dropdown .nav>.active:hover>a,.ui-toc-dropdown .nav>.active>a{padding-left:18px;font-weight:700;color:#000;background-color:transparent;border-left:2px solid #000}.ui-toc-dropdown[dir=rtl] .nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav>.active>a{padding-right:18px;border-left:none;border-right:2px solid #000}.ui-toc-dropdown .nav .nav{display:none;padding-bottom:10px}.ui-toc-dropdown .nav>.active>ul{display:block}.ui-toc-dropdown .nav .nav>li>a{padding-top:1px;padding-bottom:1px;padding-left:30px;font-size:12px;font-weight:400}.ui-toc-dropdown[dir=rtl] .nav .nav>li>a{padding-right:30px}.ui-toc-dropdown .nav .nav>li>ul>li>a{padding-top:1px;padding-bottom:1px;padding-left:40px;font-size:12px;font-weight:400}.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a{padding-right:40px}.ui-toc-dropdown .nav .nav>li>a:focus,.ui-toc-dropdown .nav .nav>li>a:hover{padding-left:29px}.ui-toc-dropdown[dir=rtl] .nav .nav>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav .nav>li>a:hover{padding-right:29px}.ui-toc-dropdown .nav .nav>li>ul>li>a:focus,.ui-toc-dropdown .nav .nav>li>ul>li>a:hover{padding-left:39px}.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a:hover{padding-right:39px}.ui-toc-dropdown .nav .nav>.active:focus>a,.ui-toc-dropdown .nav .nav>.active:hover>a,.ui-toc-dropdown .nav .nav>.active>a{padding-left:28px;font-weight:500}.ui-toc-dropdown[dir=rtl] .nav .nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>a{padding-right:28px}.ui-toc-dropdown .nav .nav>.active>.nav>.active:focus>a,.ui-toc-dropdown .nav .nav>.active>.nav>.active:hover>a,.ui-toc-dropdown .nav .nav>.active>.nav>.active>a{padding-left:38px;font-weight:500}.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active>a{padding-right:38px}.markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif}html[lang^=ja] .markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ\ ゴシック,sans-serif}html[lang=zh-tw] .markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif}html[lang=zh-cn] .markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif}html .markdown-body[lang^=ja]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ\ ゴシック,sans-serif}html .markdown-body[lang=zh-tw]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif}html .markdown-body[lang=zh-cn]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif}html[lang^=ja] .ui-toc-dropdown{font-family:Source Sans Pro,Helvetica,Arial,Meiryo UI,MS PGothic,ＭＳ\ Ｐゴシック,sans-serif}html[lang=zh-tw] .ui-toc-dropdown{font-family:Source Sans Pro,Helvetica,Arial,Microsoft JhengHei UI,微軟正黑UI,sans-serif}html[lang=zh-cn] .ui-toc-dropdown{font-family:Source Sans Pro,Helvetica,Arial,Microsoft YaHei UI,微软雅黑UI,sans-serif}html .ui-toc-dropdown[lang^=ja]{font-family:Source Sans Pro,Helvetica,Arial,Meiryo UI,MS PGothic,ＭＳ\ Ｐゴシック,sans-serif}html .ui-toc-dropdown[lang=zh-tw]{font-family:Source Sans Pro,Helvetica,Arial,Microsoft JhengHei UI,微軟正黑UI,sans-serif}html .ui-toc-dropdown[lang=zh-cn]{font-family:Source Sans Pro,Helvetica,Arial,Microsoft YaHei UI,微软雅黑UI,sans-serif}.ui-affix-toc{position:fixed;top:0;max-width:15vw;max-height:70vh;overflow:auto}.back-to-top,.expand-toggle,.go-to-bottom{display:block;padding:4px 10px;margin-top:10px;margin-left:10px;font-size:12px;font-weight:500;color:#999}.back-to-top:focus,.back-to-top:hover,.expand-toggle:focus,.expand-toggle:hover,.go-to-bottom:focus,.go-to-bottom:hover{color:#563d7c;text-decoration:none}.back-to-top,.go-to-bottom{margin-top:0}.ui-user-icon{width:20px;height:20px;display:block;border-radius:3px;margin-top:2px;margin-bottom:2px;margin-right:5px;background-position:50%;background-repeat:no-repeat;background-size:cover}.ui-user-icon.small{width:18px;height:18px;display:inline-block;vertical-align:middle;margin:0 0 .2em}.ui-infobar>small>span{line-height:22px}.ui-infobar>small .dropdown{display:inline-block}.ui-infobar>small .dropdown a:focus,.ui-infobar>small .dropdown a:hover{text-decoration:none}.ui-published-note{color:#337ab7}.ui-published-note .fa{font-size:20px;vertical-align:top}.unselectable{-webkit-user-select:none;-o-user-select:none;user-select:none}@media print{blockquote,div,img,pre,table{page-break-inside:avoid!important}a[href]:after{font-size:12px!important}}.markdown-body.slides{position:relative;z-index:1;color:#222}.markdown-body.slides:before{content:"";display:block;position:absolute;top:0;left:0;right:0;bottom:0;z-index:-1;background-color:currentColor;box-shadow:0 0 0 50vw}.markdown-body.slides section[data-markdown]{position:relative;margin-bottom:1.5em;background-color:#fff;text-align:center}.markdown-body.slides section[data-markdown] code{text-align:left}.markdown-body.slides section[data-markdown]:before{content:"";display:block;padding-bottom:56.23%}.markdown-body.slides section[data-markdown]>div:first-child{position:absolute;top:50%;left:1em;right:1em;transform:translateY(-50%);max-height:100%;overflow:hidden}.markdown-body.slides section[data-markdown]>ul{display:inline-block}.markdown-body.slides>section>section+section:after{content:"";position:absolute;top:-1.5em;right:1em;height:1.5em;border:3px solid #777}body{font-smoothing:subpixel-antialiased!important;-webkit-font-smoothing:subpixel-antialiased!important;-moz-osx-font-smoothing:auto!important;text-shadow:0 0 1em transparent,1px 1px 1.2px rgba(0,0,0,.004);-webkit-overflow-scrolling:touch;letter-spacing:.025em}.focus,:focus{outline:none!important}::-moz-focus-inner{border:0!important}body{font-family:Source Sans Pro,Helvetica,Arial,sans-serif}html[lang^=ja] body{font-family:Source Sans Pro,Helvetica,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ\ ゴシック,sans-serif}html[lang=zh-tw] body{font-family:Source Sans Pro,Helvetica,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif}html[lang=zh-cn] body{font-family:Source Sans Pro,Helvetica,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}abbr[data-original-title],abbr[title]{cursor:help}body.modal-open{overflow-y:auto;padding-right:0!important}
+    </style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha256-g6iAfvZp+nDQ2TdTR/VVKJf3bGro4ub5fvWSWVRi2NE=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js" integrity="sha256-8E4Is26QH0bD52WoQpcB+R/tcWQtpzlCojrybUd7Mxo=" crossorigin="anonymous"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="doc" class="markdown-body container-fluid comment-enabled" data-hard-breaks="true" style="position: relative;"><h1 id="Fence-based-Elephant-Early-Warning-System"><a class="anchor hidden-xs" href="#Fence-based-Elephant-Early-Warning-System" title="Fence-based-Elephant-Early-Warning-System"><span class="octicon octicon-link"></span></a>Fence based Elephant Early Warning System</h1><p><em><strong>Pilot project at the Bandipur national park</strong></em></p><p><img src="" alt="Elephant broken fence"><br>
+<img src="" alt="Elephant broken fence"></p><p>Solar or other cable based fences are widely used in the prevention of human elephant conflict, but they are often subject to damage by elephants as you can see in the above images. While it is difficult to prevent elephants from attempting to break the fence, it is entirely possible to monitor the fence status remotely, and get an immediate warning whenever a fence breach is in progress. In such a case, sensors placed on the fence’s pole can sense when there is pushing, shaking or bending of the pole. This information is used to send an alert with long range wireless communication. When an alert is received by the Forest Department, quick response teams can be sent to chase back the elephant and repair the fence before it gets breached further. We propose EleSense - a low cost scalable early warning system placed on fences around the human settlements in the regions affected by HEC. The tech being developed is completely open source, which means anyone can take the designs, modify if necessary and replicate for their area. We sucessfully conducted an initial field test of this technology in the Bandipur Tiger Reserve and will be implementing a pilot project of installing our sensors for more than 2 km at the same location. This work was supported by IUCN as part of the European Union funded CITES-MIKE project ” Asia Wildlife Law Enforcement and Demand Management Project: MIKE Programme Sub-regional Support in South Asia and Southeast Asia”.</p><p><img src="" alt="IUCN MIKE Logo"></p><h1 id="Tech-Overview"><a class="anchor hidden-xs" href="#Tech-Overview" title="Tech-Overview"><span class="octicon octicon-link"></span></a>Tech Overview</h1><p>![Appiko sensor](Appiko Sensor)</p><p>In this project sensor nodes are placed securely on the poles of the solar electric fences around forest reserves as you can see in the image. These sensors send a signal whenever the pole’s angle with respect to the ground is changed significantly. This can be due to animals pushing at and trying to cross the fence, or similar behavior by people trying to vandalize it. The signal that is sent when this happens can alert the authorities of this, and a quick response can be made.  All the sensors in the radius of 2-3 multiple km send a warning wirelessly to a gateway on a tower using narrow-band communication. The gateway then forwards this information over to a central server using the mobile network. The authorized stakeholders can then receive a notification of the location of the source of the alert over SMS and a cross platform mobile app. Additionally they can view the log of alerts and the current status on this mobile app.</p><h2 id="Firmware"><a class="anchor hidden-xs" href="#Firmware" title="Firmware"><span class="octicon octicon-link"></span></a>Firmware</h2><p>This section will give an overview of firmware for the project. This contains an overview of both nodes and gateways. Firmware for both nodes and gateways works on state machine implementation. In a state machine, the given system will always be in a pre-defined state and switching between these states is dictated by strictly defined logic. Only if given conditions are satisfied, the system can change the state and system will change the state definitely.</p><h3 id="Node-Unit-"><a class="anchor hidden-xs" href="#Node-Unit-" title="Node-Unit-"><span class="octicon octicon-link"></span></a>Node Unit :</h3><p>Node units will be kept along the perimeter. The purpose of these nodes is to sense if a perimeter is being breached and send a notification to the gateway if it is.</p><h4 id="States"><a class="anchor hidden-xs" href="#States" title="States"><span class="octicon octicon-link"></span></a>States</h4><p>There are three possible states in which a given node unit can be at any point in time.</p><ol>
+<li>Deployment</li>
+<li>Sensing</li>
+<li>Maintenance</li>
+</ol><p>The pre-deployment state is used when the unit is shipped or its deployed location is changed. State machine diagram of this system is as follow :</p><pre class="graphviz"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+
+<!-- Generated by graphviz version 2.40.1 (20161225.0304)
+ -->
+<!-- Title: hierarchy Pages: 1 -->
+<svg width="576pt" height="159pt" viewBox="0.00 0.00 576.00 158.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(.8663 .8663) rotate(0) translate(4 178.9633)">
+<title>hierarchy</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-178.9633 660.8963,-178.9633 660.8963,4 -4,4"></polygon>
+<!-- boot -->
+<g id="node1" class="node">
+<title>boot</title>
+<ellipse fill="none" stroke="#000000" cx="41.2351" cy="-67.9633" rx="41.4716" ry="41.4716"></ellipse>
+<text text-anchor="middle" x="41.2351" y="-63.7633" font-family="Times,serif" font-size="14.00" fill="#000000">Pre-deploy</text>
+</g>
+<!-- dply -->
+<g id="node3" class="node">
+<title>dply</title>
+<ellipse fill="none" stroke="#000000" cx="204.2914" cy="-67.9633" rx="45.2619" ry="45.2619"></ellipse>
+<text text-anchor="middle" x="204.2914" y="-63.7633" font-family="Times,serif" font-size="14.00" fill="#000000">Deployment</text>
+</g>
+<!-- boot&#45;&gt;dply -->
+<g id="edge1" class="edge">
+<title>boot-&gt;dply</title>
+<path fill="none" stroke="#000000" d="M81.1265,-79.4931C87.5447,-80.9338 94.154,-82.176 100.4702,-82.9633 118.3057,-85.1865 123.0583,-85.047 140.9106,-82.9633 143.9571,-82.6077 147.0696,-82.1591 150.1999,-81.6411"></path>
+<polygon fill="#000000" stroke="#000000" points="151.0083,-85.0508 160.1988,-79.7798 149.7272,-78.1691 151.0083,-85.0508"></polygon>
+<text text-anchor="middle" x="120.6904" y="-104.9633" font-family="Times,serif" font-size="14.00" fill="#000000">Mobile</text>
+<text text-anchor="middle" x="120.6904" y="-88.1633" font-family="Times,serif" font-size="14.00" fill="#000000">app</text>
+</g>
+<!-- sense -->
+<g id="node2" class="node">
+<title>sense</title>
+<ellipse fill="none" stroke="#000000" cx="394.1512" cy="-138.9633" rx="36" ry="36"></ellipse>
+<text text-anchor="middle" x="394.1512" y="-134.7633" font-family="Times,serif" font-size="14.00" fill="#000000">Sensing</text>
+</g>
+<!-- sense&#45;&gt;dply -->
+<g id="edge4" class="edge">
+<title>sense-&gt;dply</title>
+<path fill="none" stroke="#000000" d="M370.831,-111.399C354.5353,-92.2205 335.4596,-69.9727 334.1484,-69.3633 311.0703,-58.6379 283.0979,-57.0983 259.0339,-58.7294"></path>
+<polygon fill="#000000" stroke="#000000" points="258.644,-55.25 248.9856,-59.605 259.2518,-62.2235 258.644,-55.25"></polygon>
+<text text-anchor="middle" x="300.9103" y="-89.9633" font-family="Times,serif" font-size="14.00" fill="#000000">Magnet</text>
+<text text-anchor="middle" x="300.9103" y="-73.1633" font-family="Times,serif" font-size="14.00" fill="#000000">Proximity</text>
+</g>
+<!-- mntn -->
+<g id="node4" class="node">
+<title>mntn</title>
+<ellipse fill="none" stroke="#000000" cx="605.9329" cy="-50.9633" rx="50.9267" ry="50.9267"></ellipse>
+<text text-anchor="middle" x="605.9329" y="-46.7633" font-family="Times,serif" font-size="14.00" fill="#000000">Maintainance </text>
+</g>
+<!-- sense&#45;&gt;mntn -->
+<g id="edge5" class="edge">
+<title>sense-&gt;mntn</title>
+<path fill="none" stroke="#000000" d="M427.7087,-125.0195C460.2879,-111.4821 510.3655,-90.6737 549.1518,-74.5571"></path>
+<polygon fill="#000000" stroke="#000000" points="550.8604,-77.6374 558.7519,-70.5681 548.1743,-71.1732 550.8604,-77.6374"></polygon>
+<text text-anchor="middle" x="495.5618" y="-132.9633" font-family="Times,serif" font-size="14.00" fill="#000000">Battery Low,</text>
+<text text-anchor="middle" x="495.5618" y="-116.1633" font-family="Times,serif" font-size="14.00" fill="#000000"> &nbsp;&nbsp;&nbsp;Long senses</text>
+</g>
+<!-- dply&#45;&gt;boot -->
+<g id="edge2" class="edge">
+<title>dply-&gt;boot</title>
+<path fill="none" stroke="#000000" d="M167.6555,-41.0794C159.2586,-36.2503 150.0901,-31.9386 140.9106,-29.3633 123.6052,-24.5084 117.6996,-24.245 100.4702,-29.3633 94.3701,-31.1755 88.3113,-33.8367 82.5273,-36.9288"></path>
+<polygon fill="#000000" stroke="#000000" points="80.5701,-34.0186 73.698,-42.0824 84.0988,-40.0641 80.5701,-34.0186"></polygon>
+<text text-anchor="middle" x="120.6904" y="-50.9633" font-family="Times,serif" font-size="14.00" fill="#000000">Mobile</text>
+<text text-anchor="middle" x="120.6904" y="-34.1633" font-family="Times,serif" font-size="14.00" fill="#000000">app</text>
+</g>
+<!-- dply&#45;&gt;sense -->
+<g id="edge6" class="edge">
+<title>dply-&gt;sense</title>
+<path fill="none" stroke="#000000" d="M236.9901,-99.5836C246.2737,-107.0126 256.826,-114.156 267.6722,-118.9633 292.8361,-130.1165 323.244,-135.1596 347.9375,-137.3939"></path>
+<polygon fill="#000000" stroke="#000000" points="347.8967,-140.9013 358.1385,-138.1891 348.4408,-133.9224 347.8967,-140.9013"></polygon>
+<text text-anchor="middle" x="300.9103" y="-155.9633" font-family="Times,serif" font-size="14.00" fill="#000000">Timeout,</text>
+<text text-anchor="middle" x="300.9103" y="-139.1633" font-family="Times,serif" font-size="14.00" fill="#000000"> Disconnect</text>
+</g>
+<!-- mntn&#45;&gt;dply -->
+<g id="edge3" class="edge">
+<title>mntn-&gt;dply</title>
+<path fill="none" stroke="#000000" d="M554.845,-46.9877C503.5602,-43.6197 422.3107,-39.9786 352.1484,-44.3633 314.3827,-46.7235 305.0066,-48.8017 267.6722,-54.9633 264.815,-55.4349 261.8904,-55.9433 258.941,-56.4764"></path>
+<polygon fill="#000000" stroke="#000000" points="258.0616,-53.0803 248.8796,-58.3661 259.3539,-59.96 258.0616,-53.0803"></polygon>
+<text text-anchor="middle" x="394.1512" y="-65.9633" font-family="Times,serif" font-size="14.00" fill="#000000"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Magnet</text>
+<text text-anchor="middle" x="394.1512" y="-49.1633" font-family="Times,serif" font-size="14.00" fill="#000000"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proximity</text>
+</g>
+</g>
+</svg>
+</pre><p>Fig: data-flow diagram</p><h5 id="Pre-Deploy-"><a class="anchor hidden-xs" href="#Pre-Deploy-" title="Pre-Deploy-"><span class="octicon octicon-link"></span></a>Pre-Deploy :</h5><p>All the nodes will be in this state as they are ready to be deployed. In this state, the device will be ready to connect to a mobile device using Bluetooth application. Once connected, the user has to set a device to ‘deployed’ state.</p><h5 id="Deployment"><a class="anchor hidden-xs" href="#Deployment" title="Deployment"><span class="octicon octicon-link"></span></a>Deployment:</h5><p>In this state, a device will wait for 15 minutes before it goes to a Sensing state if a disconnect event doesn’t happen. Once the device is set to ‘deployed’ state by a user, it’ll start transmitting current orientation which is needed for the deployment personal to see on the mobile app for proper alignment.</p><h5 id="Sensing"><a class="anchor hidden-xs" href="#Sensing" title="Sensing"><span class="octicon octicon-link"></span></a>Sensing:</h5><p>From a deployment state device comes to sensing state either by timeout event or by Bluetooth disconnect event.  In sensing state device will check it’s accelerometer values every second. If a device is tilted more than a threshold angle, the device will send an alert packet over RF link. If the device gets stuck at a certain angle, the device will keep sending tilt notification for the first 5 minutes. After the first five minutes, the device will switch to the maintenance state. Also, the device will check the battery level every 5 minutes.  If the battery level is lesser than the pre-defined threshold, the device will go in a maintenance state. In sensing state, a node device will also send ‘Alive’ signal over RF link once every hour, to represent the device is online. When a device is in this state, most of the time device will be in sleep mode. For every 1s sensing, it’ll wakeup for 2ms.</p><h5 id="Maintenance"><a class="anchor hidden-xs" href="#Maintenance" title="Maintenance"><span class="octicon octicon-link"></span></a>Maintenance:</h5><p>In this state, the node device sends the notification message to relay the need for maintenance.  In maintenance state device sends a notification every 6 hours with battery level and current accelerometer values. In this state, the device will wake up once in a 6hrs to send maintenance signal and for the rest of a time device will be in a sleep state.</p><p>From sensing or maintenance state, the device can go to the deployment state by bringing any magnet close to the device.</p><h3 id="Gateway-unit"><a class="anchor hidden-xs" href="#Gateway-unit" title="Gateway-unit"><span class="octicon octicon-link"></span></a>Gateway unit:</h3><p>A gateway unit is a simple translator between an RF link and a GSM network. At the gateway end, the radio will always be in receiving mode. Once the gateway receives the packet over the RF link, it forwards that to the server over a GSM network.</p><h3 id="RF-Link"><a class="anchor hidden-xs" href="#RF-Link" title="RF-Link"><span class="octicon octicon-link"></span></a>RF Link:</h3><p>The RF link is a simple transmitter-receiver radio communication link over the ISM RF band. In RF link, node devices will have the transmitter unit in it which will transmit the package over a frequency in the ISM band. And a gateway device will have a receiver unit that will receive the package.<br>
+A package might contain various kinds of information related to transmitting nodes, like maintenance data, sensing data, deployment status. Appiko’s RF packet format is as follow :</p><table>
+<thead>
+<tr>
+<th>Preamble</th>
+<th>Sync</th>
+<th>Length</th>
+<th>App ID</th>
+<th>Dev ID</th>
+<th>Pkt type</th>
+<th>Payload</th>
+<th>CRC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 Byte</td>
+<td>1 Byte</td>
+<td>1 Byte</td>
+<td>1 Byte</td>
+<td>2 Bytes</td>
+<td>1 Byte</td>
+<td>variable</td>
+<td>2 Bytes</td>
+</tr>
+</tbody>
+</table><p>Table: RF packet format</p><table>
+<thead>
+<tr>
+<th>Packet type</th>
+<th>Payload</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maintenance</td>
+<td>Data about battery percent and the current sensor value</td>
+</tr>
+<tr>
+<td>Sensing</td>
+<td>The current reading of a sensor</td>
+</tr>
+<tr>
+<td>Alive</td>
+<td>Empty packet to signify that unit is alive</td>
+</tr>
+</tbody>
+</table><p>Table: Payload description</p><p>The code for the firmware can be found at<br>
+Receiver at the Gateway: <a href="https://github.com/Appiko/nrf5x-firmware/tree/rf_comm/application/rf_data_rx" target="_blank" rel="noopener">https://github.com/Appiko/nrf5x-firmware/tree/rf_comm/application/rf_data_rx</a><br>
+Node: <a href="https://github.com/Appiko/nrf5x-firmware/tree/rf_comm/application/KXTJ3_testing" target="_blank" rel="noopener">https://github.com/Appiko/nrf5x-firmware/tree/rf_comm/application/KXTJ3_testing</a></p><h2 id="Server"><a class="anchor hidden-xs" href="#Server" title="Server"><span class="octicon octicon-link"></span></a>Server</h2><h3 id="Gateway"><a class="anchor hidden-xs" href="#Gateway" title="Gateway"><span class="octicon octicon-link"></span></a>Gateway</h3><p>A gateway is a device placed at a distance from the nodes when it has access to the internet.<br>
+The nodes send alert or alive signals to the gateway over RF and the GSM module on the gateway transmits the same to the single Hasura GraphQL endpoint on the server. GraphQL allows us to perform database operations like updating the alive/alert tables by editing the query (the body) of the HTTP(s) requests accordingly.<br>
+<img src="https://i.imgur.com/8asO1aS.jpg" alt=""></p><h3 id="Server1"><a class="anchor hidden-xs" href="#Server1" title="Server1"><span class="octicon octicon-link"></span></a>Server</h3><p>The server is an important part of this project. It handles everything after receiving data from the GSM unit on the gateway; from providing a database service where the GSM can send data to be stored, to the alerting systems which help us in sending push notifications to the mobile app.</p><h4 id="What-it-does"><a class="anchor hidden-xs" href="#What-it-does" title="What-it-does"><span class="octicon octicon-link"></span></a>What it does</h4><ul>
+<li>Open a Hasura instance</li>
+<li>Check for dead nodes/gateways every <code>x</code> minute(s)</li>
+<li>Send alerts as push notifications to the mobile app</li>
+</ul><h5 id="Hasura-Instance"><a class="anchor hidden-xs" href="#Hasura-Instance" title="Hasura-Instance"><span class="octicon octicon-link"></span></a>Hasura Instance</h5><p><a href="https://hasura.io/" target="_blank" rel="noopener">Hasura</a> is a open source project offering a <a href="https://graphql.org/" target="_blank" rel="noopener">GraphQL</a> layer for the <a href="https://www.postgresql.org/" target="_blank" rel="noopener">PostgreSQL</a> database.<br>
+As PostgreSQL is a Relational Database Management System, we have tables for the nodes, gateways on the field and other tables to keep track of all the alerts / alive signals received from the gateway.<br>
+The GraphQL layer, allows us to perform CRUD (Create, Read, Update, and Delete) operations on the PostgreSQL database easily by making requests to the HTTP(S) endpoints.</p><h5 id="Check-for-dead-nodesgateways"><a class="anchor hidden-xs" href="#Check-for-dead-nodesgateways" title="Check-for-dead-nodesgateways"><span class="octicon octicon-link"></span></a>Check for dead nodes/gateways</h5><p>The server has two scripts running as cron jobs, which check for dead nodes every minute, and dead gateways every ten minutes. The scripts call a PostgreSQL stored procedure which returns a list of dead nodes/gateways. If the server finds any dead nodes/gateways, a push notification is sent to the mobile app. If this happens repeatedly the older notification is updated, instead of showing hundreds of cards on the notification panel.</p><h5 id="Send-alerts-as-push-notifications"><a class="anchor hidden-xs" href="#Send-alerts-as-push-notifications" title="Send-alerts-as-push-notifications"><span class="octicon octicon-link"></span></a>Send alerts as push notifications</h5><p>We use <a href="https://firebase.google.com/docs/cloud-messaging/" target="_blank" rel="noopener">Firebase Cloud Messaging(FCM)</a> as our notification service and alerts come to the Hasura endpoint whenever there’s a breach on the field, Hasura also comes with a built-in alerting system; using which we can call a function on the server to send the push notification.<br>
+When the function is called, it sends a push notification on the mobile phone which has subscribed to that particular FCM deployment <a href="https://firebase.google.com/docs/cloud-messaging/android/topic-messaging" target="_blank" rel="noopener">topic</a>.</p><h3 id="Database"><a class="anchor hidden-xs" href="#Database" title="Database"><span class="octicon octicon-link"></span></a>Database</h3><h4 id="Tables"><a class="anchor hidden-xs" href="#Tables" title="Tables"><span class="octicon octicon-link"></span></a>Tables</h4><ol>
+<li>
+<p><code>alert</code><br>
+The alert table is used to store the alert signs with information of the node and the gateway which sent it with a timestamp(generated).</p>
+<table>
+<thead>
+<tr>
+<th>Columns</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>ID</td>
+</tr>
+<tr>
+<td>node_id</td>
+<td>node ID</td>
+</tr>
+<tr>
+<td>time</td>
+<td>timestamp (generated)</td>
+</tr>
+<tr>
+<td>gateway_id</td>
+<td>gateway ID</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p><code>alive_gateway</code><br>
+Stores alive signals of the gateway received from the gateway</p>
+<table>
+<thead>
+<tr>
+<th>columns</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>ID</td>
+</tr>
+<tr>
+<td>gateway_id</td>
+<td>Gateway ID</td>
+</tr>
+<tr>
+<td>time</td>
+<td>Timestamp (generated)</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p><code>alive_node</code><br>
+Stores alive signals of the nodes received from the gateway</p>
+<table>
+<thead>
+<tr>
+<th>columns</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>UUID</td>
+</tr>
+<tr>
+<td>node_id</td>
+<td>Node Id</td>
+</tr>
+<tr>
+<td>time</td>
+<td>Timestamp (generated)</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p><code>deployment</code></p>
+<p>Deployment is a generalized area where a set of gateways and nodes will be deployed</p>
+<table>
+<thead>
+<tr>
+<th>columns</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>ID</td>
+</tr>
+<tr>
+<td>name</td>
+<td>Name of deployment Ex. “Bandipur”</td>
+</tr>
+<tr>
+<td>started_on</td>
+<td>Date when the deployment was started</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p><code>gateway</code><br>
+Stores information about the gateway; the device which receives alive/alert signals from the nodes over a specific radio frequency and communicates the same to the server over the internet</p>
+<table>
+<thead>
+<tr>
+<th>columns</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>UUID</td>
+</tr>
+<tr>
+<td>deployment</td>
+<td>ID of deployment</td>
+</tr>
+<tr>
+<td>name</td>
+<td>Name of gateway Ex. “Tiger Bridge”</td>
+</tr>
+<tr>
+<td>deployed_on</td>
+<td>Date of the deployment of the gateway</td>
+</tr>
+<tr>
+<td>location</td>
+<td>LatLng coordinates</td>
+</tr>
+<tr>
+<td>accuracy</td>
+<td>Location accuracy in meters</td>
+</tr>
+<tr>
+<td>alive</td>
+<td>Status of the gateway, true if alive</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p><code>node</code><br>
+Stores information about a node. A node is individual devices</p>
+<table>
+<thead>
+<tr>
+<th>columns</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>UUID</td>
+</tr>
+<tr>
+<td>location</td>
+<td>LatLng condinates</td>
+</tr>
+<tr>
+<td>deployment</td>
+<td>ID of deployment</td>
+</tr>
+<tr>
+<td>deployed_on</td>
+<td>Date of the node’s first deployment (generated)</td>
+</tr>
+<tr>
+<td>number</td>
+<td>Uniqute number of the node</td>
+</tr>
+<tr>
+<td>accuracy</td>
+<td>Location accuracy in meters</td>
+</tr>
+<tr>
+<td>alive</td>
+<td>Status of the node, true if alive</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol><h4 id="Stored-procedures-Functions"><a class="anchor hidden-xs" href="#Stored-procedures-Functions" title="Stored-procedures-Functions"><span class="octicon octicon-link"></span></a>Stored procedures (Functions)</h4><ol>
+<li>
+<p><code>getdeadgateways</code><br>
+Updates the <code>alive</code> columns of the gateways (sets to false if no alive signal from the node in the last 10 minutes), using the <code>checkgateways</code> function using the data from the <code>alive_gateway</code> table, and returns the list of dead gateways.</p>
+</li>
+<li>
+<p><code>getdeadnodes</code><br>
+Updates the <code>alive</code> columns of the nodes (sets to false if no alive signal from the node in the last 60 minutes), using the <code>checknodes</code> function using the data from the <code>alive_node</code> table, and returns the list of dead nodes.</p>
+</li>
+</ol><p>The server code can be found at <a href="https://github.com/Appiko/server-functions" target="_blank" rel="noopener">https://github.com/Appiko/server-functions</a></p><h2 id="App"><a class="anchor hidden-xs" href="#App" title="App"><span class="octicon octicon-link"></span></a>App</h2><p>The app is built with <a href="https://flutter.dev" target="_blank" rel="noopener">flutter</a>. It helps us visualize and deploy devices.</p><h4 id="Features"><a class="anchor hidden-xs" href="#Features" title="Features"><span class="octicon octicon-link"></span></a>Features</h4><ul>
+<li>Deploy devices</li>
+<li>Show nodes on the map with dead/alive indicators</li>
+<li>Show charts</li>
+</ul><h5 id="Deploy-Devices"><a class="anchor hidden-xs" href="#Deploy-Devices" title="Deploy-Devices"><span class="octicon octicon-link"></span></a>Deploy Devices</h5><p>As most of the appiko devices are powered by nRF, we also go to access and work with the Bluetooth.<br>
+A node can be deployed from the app, by connecting to it over Bluetooth. The app will receive the MAC address of the board and starts looking for the location with its GPS. Once the location accuracy is below 6m or a minimum of 10m in 30s; the database is updated with relevant information and the device is deployed. In the future we are planning to add an option for Gateway deployment</p><h5 id="Show-nodes"><a class="anchor hidden-xs" href="#Show-nodes" title="Show-nodes"><span class="octicon octicon-link"></span></a>Show nodes</h5><p>The app uses mapping service from <a href="https://www.openstreetmap.org" target="_blank" rel="noopener">OpenStreetMaps</a> and it helps us show the markers at the location where the nodes are placed. The markers are colored <code>red</code> or <code>green</code> depending on the status of the node. In the future we are planning to show gateway on the map and the history of the device when any of the markers is tapped.</p><h5 id="Charts"><a class="anchor hidden-xs" href="#Charts" title="Charts"><span class="octicon octicon-link"></span></a>Charts</h5><p><strong>Experimental</strong> The app show charts based on all the data collected in the past.<br>
+Currently the app supports a chart to show the Date v/s Number of alerts received.</p><p>The code for this flutter app can be found at <a href="https://github.com/Appiko/senseEle-App" target="_blank" rel="noopener">https://github.com/Appiko/senseEle-App</a></p><h2 id="Enclosure"><a class="anchor hidden-xs" href="#Enclosure" title="Enclosure"><span class="octicon octicon-link"></span></a>Enclosure</h2><p><img src="" alt=""></p><p>The enclosure has two parts, a cover and a case for holding the electronics. Both the mating parts have slots along the perimeter to house a rubber gasket for water proofing and for providing a secure fit. We have tested that this design can protect the electronics inside even when submerged in water.<br>
+Standoffs have been incorporated with suitable draft angle and ribs for added stability and for the ease of injection molding. These standoffs are used to hold the printed circuit board (PCB), on which the dual AA battery holder is soldered. The two mating parts have channels incorporated for the passage of cable ties used to mount the product.</p><p>The enclosure design can be found at <a href="https://github.com/Appiko/3D_models/tree/master/senseEle%20Enclosures" target="_blank" rel="noopener">https://github.com/Appiko/3D_models/tree/master/senseEle Enclosures</a></p><h2 id="Electronics"><a class="anchor hidden-xs" href="#Electronics" title="Electronics"><span class="octicon octicon-link"></span></a>Electronics</h2><pre class="graphviz"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+
+<!-- Generated by graphviz version 2.40.1 (20161225.0304)
+ -->
+<!-- Title: hierarchy Pages: 1 -->
+<svg width="576pt" height="319pt" viewBox="0.00 0.00 576.00 319.44" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(.9451 .9451) rotate(0) translate(4 334)">
+<title>hierarchy</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-334 605.473,-334 605.473,4 -4,4"></polygon>
+<!-- batt -->
+<g id="node1" class="node">
+<title>batt</title>
+<path fill="none" stroke="#000000" d="M601.473,-185.4545C601.473,-189.0662 575.7005,-192 543.973,-192 512.2454,-192 486.473,-189.0662 486.473,-185.4545 486.473,-185.4545 486.473,-126.5455 486.473,-126.5455 486.473,-122.9338 512.2454,-120 543.973,-120 575.7005,-120 601.473,-122.9338 601.473,-126.5455 601.473,-126.5455 601.473,-185.4545 601.473,-185.4545"></path>
+<path fill="none" stroke="#000000" d="M601.473,-185.4545C601.473,-181.8429 575.7005,-178.9091 543.973,-178.9091 512.2454,-178.9091 486.473,-181.8429 486.473,-185.4545"></path>
+<text text-anchor="middle" x="543.973" y="-151.8" font-family="Times,serif" font-size="14.00" fill="#000000">2xAA battery</text>
+</g>
+<!-- ante -->
+<g id="node7" class="node">
+<title>ante</title>
+<polygon fill="none" stroke="#000000" points="589.473,-78 486.473,-78 486.473,-54 589.473,-54 601.473,-66 589.473,-78"></polygon>
+</g>
+<!-- batt&#45;&gt;ante -->
+<!-- accel -->
+<g id="node2" class="node">
+<title>accel</title>
+<path fill="none" stroke="#000000" d="M42.765,-258C42.765,-258 105.4449,-258 105.4449,-258 111.4449,-258 119.8093,-263.5145 122.1737,-269.029 122.1737,-269.029 143.5864,-318.971 143.5864,-318.971 145.9507,-324.4855 142.3151,-330 136.3151,-330 136.3151,-330 11.8949,-330 11.8949,-330 5.8949,-330 2.2592,-324.4855 4.6236,-318.971 4.6236,-318.971 26.0363,-269.029 26.0363,-269.029 28.4007,-263.5145 36.765,-258 42.765,-258"></path>
+<text text-anchor="middle" x="74.105" y="-289.8" font-family="Times,serif" font-size="14.00" fill="#000000">Accelerometer</text>
+</g>
+<!-- nrf -->
+<g id="node3" class="node">
+<title>nrf</title>
+<path fill="none" stroke="#000000" d="M119.605,-222.5C119.605,-222.5 28.605,-222.5 28.605,-222.5 22.605,-222.5 16.605,-216.5 16.605,-210.5 16.605,-210.5 16.605,-119.5 16.605,-119.5 16.605,-113.5 22.605,-107.5 28.605,-107.5 28.605,-107.5 119.605,-107.5 119.605,-107.5 125.605,-107.5 131.605,-113.5 131.605,-119.5 131.605,-119.5 131.605,-210.5 131.605,-210.5 131.605,-216.5 125.605,-222.5 119.605,-222.5"></path>
+<text text-anchor="middle" x="74.105" y="-169.2" font-family="Times,serif" font-size="14.00" fill="#000000"> &nbsp;nRF52810 </text>
+<text text-anchor="middle" x="74.105" y="-152.4" font-family="Times,serif" font-size="14.00" fill="#000000">module</text>
+</g>
+<!-- accel&#45;&gt;nrf -->
+<g id="edge1" class="edge">
+<title>accel-&gt;nrf</title>
+<path fill="none" stroke="#000000" d="M74.105,-247.5642C74.105,-242.7558 74.105,-237.8017 74.105,-232.8212"></path>
+<polygon fill="#000000" stroke="#000000" points="70.6051,-247.8116 74.105,-257.8116 77.6051,-247.8116 70.6051,-247.8116"></polygon>
+<polygon fill="#000000" stroke="#000000" points="77.6051,-232.7084 74.105,-222.7085 70.6051,-232.7085 77.6051,-232.7084"></polygon>
+<text text-anchor="middle" x="62.705" y="-236.05" font-family="Times,serif" font-size="14.00" fill="#000000">I2C &nbsp;</text>
+</g>
+<!-- hes -->
+<g id="node4" class="node">
+<title>hes</title>
+<path fill="none" stroke="#000000" d="M100.2096,-72C100.2096,-72 48.0004,-72 48.0004,-72 42.0004,-72 33.884,-66.3857 31.7676,-60.7713 31.7676,-60.7713 13.092,-11.2287 13.092,-11.2287 10.9756,-5.6143 14.8592,0 20.8592,0 20.8592,0 127.3508,0 127.3508,0 133.3508,0 137.2344,-5.6143 135.118,-11.2287 135.118,-11.2287 116.4424,-60.7713 116.4424,-60.7713 114.326,-66.3857 106.2096,-72 100.2096,-72"></path>
+<text text-anchor="middle" x="74.105" y="-40.2" font-family="Times,serif" font-size="14.00" fill="#000000">Hall effect</text>
+<text text-anchor="middle" x="74.105" y="-23.4" font-family="Times,serif" font-size="14.00" fill="#000000"> sensor</text>
+</g>
+<!-- nrf&#45;&gt;hes -->
+<g id="edge2" class="edge">
+<title>nrf-&gt;hes</title>
+<path fill="none" stroke="#000000" d="M74.105,-97.1945C74.105,-88.6066 74.105,-80.0971 74.105,-72.277"></path>
+<polygon fill="#000000" stroke="#000000" points="70.6051,-97.2753 74.105,-107.2754 77.6051,-97.2754 70.6051,-97.2753"></polygon>
+<text text-anchor="middle" x="62.705" y="-85.55" font-family="Times,serif" font-size="14.00" fill="#000000">GPIO &nbsp;&nbsp;&nbsp;</text>
+</g>
+<!-- cc1175 -->
+<g id="node5" class="node">
+<title>cc1175</title>
+<path fill="none" stroke="#000000" d="M364.9828,-123.5C364.9828,-123.5 273.9828,-123.5 273.9828,-123.5 267.9828,-123.5 261.9828,-117.5 261.9828,-111.5 261.9828,-111.5 261.9828,-20.5 261.9828,-20.5 261.9828,-14.5 267.9828,-8.5 273.9828,-8.5 273.9828,-8.5 364.9828,-8.5 364.9828,-8.5 370.9828,-8.5 376.9828,-14.5 376.9828,-20.5 376.9828,-20.5 376.9828,-111.5 376.9828,-111.5 376.9828,-117.5 370.9828,-123.5 364.9828,-123.5"></path>
+<text text-anchor="middle" x="319.4828" y="-70.2" font-family="Times,serif" font-size="14.00" fill="#000000">CC1175 RF</text>
+<text text-anchor="middle" x="319.4828" y="-53.4" font-family="Times,serif" font-size="14.00" fill="#000000">transmitter</text>
+</g>
+<!-- nrf&#45;&gt;cc1175 -->
+<g id="edge4" class="edge">
+<title>nrf-&gt;cc1175</title>
+<path fill="none" stroke="#000000" d="M141.049,-137.9908C175.6333,-124.0375 217.7228,-107.056 252.3363,-93.0909"></path>
+<polygon fill="#000000" stroke="#000000" points="139.5993,-134.8015 131.6352,-141.7889 142.2184,-141.2931 139.5993,-134.8015"></polygon>
+<polygon fill="#000000" stroke="#000000" points="253.9243,-96.2244 261.8884,-89.237 251.3052,-89.7328 253.9243,-96.2244"></polygon>
+<text text-anchor="middle" x="205.0964" y="-132.2" font-family="Times,serif" font-size="14.00" fill="#000000"> &nbsp;SPI &amp; GPIO</text>
+</g>
+<!-- tcxo -->
+<g id="node6" class="node">
+<title>tcxo</title>
+<path fill="none" stroke="#000000" d="M364.9828,-290.5C364.9828,-290.5 273.9828,-290.5 273.9828,-290.5 267.9828,-290.5 261.9828,-284.5 261.9828,-278.5 261.9828,-278.5 261.9828,-187.5 261.9828,-187.5 261.9828,-181.5 267.9828,-175.5 273.9828,-175.5 273.9828,-175.5 364.9828,-175.5 364.9828,-175.5 370.9828,-175.5 376.9828,-181.5 376.9828,-187.5 376.9828,-187.5 376.9828,-278.5 376.9828,-278.5 376.9828,-284.5 370.9828,-290.5 364.9828,-290.5"></path>
+<text text-anchor="middle" x="319.4828" y="-228.8" font-family="Times,serif" font-size="14.00" fill="#000000">TCXO</text>
+</g>
+<!-- nrf&#45;&gt;tcxo -->
+<g id="edge3" class="edge">
+<title>nrf-&gt;tcxo</title>
+<path fill="none" stroke="#000000" d="M131.6352,-180.943C167.6543,-190.9247 214.2287,-203.8316 251.9901,-214.2962"></path>
+<polygon fill="#000000" stroke="#000000" points="251.3169,-217.7415 261.8884,-217.0392 253.1863,-210.9957 251.3169,-217.7415"></polygon>
+<text text-anchor="middle" x="205.0964" y="-232" font-family="Times,serif" font-size="14.00" fill="#000000">Power</text>
+<text text-anchor="middle" x="205.0964" y="-215.2" font-family="Times,serif" font-size="14.00" fill="#000000">enable</text>
+</g>
+<!-- cc1175&#45;&gt;ante -->
+<g id="edge6" class="edge">
+<title>cc1175-&gt;ante</title>
+<path fill="none" stroke="#000000" d="M377.0031,-66C407.2464,-66 444.5075,-66 476.1517,-66"></path>
+<polygon fill="#000000" stroke="#000000" points="476.2125,-69.5001 486.2124,-66 476.2124,-62.5001 476.2125,-69.5001"></polygon>
+<text text-anchor="middle" x="431.7279" y="-87" font-family="Times,serif" font-size="14.00" fill="#000000">Monopole</text>
+<text text-anchor="middle" x="431.7279" y="-70.2" font-family="Times,serif" font-size="14.00" fill="#000000">PCB antenna</text>
+</g>
+<!-- tcxo&#45;&gt;cc1175 -->
+<g id="edge5" class="edge">
+<title>tcxo-&gt;cc1175</title>
+<path fill="none" stroke="#000000" d="M319.4828,-175.445C319.4828,-162.1761 319.4828,-147.9367 319.4828,-134.2617"></path>
+<polygon fill="#000000" stroke="#000000" points="322.9829,-133.9398 319.4828,-123.9398 315.9829,-133.9398 322.9829,-133.9398"></polygon>
+<text text-anchor="middle" x="299.6828" y="-153.7" font-family="Times,serif" font-size="14.00" fill="#000000"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Accurate</text>
+<text text-anchor="middle" x="299.6828" y="-136.9" font-family="Times,serif" font-size="14.00" fill="#000000"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;clock</text>
+</g>
+</g>
+</svg>
+</pre><p>The block diagram of the electronics of the node is as shown in the image above. The primary processing unit used is <a href="https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF52810" target="_blank" rel="noopener">nRF52810</a>, which is used in the form of <a href="http://www.raytac.com/download/MDBT42/MDBT42Q-Version%20E.PDF" target="_blank" rel="noopener">mdbt42q module</a>. nRF52810 is a power efficient ARM Cortex M4 based System on Chip (SoC) with a Bluetooth Low Energy (BLE) Radio on the chip.<br>
+It interfaces with two sensors, namely <a href="http://kionixfs.kionix.com/en/datasheet/KX003-1077-Specifications-Rev-2.0.pdf" target="_blank" rel="noopener">KX003-1077</a> accelerometer and a <a href="https://www.silabs.com/documents/public/data-sheets/si720x-data-sheet.pdf" target="_blank" rel="noopener">SI7201</a> hall effect sensor. The accelerometer is used to measure the tilt of the node and the hall effect sensor senses when a magnet is bought close to the unit.<br>
+TCXO and CC1175 and antenna</p><p>![](PCB render)</p><p>The PCB design for node can be found at <a href="https://github.com/Appiko/sense_snap_hw/tree/master/senseEle_PCB_Antenna_rev1" target="_blank" rel="noopener">https://github.com/Appiko/sense_snap_hw/tree/master/senseEle_PCB_Antenna_rev1</a></p><h1 id="Initial-field-testing"><a class="anchor hidden-xs" href="#Initial-field-testing" title="Initial-field-testing"><span class="octicon octicon-link"></span></a>Initial field testing</h1><p>As mentioned earlier, the deployment for this project would be done at the Bandipur Tiger reserve. We visited the Tiger reserve with the intention of ascertaining from the forest department an ideal location for this pilot project and conducting the test of our sensor prototypes at this location to check for their performance.</p><p>The forest department officials suggested to install the fence tilt sensors on the electric fence that is present about 1 km (line of sight) from the premises of the Bandipur offices (base station). This electric fence protects saplings of trees that the forest department grows and is routinely encroached by elephants. The officials also mentioned that the electric fence with four metal wires running horizontally held up with metal poles are being replaced by tentacle fences, where metal wires hang vertically from a wire running across T-shaped poles. An example of this is as shown in the image below.</p><p>The officials also suggested that we deploy about 10 sensors on the poles of these tentacle fence at Kakathala camp in the GS betta range of Bandipur forest reserve where 8 to 9 of the tentacle fence poles have been damaged by elephants repeatedly.</p><p>Location scouting<br>
+The location of the electric fence is shown approximately with the blue markers on the map below.</p><p>The length of the fence is a bit more than 2 km with poles steel poles holding up the electric wire present every 5-6 m. Some of these poles were damaged quite recently by elephants and were bent or broken. These can be seen in the images below.</p><p>We installed our two of our sensors on two points marked 1 and 2 in the maps above. They were installed at a bent angle so that they kept sending the alert signal.</p><p>We kept track of the communication from these two units all the way to the base station. Here on the ground we were able to reliably get packets from the sensor at location 2 but unreliably from sensor at location 1. This can be seen in the -107 dBm signal received from the car at the base station.</p><p>We then tested the communication from the top of an unused tower next to the post office, which is the green marker on the map. From a vantage point at the height of about 16 m, we were able to reliably get packets from both the sensors. The signal strength was about -95 to -100 dBm from both the sensors, which means we have about 20 dBm link budget left. This tower can house the gateway and the building next to it can provide the intermittent mains power supply and house the battery. In the images below you can see Prithvi near the top of the tower and the view from the tower.</p><p>Also there is a BSNL network tower within the base camp to provide mobile connectivity to the gateway. With this we demonstrated that Appiko’s technology is working reliably in the field for the particular electric fence of forest department’s interest.</p><p>We could not visit the Kakathala camp in the GS betta range to check the tentacle fences affected by elephants. We found out that the small building housing the energizer for the tentacle fence is located at a distance of 100-200 m from these affected poles. This would mean that this building would be an ideal location to house the gateway.</p><p>With this visit Appiko has found out from the Bandipur forest dept. two potential locations for installation of the sensors that would be deployed as per the IUCN MIKE funded project. We also successfully tested prototypes of our fence tilt sensor’s working and long range communication on the electric fence suggested by the forest dept.</p></div>
+    <div class="ui-toc dropup unselectable hidden-print" style="display:none;">
+        <div class="pull-right dropdown">
+            <a id="tocLabel" class="ui-toc-label btn btn-default" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" title="Table of content">
+                <i class="fa fa-bars"></i>
+            </a>
+            <ul id="ui-toc" class="ui-toc-dropdown dropdown-menu" aria-labelledby="tocLabel">
+                <div class="toc"><ul class="nav">
+<li class=""><a href="#Fence-based-Elephant-Early-Warning-System" title="Fence based Elephant Early Warning System">Fence based Elephant Early Warning System</a></li>
+<li><a href="#Tech-Overview" title="Tech Overview">Tech Overview</a><ul class="nav">
+<li><a href="#Firmware" title="Firmware">Firmware</a><ul class="nav">
+<li><a href="#Node-Unit-" title="Node Unit :">Node Unit :</a></li>
+<li><a href="#Gateway-unit" title="Gateway unit:">Gateway unit:</a></li>
+<li><a href="#RF-Link" title="RF Link:">RF Link:</a></li>
+</ul>
+</li>
+<li><a href="#Server" title="Server">Server</a><ul class="nav">
+<li><a href="#Gateway" title="Gateway">Gateway</a></li>
+<li><a href="#Server1" title="Server">Server</a></li>
+<li><a href="#Database" title="Database">Database</a></li>
+</ul>
+</li>
+<li><a href="#App" title="App">App</a></li>
+<li><a href="#Enclosure" title="Enclosure">Enclosure</a></li>
+<li><a href="#Electronics" title="Electronics">Electronics</a></li>
+</ul>
+</li>
+<li><a href="#Initial-field-testing" title="Initial field testing">Initial field testing</a></li>
+</ul>
+</div><div class="toc-menu"><a class="expand-toggle" href="#">Expand all</a><a class="back-to-top" href="#">Back to top</a><a class="go-to-bottom" href="#">Go to bottom</a></div>
+            </ul>
+        </div>
+    </div>
+    <div id="ui-toc-affix" class="ui-affix-toc ui-toc-dropdown unselectable hidden-print" data-spy="affix" style="top:17px;display:none;" null null>
+        <div class="toc"><ul class="nav">
+<li class=""><a href="#Fence-based-Elephant-Early-Warning-System" title="Fence based Elephant Early Warning System">Fence based Elephant Early Warning System</a></li>
+<li><a href="#Tech-Overview" title="Tech Overview">Tech Overview</a><ul class="nav">
+<li><a href="#Firmware" title="Firmware">Firmware</a><ul class="nav">
+<li><a href="#Node-Unit-" title="Node Unit :">Node Unit :</a></li>
+<li><a href="#Gateway-unit" title="Gateway unit:">Gateway unit:</a></li>
+<li><a href="#RF-Link" title="RF Link:">RF Link:</a></li>
+</ul>
+</li>
+<li><a href="#Server" title="Server">Server</a><ul class="nav">
+<li><a href="#Gateway" title="Gateway">Gateway</a></li>
+<li><a href="#Server1" title="Server">Server</a></li>
+<li><a href="#Database" title="Database">Database</a></li>
+</ul>
+</li>
+<li><a href="#App" title="App">App</a></li>
+<li><a href="#Enclosure" title="Enclosure">Enclosure</a></li>
+<li><a href="#Electronics" title="Electronics">Electronics</a></li>
+</ul>
+</li>
+<li><a href="#Initial-field-testing" title="Initial field testing">Initial field testing</a></li>
+</ul>
+</div><div class="toc-menu"><a class="expand-toggle" href="#">Expand all</a><a class="back-to-top" href="#">Back to top</a><a class="go-to-bottom" href="#">Go to bottom</a></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.6.0/gist-embed.min.js" integrity="sha256-KyF2D6xPIJUW5sUDSs93vWyZm+1RzIpKCexxElmxl8g=" crossorigin="anonymous" defer></script>
+    <script>
+        var markdown = $(".markdown-body");
+        //smooth all hash trigger scrolling
+        function smoothHashScroll() {
+            var hashElements = $("a[href^='#']").toArray();
+            for (var i = 0; i < hashElements.length; i++) {
+                var element = hashElements[i];
+                var $element = $(element);
+                var hash = element.hash;
+                if (hash) {
+                    $element.on('click', function (e) {
+                        // store hash
+                        var hash = this.hash;
+                        if ($(hash).length <= 0) return;
+                        // prevent default anchor click behavior
+                        e.preventDefault();
+                        // animate
+                        $('body, html').stop(true, true).animate({
+                            scrollTop: $(hash).offset().top
+                        }, 100, "linear", function () {
+                            // when done, add hash to url
+                            // (default click behaviour)
+                            window.location.hash = hash;
+                        });
+                    });
+                }
+            }
+        }
+
+        smoothHashScroll();
+        var toc = $('.ui-toc');
+        var tocAffix = $('.ui-affix-toc');
+        var tocDropdown = $('.ui-toc-dropdown');
+        //toc
+        tocDropdown.click(function (e) {
+            e.stopPropagation();
+        });
+
+        var enoughForAffixToc = true;
+
+        function generateScrollspy() {
+            $(document.body).scrollspy({
+                target: ''
+            });
+            $(document.body).scrollspy('refresh');
+            if (enoughForAffixToc) {
+                toc.hide();
+                tocAffix.show();
+            } else {
+                tocAffix.hide();
+                toc.show();
+            }
+            $(document.body).scroll();
+        }
+
+        function windowResize() {
+            //toc right
+            var paddingRight = parseFloat(markdown.css('padding-right'));
+            var right = ($(window).width() - (markdown.offset().left + markdown.outerWidth() - paddingRight));
+            toc.css('right', right + 'px');
+            //affix toc left
+            var newbool;
+            var rightMargin = (markdown.parent().outerWidth() - markdown.outerWidth()) / 2;
+            //for ipad or wider device
+            if (rightMargin >= 133) {
+                newbool = true;
+                var affixLeftMargin = (tocAffix.outerWidth() - tocAffix.width()) / 2;
+                var left = markdown.offset().left + markdown.outerWidth() - affixLeftMargin;
+                tocAffix.css('left', left + 'px');
+            } else {
+                newbool = false;
+            }
+            if (newbool != enoughForAffixToc) {
+                enoughForAffixToc = newbool;
+                generateScrollspy();
+            }
+        }
+        $(window).resize(function () {
+            windowResize();
+        });
+        $(document).ready(function () {
+            windowResize();
+            generateScrollspy();
+        });
+
+        //remove hash
+        function removeHash() {
+            window.location.hash = '';
+        }
+
+        var backtotop = $('.back-to-top');
+        var gotobottom = $('.go-to-bottom');
+
+        backtotop.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            if (scrollToTop)
+                scrollToTop();
+            removeHash();
+        });
+        gotobottom.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            if (scrollToBottom)
+                scrollToBottom();
+            removeHash();
+        });
+
+        var toggle = $('.expand-toggle');
+        var tocExpand = false;
+
+        checkExpandToggle();
+        toggle.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            tocExpand = !tocExpand;
+            checkExpandToggle();
+        })
+
+        function checkExpandToggle () {
+            var toc = $('.ui-toc-dropdown .toc');
+            var toggle = $('.expand-toggle');
+            if (!tocExpand) {
+                toc.removeClass('expand');
+                toggle.text('Expand all');
+            } else {
+                toc.addClass('expand');
+                toggle.text('Collapse all');
+            }
+        }
+
+        function scrollToTop() {
+            $('body, html').stop(true, true).animate({
+                scrollTop: 0
+            }, 100, "linear");
+        }
+
+        function scrollToBottom() {
+            $('body, html').stop(true, true).animate({
+                scrollTop: $(document.body)[0].scrollHeight
+            }, 100, "linear");
+        }
+    </script>
+</body>
+
+</html>
