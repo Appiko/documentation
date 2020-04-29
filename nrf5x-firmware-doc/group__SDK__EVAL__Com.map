@@ -1,10 +1,9 @@
 <map id="SDK EVAL Com" name="SDK EVAL Com">
-<area shape="rect" id="node1" href="$group__SDK__EVAL__Com__Exported__Types.html" title=" " alt="" coords="363,5,544,45"/>
-<area shape="rect" id="node2" href="$group__SDK__EVAL__Com__Private__Macros.html" title=" " alt="" coords="369,69,538,109"/>
-<area shape="rect" id="node3" href="$group__SDK__EVAL__Com__Private__TypesDefinitions.html" title=" " alt="" coords="369,133,538,173"/>
-<area shape="rect" id="node4" href="$group__SDK__EVAL__Com__Private__Variables.html" title=" " alt="" coords="369,197,538,237"/>
-<area shape="rect" id="node5" href="$group__SDK__EVAL__NUCLEO.html" title="This module is used to configure the SDK Eval board and allows to manage its peripherals in a simple ..." alt="" coords="5,173,148,198"/>
-<area shape="rect" id="node6" title="Management of Software Development Kit eval board COM ports." alt="" coords="196,173,315,198"/>
-<area shape="rect" id="node7" href="$group__SDK__EVAL__Com__Private__Functions.html" title=" " alt="" coords="369,261,538,301"/>
-<area shape="rect" id="node8" href="$group__SDK__EVAL__Com__Private__Defines.html" title=" " alt="" coords="369,325,538,365"/>
+<area shape="rect" id="node1" href="$group__SDK__EVAL__Com__Exported__Types.html" title="SDK EVAL Com Exported\l Types" alt="" coords="369,5,545,47"/>
+<area shape="rect" id="node2" href="$group__SDK__EVAL__Com__Private__Macros.html" title="SDK EVAL Com Private\l Macros" alt="" coords="375,71,540,112"/>
+<area shape="rect" id="node3" href="$group__SDK__EVAL__Com__Private__TypesDefinitions.html" title="SDK EVAL Com Private\l Types Definitions" alt="" coords="375,136,540,177"/>
+<area shape="rect" id="node4" href="$group__SDK__EVAL__Com__Private__Variables.html" title="SDK EVAL Com Private\l Variables" alt="" coords="375,201,540,243"/>
+<area shape="rect" id="node5" href="$group__SDK__EVAL__NUCLEO.html" title="This module is used to configure the SDK Eval board and allows to manage its peripherals in a simple ..." alt="" coords="5,177,153,203"/>
+<area shape="rect" id="node7" href="$group__SDK__EVAL__Com__Private__Functions.html" title="SDK EVAL Com Private\l Functions" alt="" coords="375,267,540,308"/>
+<area shape="rect" id="node8" href="$group__SDK__EVAL__Com__Private__Defines.html" title="SDK EVAL Com Private\l Defines" alt="" coords="375,332,540,373"/>
 </map>

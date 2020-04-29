@@ -10,5 +10,5 @@ var dir_c80f6f9b76d8e74cbb3dad60bb3cbdbc =
     [ "hal_spi_rf_exp5529.h", "hal__spi__rf__exp5529_8h_source.html", null ],
     [ "hal_spi_rf_trxeb.h", "hal__spi__rf__trxeb_8h_source.html", null ],
     [ "radio_drv.h", "radio__drv_8h_source.html", null ],
-    [ "spi_rf_nrf52.h", "spi__rf__nrf52_8h_source.html", null ]
+    [ "spi_rf_nrf52.h", "ti__radio__lib_2spi__rf__nrf52_8h_source.html", null ]
 ];

@@ -1,8 +1,3 @@
-<map id="/home/prathik/workspace/appiko/nrf5x&#45;firmware/application/rf_data_tx_rx/STM32_Nucleo/Inc/SDK_EVAL_Button.h" name="/home/prathik/workspace/appiko/nrf5x&#45;firmware/application/rf_data_tx_rx/STM32_Nucleo/Inc/SDK_EVAL_Button.h">
-<area shape="rect" id="node1" title="This file contains definitions for Software Development Kit eval board push&#45;buttons." alt="" coords="181,5,377,91"/>
-<area shape="rect" id="node2" href="$cube__hal_8h.html" title=" " alt="" coords="233,139,325,165"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,213,136,240"/>
-<area shape="rect" id="node4" title=" " alt="" coords="161,213,263,240"/>
-<area shape="rect" id="node5" title=" " alt="" coords="287,213,406,240"/>
-<area shape="rect" id="node6" title=" " alt="" coords="430,213,583,240"/>
+<map id="/home/tejas_tj/workspace/nrf5x&#45;firmware/application/rf_data_tx_rx/STM32_Nucleo/Inc/SDK_EVAL_Button.h" name="/home/tejas_tj/workspace/nrf5x&#45;firmware/application/rf_data_tx_rx/STM32_Nucleo/Inc/SDK_EVAL_Button.h">
+<area shape="rect" id="node2" href="$cube__hal_8h.html" title="cube_hal.h" alt="" coords="212,124,297,151"/>
 </map>

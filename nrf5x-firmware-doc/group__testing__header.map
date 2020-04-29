@@ -1,4 +1,3 @@
 <map id="Header for hardware testing application" name="Header for hardware testing application">
-<area shape="rect" id="node1" href="$group__testing__appln.html" title="The main file for hardware testing application which is used to test functioning of board." alt="" coords="5,5,216,45"/>
-<area shape="rect" id="node2" title="This file contains all the test funtion declarations." alt="" coords="264,5,420,45"/>
+<area shape="rect" id="node1" href="$group__testing__appln.html" title="The main file for hardware testing application which is used to test functioning of board..." alt="" coords="5,5,192,47"/>
 </map>

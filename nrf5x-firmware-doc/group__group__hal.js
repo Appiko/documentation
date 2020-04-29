@@ -10,5 +10,6 @@ var group__group__hal =
     [ "SPI Master HAL", "group__group__spim__driver.html", "group__group__spim__driver" ],
     [ "TWI Master HAL", "group__group__twim__driver.html", "group__group__twim__driver" ],
     [ "UART HAL", "group__group__uart__hal.html", "group__group__uart__hal" ],
+    [ "UARTE HAL", "group__group__uarte__hal.html", "group__group__uarte__hal" ],
     [ "Watchdog timer HAL", "group__group__wdt__driver.html", "group__group__wdt__driver" ]
 ];

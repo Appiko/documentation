@@ -1,0 +1,8 @@
+<map id="settings_t" name="settings_t">
+<area shape="rect" id="node2" href="$structcam__settings__t.html" title="9Bytes " alt="" coords="9,184,120,211"/>
+<area shape="rect" id="node3" href="$structcam__trig__t.html" title="cam_trig_t" alt="" coords="23,95,106,121"/>
+<area shape="rect" id="node4" href="$unionmode__settings__t.html" title="mode_settings_t" alt="" coords="5,5,124,32"/>
+<area shape="rect" id="node5" href="$unionfunction__settings__t.html" title="function_settings_t" alt="" coords="144,184,276,211"/>
+<area shape="rect" id="node6" href="$structbeam__functionality__t.html" title="17Bytes " alt="" coords="135,95,277,121"/>
+<area shape="rect" id="node7" href="$structdetection__functionality__t.html" title="17Bytes " alt="" coords="302,95,465,121"/>
+</map>

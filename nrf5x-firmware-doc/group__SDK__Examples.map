@@ -1,5 +1,4 @@
 <map id="SDK Examples" name="SDK Examples">
-<area shape="rect" id="node1" href="$group__SDK__Basic__Generic.html" title=" " alt="" coords="185,5,328,31"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,31,123,56"/>
-<area shape="rect" id="node3" href="$group__SDK__Configuration__Common.html" title="Radio and packet parameters definitions." alt="" coords="171,55,343,80"/>
+<area shape="rect" id="node1" href="$group__SDK__Basic__Generic.html" title="SDK Basic Generic" alt="" coords="175,5,311,32"/>
+<area shape="rect" id="node3" href="$group__SDK__Configuration__Common.html" title="Radio and packet parameters definitions. " alt="" coords="165,56,321,83"/>
 </map>

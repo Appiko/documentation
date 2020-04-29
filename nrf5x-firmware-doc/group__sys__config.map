@@ -1,4 +1,4 @@
 <map id="The header file to handle resource allocation." name="The header file to handle resource allocation.">
-<area shape="rect" id="node1" href="$group__sensebe__appln.html" title="The active IR sense application&#39;s main file that makes it operate." alt="" coords="5,5,177,45"/>
-<area shape="rect" id="node2" title="The header file which contains system definitions for resources allocation." alt="" coords="225,5,428,45"/>
+<area shape="rect" id="node1" href="$group__sensebe__appln.html" title="The active IR sense application&#39;s main file that makes it operate. " alt="" coords="5,5,161,47"/>
+<area shape="rect" id="node2" href="$group__sensepi__appln.html" title="Sensepi_appln" alt="" coords="30,71,137,98"/>
 </map>

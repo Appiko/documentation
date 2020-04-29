@@ -13,8 +13,8 @@ var group__group__common__util =
     [ "MSEC_TO_UNITS", "group__group__common__util.html#gae7c9ee84adc7fdda8b3b8e2175245717", null ],
     [ "ROUNDED_DIV", "group__group__common__util.html#ga25e8110559dbc9665dfb9485be8ac60f", null ],
     [ "SET_BIT_VAR", "group__group__common__util.html#ga43b99486656e9cf415779a47860421a0", [
-      [ "UNIT_0_625_MS", "group__group__common__util.html#ggabed82baf7f470b522273a3e37c24c600a448dcb5272567df7360a964e7c9b91b1", null ],
-      [ "UNIT_1_25_MS", "group__group__common__util.html#ggabed82baf7f470b522273a3e37c24c600abd6cc6c5518e69158001db0a5b3c4410", null ],
-      [ "UNIT_10_MS", "group__group__common__util.html#ggabed82baf7f470b522273a3e37c24c600adfbb1465ed01976b118bae937a90cc60", null ]
+      [ "UNIT_0_625_MS", "group__group__common__util.html#ggab04a0655cd1e3bcac5e8f48c18df1a57a448dcb5272567df7360a964e7c9b91b1", null ],
+      [ "UNIT_1_25_MS", "group__group__common__util.html#ggab04a0655cd1e3bcac5e8f48c18df1a57abd6cc6c5518e69158001db0a5b3c4410", null ],
+      [ "UNIT_10_MS", "group__group__common__util.html#ggab04a0655cd1e3bcac5e8f48c18df1a57adfbb1465ed01976b118bae937a90cc60", null ]
     ] ]
 ];

@@ -1,29 +1,7 @@
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this file.
-
-Copyright (C) 1997-2019 by Dimitri van Heesch
-
-This program is free software; you can redistribute it and/or modify
-it under the terms of version 2 of the GNU General Public License as published by
-the Free Software Foundation
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along
-with this program; if not, write to the Free Software Foundation, Inc.,
-51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
-
-@licend  The above is the entire license notice
-for the JavaScript code in this file
-*/
 var NAVTREE =
 [
   [ "Appiko", "index.html", [
-    [ "Appiko nRF52 firmware", "index.html", null ],
+    [ "Appiko nRF52 firmware", "index.html", "index" ],
     [ "TODO", "todo.html", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Data Structures", "annotated.html", [
@@ -34,8 +12,8 @@ var NAVTREE =
         [ "Variables", "functions_vars.html", "functions_vars" ]
       ] ]
     ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
+    [ "Files", null, [
+      [ "File List", "files.html", "files" ],
       [ "Globals", "globals.html", [
         [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", "globals_func" ],
@@ -51,23 +29,36 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"CBUF_8h.html",
-"ble__testing_2led__sequences_2led__seq_8c.html#a2bb3b5c36ab930bd896eaa6b295b1628",
-"group__Commands__Exported__Types.html#gga1a5fb952787691343312ef65dd6454d5a9ed3b94ea064a856ff99088b17673111",
-"group__Gpio__Exported__Types.html#gga0506d7b1a1515cdd9c354f27f4f74e50af2ee9d344e19064743882f243d28ac19",
-"group__PktCommon__Exported__Functions.html#ga280c15dd95e79a8ce5d8b0ed95489b0d",
-"group__PktStack__Private__Defines.html",
-"group__Radio__Exported__Types.html#ggaa690f5919560218e67a502b02c9e799aa9c2d8e6ebb0a2f33fba04aec5f7a9a52",
-"group__SDK__EVAL__Gpio__Exported__Functions.html#ga7132d068ef59e03298e421bcba527ae2",
-"group__Timer__Exported__Functions.html#gab52e29287f81bfefdc965c0a36a4af0d",
-"group__ble__support.html#gaf1b64b70f217854a5145af4469991bb3",
-"group__board__sense__rev3.html#gaf3e90e1efcb9168ed2c42b970c459531",
-"group__group__hal__ppi.html#gabe5fc2804088efd13fd82c377e24e9e4",
-"group__group__uart__hal.html#gga6a62311eeeea6a7087e21cf202f3c46ba22f284461e0b4a9add931ee2c586205c",
-"group__store__sensepi__config.html#ga8e8abab69f987f937e797f3015394b29",
-"sensebe__rx_2led__sequences_2led__seq_8c_source.html",
-"struct____attribute____.html#a22b881e3db6bf98285a7e5d4d96714e6",
-"structhal__spim__init__t.html#a7f3179e3eb9fa54c8031869fe93e68a2"
+"AT__proc_8c_source.html",
+"SEGGER__RTT__printf_8c_source.html",
+"functions_vars_h.html",
+"group__Fifo__Exported__Functions.html#ga81bea01b7b4db8c9a094f1703dd0fadb",
+"group__Gpio__Exported__Types.html#ggaed522d2538ab5042acbb546d6aff752ca003e4214e14d774a0f2aaa2c8443c8cf",
+"group__PktCommon__Private__Functions.html#ga3968140153cbd599cc6774cdb6444b88",
+"group__Qi__Private__Functions.html#ga63cc4b0a5c59774269596114fe3f7454",
+"group__Radio__Public__Functions.html#gada1d5eb46bb5662e14f9011df1b8de57",
+"group__SPI__Exported__Functions.html#ga4dcb3662faacb1438055b7542d498caf",
+"group__Types__Exported__Types.html#gaf4cbf41d3c8f611d12adae5d2c29c3c2",
+"group__ble__support.html#gaa02ca1210f224777c39aa6c4d9a0e34b",
+"group__ble__support.html#gga108a8591a2fd9908508203a7f7de8d34a53c9d5babd931749a8f3433267b197d9",
+"group__ble__support.html#gga3350f816df4a76ad61587e62e3418363ad6d51f7e62380fb6687ad7a82147cd64",
+"group__ble__support.html#ggaac50a1392dd0aa905500c755148c556ba2fd0d2d0de61e296adb15b78b066a94e",
+"group__ble__support.html#ggaac50a1392dd0aa905500c755148c556bad462001d07701b5efdb761e7164d5e28",
+"group__ble__support.html#ggabf08864d9ca2eef7b59e305e235ecefda19aebf65f82aa93664927e19a45bd9fa",
+"group__ble__support.html#ggac1ce8c092632c560e1e92f65122c5f92ab27edad9d3e126dc8448b6030438adb6",
+"group__ble__support.html#ggae62963f126a7cbb03201bcc7b582fab9aaa6e6376af5508c0ec1a6d4289c3c849",
+"group__board__sensebe__rev3.html#gad01a1da8e78522535248fbe28f74d659",
+"group__group__hal__pwm.html#gadc6a4004990cc0075b8178d8a055134b",
+"group__group__spim__driver.html#gga0986067e4bccf1b710807bc281617112a9f594b4ea7b91186afe31f8f94618ff1",
+"group__sensebe__appln.html#gaf401c1a95cb7db7efc16725face28f52",
+"group__sys__config.html#ga2c5089ed0e5dc7ddbb4cc67809dd9002",
+"group__sys__config.html#ga8e768adb0e6edc1f3ba5f5157b98e34e",
+"group__sys__config.html#gad64c75f0df4b0c6fbd52cae84e340079",
+"radio__trigger_8h_source.html",
+"struct____attribute____.html",
+"struct____attribute____.html#abce806e30fc2bf8bd5553ebca4ad3543",
+"structhal__pwm__start__t.html#ac3ede46163c7f8e6a55400beb5d45879",
+"structtssp__detect__config__t.html#ab7020c7e7fd6a229826b580b1c37a54a"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

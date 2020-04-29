@@ -1,13 +1,12 @@
 <map id="SDK EVAL Button" name="SDK EVAL Button">
-<area shape="rect" id="node1" href="$group__SDK__EVAL__Button__Private__FunctionPrototypes.html" title=" " alt="" coords="382,5,565,45"/>
-<area shape="rect" id="node2" title="Management of Software Development Kit eval board push&#45;buttons." alt="" coords="196,269,328,294"/>
-<area shape="rect" id="node3" href="$group__SDK__EVAL__Button__Private__TypesDefinitions.html" title=" " alt="" coords="382,69,565,109"/>
-<area shape="rect" id="node4" href="$group__SDK__EVAL__Button__Exported__Functions.html" title=" " alt="" coords="376,133,571,173"/>
-<area shape="rect" id="node5" href="$group__SDK__EVAL__Button__Exported__Constants.html" title=" " alt="" coords="376,197,571,237"/>
-<area shape="rect" id="node6" href="$group__SDK__EVAL__Button__Private__Macros.html" title=" " alt="" coords="382,261,565,301"/>
-<area shape="rect" id="node7" href="$group__SDK__EVAL__Button__Private__Defines.html" title=" " alt="" coords="382,325,565,365"/>
-<area shape="rect" id="node8" href="$group__SDK__EVAL__Button__Exported__Types.html" title=" " alt="" coords="376,389,571,429"/>
-<area shape="rect" id="node10" href="$group__SDK__EVAL__Button__Exported__Macros.html" title=" " alt="" coords="376,453,571,493"/>
-<area shape="rect" id="node11" href="$group__SDK__EVAL__Button__Private__Functions.html" title=" " alt="" coords="382,517,565,557"/>
-<area shape="rect" id="node9" href="$group__SDK__EVAL__NUCLEO.html" title="This module is used to configure the SDK Eval board and allows to manage its peripherals in a simple ..." alt="" coords="5,269,148,294"/>
+<area shape="rect" id="node1" href="$group__SDK__EVAL__Button__Private__FunctionPrototypes.html" title="SDK EVAL Button Private\l Function Prototypes" alt="" coords="386,5,561,47"/>
+<area shape="rect" id="node3" href="$group__SDK__EVAL__Button__Private__TypesDefinitions.html" title="SDK EVAL Button Private\l Types Definitions" alt="" coords="386,71,561,112"/>
+<area shape="rect" id="node4" href="$group__SDK__EVAL__Button__Exported__Functions.html" title="SDK EVAL Button Exported\l Functions" alt="" coords="380,136,567,177"/>
+<area shape="rect" id="node5" href="$group__SDK__EVAL__Button__Exported__Constants.html" title="SDK EVAL Button Exported\l Constants" alt="" coords="380,201,567,243"/>
+<area shape="rect" id="node6" href="$group__SDK__EVAL__Button__Private__Macros.html" title="SDK EVAL Button Private\l Macros" alt="" coords="386,267,561,308"/>
+<area shape="rect" id="node7" href="$group__SDK__EVAL__Button__Private__Defines.html" title="SDK EVAL Button Private\l Defines" alt="" coords="386,332,561,373"/>
+<area shape="rect" id="node8" href="$group__SDK__EVAL__Button__Exported__Types.html" title="SDK EVAL Button Exported\l Types" alt="" coords="380,397,567,439"/>
+<area shape="rect" id="node10" href="$group__SDK__EVAL__Button__Exported__Macros.html" title="SDK EVAL Button Exported\l Macros" alt="" coords="380,463,567,504"/>
+<area shape="rect" id="node11" href="$group__SDK__EVAL__Button__Private__Functions.html" title="SDK EVAL Button Private\l Functions" alt="" coords="386,528,561,569"/>
+<area shape="rect" id="node9" href="$group__SDK__EVAL__NUCLEO.html" title="This module is used to configure the SDK Eval board and allows to manage its peripherals in a simple ..." alt="" coords="5,274,153,301"/>
 </map>

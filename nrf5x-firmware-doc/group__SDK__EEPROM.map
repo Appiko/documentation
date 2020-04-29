@@ -1,5 +1,4 @@
 <map id="SDK EEPROM Management" name="SDK EEPROM Management">
-<area shape="rect" id="node1" title="Management of Software Development Kit eval board EEPROM." alt="" coords="196,5,395,31"/>
-<area shape="rect" id="node2" href="$group__SPI__Private__Functions.html" title=" " alt="" coords="443,5,607,31"/>
-<area shape="rect" id="node3" href="$group__SDK__EVAL__NUCLEO.html" title="This module is used to configure the SDK Eval board and allows to manage its peripherals in a simple ..." alt="" coords="5,5,148,31"/>
+<area shape="rect" id="node2" href="$group__SPI__Private__Functions.html" title="SPI_Private_Functions" alt="" coords="440,5,596,32"/>
+<area shape="rect" id="node3" href="$group__SDK__EVAL__NUCLEO.html" title="This module is used to configure the SDK Eval board and allows to manage its peripherals in a simple ..." alt="" coords="5,5,153,32"/>
 </map>

@@ -1,10 +1,9 @@
 <map id="SDK EVAL Gpio" name="SDK EVAL Gpio">
-<area shape="rect" id="node1" href="$group__SDK__EVAL__Gpio__Exported__Macros.html" title=" " alt="" coords="363,5,544,45"/>
-<area shape="rect" id="node2" href="$group__SDK__EVAL__Gpio__Private__Variables.html" title=" " alt="" coords="369,69,538,109"/>
-<area shape="rect" id="node3" href="$group__SDK__EVAL__Gpio__Exported__Functions.html" title=" " alt="" coords="363,133,544,173"/>
-<area shape="rect" id="node4" href="$group__SDK__EVAL__Gpio__Private__Functions.html" title=" " alt="" coords="369,197,538,237"/>
-<area shape="rect" id="node5" href="$group__SDK__EVAL__Gpio__Exported__Types.html" title=" " alt="" coords="363,261,544,301"/>
-<area shape="rect" id="node6" title="GPIO Configuration used in the Development Kit eval board to drive GPIOs." alt="" coords="196,173,315,198"/>
-<area shape="rect" id="node7" href="$group__SDK__EVAL__Gpio__Exported__Constants.html" title=" " alt="" coords="363,325,544,365"/>
-<area shape="rect" id="node8" href="$group__SDK__EVAL__NUCLEO.html" title="This module is used to configure the SDK Eval board and allows to manage its peripherals in a simple ..." alt="" coords="5,173,148,198"/>
+<area shape="rect" id="node1" href="$group__SDK__EVAL__Gpio__Exported__Macros.html" title="SDK EVAL Gpio Exported\l Macros" alt="" coords="368,5,543,47"/>
+<area shape="rect" id="node2" href="$group__SDK__EVAL__Gpio__Private__Variables.html" title="SDK EVAL Gpio Private\l Variables" alt="" coords="373,71,537,112"/>
+<area shape="rect" id="node3" href="$group__SDK__EVAL__Gpio__Exported__Functions.html" title="SDK EVAL Gpio Exported\l Functions" alt="" coords="368,136,543,177"/>
+<area shape="rect" id="node4" href="$group__SDK__EVAL__Gpio__Private__Functions.html" title="SDK EVAL Gpio Private\l Functions" alt="" coords="373,201,537,243"/>
+<area shape="rect" id="node5" href="$group__SDK__EVAL__Gpio__Exported__Types.html" title="SDK EVAL Gpio Exported\l Types" alt="" coords="368,267,543,308"/>
+<area shape="rect" id="node7" href="$group__SDK__EVAL__Gpio__Exported__Constants.html" title="SDK EVAL Gpio Exported\l Constants" alt="" coords="368,332,543,373"/>
+<area shape="rect" id="node8" href="$group__SDK__EVAL__NUCLEO.html" title="This module is used to configure the SDK Eval board and allows to manage its peripherals in a simple ..." alt="" coords="5,177,153,203"/>
 </map>

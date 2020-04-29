@@ -32,6 +32,7 @@ var group__group__twim__driver =
     ] ],
     [ "hal_twim_get_current_adrs", "group__group__twim__driver.html#ga9b0c3031b83e6c9d988550889792f704", null ],
     [ "hal_twim_init", "group__group__twim__driver.html#ga52821c1c0284c71e6bcdf27558cadd80", null ],
+    [ "hal_twim_is_working", "group__group__twim__driver.html#ga924447ade11091f21c5cf6058ebea6b6", null ],
     [ "hal_twim_rx", "group__group__twim__driver.html#ga0d788dfe8bdc00fe32bac71d85348ad5", null ],
     [ "hal_twim_tx", "group__group__twim__driver.html#gaa0473e1b8a7964993fd34944acf44367", null ],
     [ "hal_twim_tx_rx", "group__group__twim__driver.html#ga94194672489a78d038dbb7ce0a04360e", null ],

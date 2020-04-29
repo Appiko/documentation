@@ -1,14 +1,13 @@
 <map id="QI" name="QI">
-<area shape="rect" id="node1" href="$group__S2LP__Libraries.html" title="This firmware implements libraries which allow the user to manage the features of S2LP without knowin..." alt="" coords="5,228,119,253"/>
-<area shape="rect" id="node3" title="Configuration and management of S2LP QI." alt="" coords="167,228,205,253"/>
-<area shape="rect" id="node2" href="$group__Qi__Exported__Macros.html" title=" " alt="" coords="279,5,429,31"/>
-<area shape="rect" id="node4" href="$group__Qi__Private__Functions.html" title=" " alt="" coords="278,55,430,80"/>
-<area shape="rect" id="node5" href="$group__Qi__Exported__Constants.html" title=" " alt="" coords="271,104,437,129"/>
-<area shape="rect" id="node6" href="$group__Qi__Private__Macros.html" title=" " alt="" coords="285,153,423,179"/>
-<area shape="rect" id="node7" href="$group__Qi__Private__Variables.html" title=" " alt="" coords="279,203,429,228"/>
-<area shape="rect" id="node8" href="$group__Qi__Private__Defines.html" title=" " alt="" coords="285,252,423,277"/>
-<area shape="rect" id="node9" href="$group__Qi__Exported__Types.html" title=" " alt="" coords="285,301,423,327"/>
-<area shape="rect" id="node10" href="$group__Qi__Exported__Functions.html" title=" " alt="" coords="272,351,436,376"/>
-<area shape="rect" id="node11" href="$group__Qi__Private__FunctionPrototypes.html" title=" " alt="" coords="281,401,427,441"/>
-<area shape="rect" id="node12" href="$group__Qi__Private__TypesDefinitions.html" title=" " alt="" coords="253,465,455,491"/>
+<area shape="rect" id="node1" href="$group__S2LP__Libraries.html" title="This firmware implements libraries which allow the user to manage the features of S2LP without knowin..." alt="" coords="5,233,112,260"/>
+<area shape="rect" id="node2" href="$group__Qi__Exported__Macros.html" title="QI Exported Macros" alt="" coords="271,5,409,32"/>
+<area shape="rect" id="node4" href="$group__Qi__Private__Functions.html" title="QI Private Functions" alt="" coords="269,56,411,83"/>
+<area shape="rect" id="node5" href="$group__Qi__Exported__Constants.html" title="QI Exported Constants" alt="" coords="262,107,418,133"/>
+<area shape="rect" id="node6" href="$group__Qi__Private__Macros.html" title="QI Private Macros" alt="" coords="276,157,404,184"/>
+<area shape="rect" id="node7" href="$group__Qi__Private__Variables.html" title="QI Private Variables" alt="" coords="271,208,409,235"/>
+<area shape="rect" id="node8" href="$group__Qi__Private__Defines.html" title="QI Private Defines" alt="" coords="275,259,405,285"/>
+<area shape="rect" id="node9" href="$group__Qi__Exported__Types.html" title="QI Exported Types" alt="" coords="274,309,406,336"/>
+<area shape="rect" id="node10" href="$group__Qi__Exported__Functions.html" title="QI Exported Functions" alt="" coords="263,360,417,387"/>
+<area shape="rect" id="node11" href="$group__Qi__Private__FunctionPrototypes.html" title="QI Private Function\l Prototypes" alt="" coords="273,411,407,453"/>
+<area shape="rect" id="node12" href="$group__Qi__Private__TypesDefinitions.html" title="QI Private Types Definitions" alt="" coords="247,477,433,504"/>
 </map>

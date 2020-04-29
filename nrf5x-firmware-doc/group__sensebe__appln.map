@@ -1,8 +1,7 @@
 <map id="The code for the active IR based Sense units." name="The code for the active IR based Sense units.">
-<area shape="rect" id="node1" href="$group__ble__support.html" title="The active IR sense application&#39;s support file that handles ble operations." alt="" coords="399,5,555,60"/>
-<area shape="rect" id="node2" href="$group__group__appln.html" title="All the applications that this repository contains." alt="" coords="5,128,108,153"/>
-<area shape="rect" id="node3" title="The active IR sense application&#39;s main file that makes it operate." alt="" coords="156,121,328,161"/>
-<area shape="rect" id="node4" href="$group__store__config.html" title="The support code to store configurations received from other BLE device." alt="" coords="398,85,557,125"/>
-<area shape="rect" id="node5" href="$group__tx__rx__ctrl.html" title="The active IR sense application&#39;s support file that handles motion detection\ and timer based operati..." alt="" coords="389,149,565,204"/>
-<area shape="rect" id="node6" href="$group__sys__config.html" title="The header file which contains system definitions for resources allocation." alt="" coords="376,229,579,269"/>
+<area shape="rect" id="node1" href="$group__ble__support.html" title="The active IR sense application&#39;s support file that handles ble operations. " alt="" coords="370,5,513,61"/>
+<area shape="rect" id="node2" href="$group__group__appln.html" title="All the applications that this repository contains. " alt="" coords="5,131,99,157"/>
+<area shape="rect" id="node4" href="$group__store__config.html" title="The support code to store configurations received from other BLE device. " alt="" coords="369,86,513,127"/>
+<area shape="rect" id="node5" href="$group__tx__rx__ctrl.html" title="The active IR sense application&#39;s support file that handles motion detection and timer based operati..." alt="" coords="361,152,522,208"/>
+<area shape="rect" id="node6" href="$group__sys__config.html" title="The header file which contains system definitions for resources allocation. " alt="" coords="351,233,532,274"/>
 </map>

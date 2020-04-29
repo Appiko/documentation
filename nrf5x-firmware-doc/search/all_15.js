@@ -1,18 +1,18 @@
 var searchData=
 [
-  ['watchdog_20timer_20hal_1845',['Watchdog timer HAL',['../group__group__wdt__driver.html',1,'']]],
-  ['wdt_5fperiod_5fms_1846',['WDT_PERIOD_MS',['../group__sensebe__appln.html#gabf9fca60b97e8efc2c0077351d419136',1,'WDT_PERIOD_MS():&#160;main.c'],['../group__sense__appln.html#gabf9fca60b97e8efc2c0077351d419136',1,'WDT_PERIOD_MS():&#160;main.c'],['../group__sensebe__appln.html#gabf9fca60b97e8efc2c0077351d419136',1,'WDT_PERIOD_MS():&#160;main.c'],['../group__sensebe__appln.html#gabf9fca60b97e8efc2c0077351d419136',1,'WDT_PERIOD_MS():&#160;main.c'],['../group__sensebe__appln.html#gabf9fca60b97e8efc2c0077351d419136',1,'WDT_PERIOD_MS():&#160;main.c']]],
-  ['wdt_5fprior_5freset_5fcallback_1847',['wdt_prior_reset_callback',['../group__sensebe__appln.html#ga96ff9813b4ccfc8d94e05ab4684dac2b',1,'wdt_prior_reset_callback(void):&#160;main.c'],['../group__sense__appln.html#ga96ff9813b4ccfc8d94e05ab4684dac2b',1,'wdt_prior_reset_callback(void):&#160;main.c']]],
-  ['wide_5foffset_5fpin_1848',['WIDE_OFFSET_PIN',['../group__board__detect__rev1.html#ga4e37e7d5703b4de5edc02f2ec66d7ba4',1,'detect_rev1.h']]],
-  ['wide_5fsignal_5fpin_1849',['WIDE_SIGNAL_PIN',['../group__board__detect__rev1.html#gabba2e9a95629bebdc1a692b0cfaf6d29',1,'detect_rev1.h']]],
-  ['wide_5fvdd_5fpin_1850',['WIDE_VDD_PIN',['../group__board__detect__rev1.html#gaafb325d1cc1e063476449d85ee73b2ab',1,'detect_rev1.h']]],
-  ['window_5fduration_5fticks_1851',['window_duration_ticks',['../structtssp__detect__config__t.html#ad61d9dbbf9f7bf051d83399136b95e4d',1,'tssp_detect_config_t']]],
-  ['wkup_5ftout_5fldc_1852',['WKUP_TOUT_LDC',['../group__Gpio__Exported__Types.html#gga32b0f7ba71811d0cff33699697f6c550ad5afe7ea067a7d2e5819ee2d22f9f213',1,'S2LP_Gpio.h']]],
-  ['wmbus_5fsubmode_5fnot_5fconfigured_1853',['WMBUS_SUBMODE_NOT_CONFIGURED',['../group__PktWMbus__Exported__Types.html#ggad308048c42a57b190919f1e151e226aca80d597d688aa88af1dfb6b9d3c891891',1,'S2LP_PktWMbus.h']]],
-  ['wmbus_5fsubmode_5fr2_5fshort_5fheader_1854',['WMBUS_SUBMODE_R2_SHORT_HEADER',['../group__PktWMbus__Exported__Types.html#ggad308048c42a57b190919f1e151e226aca721f5b1f69686bc46d2afec1b6b72d8b',1,'S2LP_PktWMbus.h']]],
-  ['wmbus_5fsubmode_5fs1_5fm_5fs2_5ft2_5fother_5fto_5fmeter_1855',['WMBUS_SUBMODE_S1_M_S2_T2_OTHER_TO_METER',['../group__PktWMbus__Exported__Types.html#ggad308048c42a57b190919f1e151e226aca8530d042c77703d2ea603ed2a4b0e58a',1,'S2LP_PktWMbus.h']]],
-  ['wmbus_5fsubmode_5fs1_5fs2_5flong_5fheader_1856',['WMBUS_SUBMODE_S1_S2_LONG_HEADER',['../group__PktWMbus__Exported__Types.html#ggad308048c42a57b190919f1e151e226aca4331ce27c3bce8831f5bf5723129017f',1,'S2LP_PktWMbus.h']]],
-  ['wmbus_5fsubmode_5ft1_5ft2_5fmeter_5fto_5fother_1857',['WMBUS_SUBMODE_T1_T2_METER_TO_OTHER',['../group__PktWMbus__Exported__Types.html#ggad308048c42a57b190919f1e151e226acad730159338323587f96786b2c078d525',1,'S2LP_PktWMbus.h']]],
-  ['wmbussubmode_1858',['WMbusSubmode',['../group__PktWMbus__Exported__Types.html#gad308048c42a57b190919f1e151e226ac',1,'S2LP_PktWMbus.h']]],
-  ['write_5fheader_1859',['WRITE_HEADER',['../group__SPI__Private__Macros.html#ga68a617f7e8c41f730d5b37d2a45d532a',1,'SDK_EVAL_Spi_Driver.c']]]
+  ['valid_5fpreamble',['VALID_PREAMBLE',['../group__Gpio__Exported__Types.html#gga32b0f7ba71811d0cff33699697f6c550ab98e17a6b46e283ce81208be3011a32e',1,'S2LP_Gpio.h']]],
+  ['valid_5fsync',['VALID_SYNC',['../group__Gpio__Exported__Types.html#gga32b0f7ba71811d0cff33699697f6c550a0ab351f7cb92080494c70131d6fdad27',1,'S2LP_Gpio.h']]],
+  ['vco_5fcalibr_5fin0_5faddr',['VCO_CALIBR_IN0_ADDR',['../S2LP__Regs_8h.html#a32bbe000303c6bc0a64aa99e72e2a819',1,'S2LP_Regs.h']]],
+  ['vco_5fcalibr_5fin1_5faddr',['VCO_CALIBR_IN1_ADDR',['../S2LP__Regs_8h.html#a15701146df5715a7b6906b1897b528ad',1,'S2LP_Regs.h']]],
+  ['vco_5fcalibr_5fin2_5faddr',['VCO_CALIBR_IN2_ADDR',['../S2LP__Regs_8h.html#ab2fca35ab63729aa149f5b1099ee55b1',1,'S2LP_Regs.h']]],
+  ['vco_5fcalibr_5fout0_5faddr',['VCO_CALIBR_OUT0_ADDR',['../S2LP__Regs_8h.html#a0191bf075fd5ac568a181e31498482b6',1,'S2LP_Regs.h']]],
+  ['vco_5fcalibr_5fout1_5faddr',['VCO_CALIBR_OUT1_ADDR',['../S2LP__Regs_8h.html#a235d9f74d914cc62fec1e5a3f186eba0',1,'S2LP_Regs.h']]],
+  ['vco_5fcalibration_5fend',['VCO_CALIBRATION_END',['../group__Gpio__Exported__Types.html#gga32b0f7ba71811d0cff33699697f6c550ad08526be2acb8a49e337ba22cae6e5cf',1,'S2LP_Gpio.h']]],
+  ['vco_5fcenter_5ffreq',['VCO_CENTER_FREQ',['../group__Radio__Private__Defines.html#ga1c3321bc6b9e65dc5dea7ca8f17359cd',1,'S2LP_Radio.c']]],
+  ['vco_5fconfig_5faddr',['VCO_CONFIG_ADDR',['../S2LP__Regs_8h.html#ab13a85f08e747f27026e72af3a745e64',1,'S2LP_Regs.h']]],
+  ['vectcrxbuff',['vectcRxBuff',['../group__bluey__demo.html#ga2897accbeee0d1bc667571ad304cf564',1,'vectcRxBuff():&#160;main.c'],['../group__Basic__Generic__B__Private__Variables.html#ga2897accbeee0d1bc667571ad304cf564',1,'vectcRxBuff():&#160;SDK_BasicGeneric_B.c']]],
+  ['vectctxbuff',['vectcTxBuff',['../group__Basic__Generic__A__Private__Variables.html#ga3c38c549f5ca9b1860e853c851b2db04',1,'SDK_BasicGeneric_A.c']]],
+  ['vectpxm2sgpioport',['vectpxM2SGpioPort',['../group__SDK__EVAL__Gpio__Private__Variables.html#ga05fe78d5869f38da55b4f7c418c5cd73',1,'SDK_EVAL_Gpio.c']]],
+  ['video_5fparams',['video_params',['../unioncam__trigger__mode__settings__t.html#a9fb7d948e5e2cb05ad24646c86fd752f',1,'cam_trigger_mode_settings_t']]],
+  ['video_5fw_5ffull_5fpress_5fen',['video_w_full_press_en',['../struct____attribute____.html#aad5a5c2c87d3e661639140047be7c16c',1,'__attribute__::video_w_full_press_en()'],['../structcam__trig__t.html#ae2406ad7faaac6f789124c6721d36c47',1,'cam_trig_t::video_w_full_press_en()']]]
 ];

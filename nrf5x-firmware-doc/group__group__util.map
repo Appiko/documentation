@@ -1,9 +1,8 @@
 <map id="Generic utility code" name="Generic utility code">
-<area shape="rect" id="node1" title="Code as helpers for common tasks" alt="" coords="140,119,289,145"/>
-<area shape="rect" id="node2" href="$group__group__irq__msg.html" title="This module is used to pass messages from any higher priority interrupts to the main thread so that t..." alt="" coords="356,5,501,45"/>
-<area shape="rect" id="node3" href="$group__group__common__util.html" title="Common helpers used in C programs." alt="" coords="361,70,496,95"/>
-<area shape="rect" id="node4" href="$group__group__nrf__util.html" title="Helpers specific to the nRF SoCs." alt="" coords="352,119,505,145"/>
-<area shape="rect" id="node5" href="$group__group__dev__id__fw__ver.html" title="For a product this module retrieves the device ID programmed in the board level test at factory and t..." alt="" coords="337,169,520,209"/>
-<area shape="rect" id="node7" href="$group__group__assertion.html" title="Handler which prints runtime assertion info over the configuted logging means and includes assert...." alt="" coords="357,233,500,273"/>
-<area shape="rect" id="node6" href="$group__group__codebase.html" title="The various code&#45;base developed for the applications to use." alt="" coords="5,119,92,145"/>
+<area shape="rect" id="node2" href="$group__group__irq__msg.html" title="This module is used to pass messages from any higher priority interrupts to the main thread so that t..." alt="" coords="333,5,467,47"/>
+<area shape="rect" id="node4" href="$group__group__common__util.html" title="Common helpers used in C programs. " alt="" coords="340,71,460,98"/>
+<area shape="rect" id="node5" href="$group__group__nrf__util.html" title="Helpers specific to the nRF SoCs. " alt="" coords="329,122,471,149"/>
+<area shape="rect" id="node6" href="$group__group__dev__id__fw__ver.html" title="For a product this module retrieves the device ID programmed in the board level test at factory and t..." alt="" coords="317,173,483,215"/>
+<area shape="rect" id="node7" href="$group__group__assertion.html" title="Handler which prints runtime assertion info over the configuted logging means and includes assert..." alt="" coords="336,239,464,280"/>
+<area shape="rect" id="node3" href="$group__group__codebase.html" title="The various code&#45;base developed for the applications to use. " alt="" coords="5,122,87,149"/>
 </map>

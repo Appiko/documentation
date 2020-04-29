@@ -1,4 +1,3 @@
 <map id="Light sensing with a LED" name="Light sensing with a LED">
-<area shape="rect" id="node1" href="$group__group__peripheral__modules.html" title="Modules that are strongly tied to peripheral(s) directly for their operation" alt="" coords="5,13,152,38"/>
-<area shape="rect" id="node2" title="Light sensing based on sensing the charge accumulated due to the incident light on a reverse biased L..." alt="" coords="200,5,340,45"/>
+<area shape="rect" id="node1" href="$group__group__peripheral__modules.html" title="Modules that are strongly tied to peripheral(s) directly for their operation. " alt="" coords="5,13,139,39"/>
 </map>

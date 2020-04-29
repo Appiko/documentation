@@ -1,8 +1,8 @@
-<map id="/home/prathik/workspace/appiko/nrf5x&#45;firmware/application/rf_data_tx_rx" name="/home/prathik/workspace/appiko/nrf5x&#45;firmware/application/rf_data_tx_rx">
-<area shape="rect" id="node2" href="dir_457479e51678fc3cc84b7aa4a83c7b21.html" title="S2LP_Library" alt="" coords="393,159,498,207"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000027_000028.html" title="25" alt="" coords="445,133,462,147"/>
-<area shape="rect" id="node3" href="dir_eafc3818b3cfcf88ec2ea4358699a0a6.html" title="STM32_Nucleo" alt="" coords="249,63,367,111"/>
-<area shape="rect" id="node4" href="dir_9e1d7dbf8b64276ca090043dbcdce4ce.html" title="STM32_Nucleo_S2LP_Util" alt="" coords="37,63,224,111"/>
-<area shape="rect" id="clust2" href="dir_eeae24ee2ae2430c5086d4802bed50ad.html" alt="" coords="27,52,511,217"/>
-<area shape="rect" id="clust1" href="dir_d75c23162a2652451dce46d2e7e8aead.html" title="application" alt="" coords="16,16,521,228"/>
+<map id="/home/tejas_tj/workspace/nrf5x&#45;firmware/application/rf_data_tx_rx" name="/home/tejas_tj/workspace/nrf5x&#45;firmware/application/rf_data_tx_rx">
+<area shape="rect" id="node2" href="dir_457479e51678fc3cc84b7aa4a83c7b21.html" title="S2LP_Library" alt="" coords="375,159,475,207"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000125_000126.html" title="25" alt="" coords="426,133,441,147"/>
+<area shape="rect" id="node3" href="dir_eafc3818b3cfcf88ec2ea4358699a0a6.html" title="STM32_Nucleo" alt="" coords="240,63,352,111"/>
+<area shape="rect" id="node4" href="dir_9e1d7dbf8b64276ca090043dbcdce4ce.html" title="STM32_Nucleo_S2LP_Util" alt="" coords="37,63,216,111"/>
+<area shape="rect" id="clust2" href="dir_eeae24ee2ae2430c5086d4802bed50ad.html" alt="" coords="27,52,485,217"/>
+<area shape="rect" id="clust1" href="dir_d75c23162a2652451dce46d2e7e8aead.html" title="application" alt="" coords="16,16,496,228"/>
 </map>

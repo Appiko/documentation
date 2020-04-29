@@ -1,4 +1,3 @@
 <map id="Device ticker" name="Device ticker">
-<area shape="rect" id="node1" href="$group__group__peripheral__modules.html" title="Modules that are strongly tied to peripheral(s) directly for their operation" alt="" coords="5,5,152,31"/>
-<area shape="rect" id="node2" title="Driver for the device tick generator. This module is responsible for generating the next interval eve..." alt="" coords="200,5,307,31"/>
+<area shape="rect" id="node1" href="$group__group__peripheral__modules.html" title="Modules that are strongly tied to peripheral(s) directly for their operation. " alt="" coords="5,5,139,32"/>
 </map>

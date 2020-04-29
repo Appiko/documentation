@@ -1,19 +1,18 @@
 <map id="S2LP Libraries" name="S2LP Libraries">
-<area shape="rect" id="node1" href="$group__S2LP__Configuration.html" title="S2LP Configuration and useful defines." alt="" coords="171,5,281,31"/>
-<area shape="rect" id="node2" title="This firmware implements libraries which allow the user to manage the features of S2LP without knowin..." alt="" coords="5,376,119,401"/>
-<area shape="rect" id="node3" href="$group__S2LP__Radio.html" title="Configuration and management of S2LP RF Analog and Digital part." alt="" coords="197,55,255,80"/>
-<area shape="rect" id="node4" href="$group__S2LP__Commands.html" title="Management of S2LP Commands." alt="" coords="178,104,274,129"/>
-<area shape="rect" id="node5" href="$group__S2LP__Qi.html" title="Configuration and management of S2LP QI." alt="" coords="207,153,245,179"/>
-<area shape="rect" id="node6" href="$group__S2LP__Timer__ex.html" title="Configuration and management of S2LP Timers using floating point." alt="" coords="167,203,285,228"/>
-<area shape="rect" id="node7" href="$group__S2LP__Timer.html" title="Configuration and management of S2LP Timers." alt="" coords="196,252,256,277"/>
-<area shape="rect" id="node8" href="$group__S2LP__Types.html" title="Module for S2LP types definition." alt="" coords="197,301,255,327"/>
-<area shape="rect" id="node9" href="$group__S2LP__PktBasic.html" title="Configuration and management of S2LP Basic packets." alt="" coords="185,351,267,376"/>
-<area shape="rect" id="node10" href="$group__S2LP__PktStack.html" title="Configuration and management of S2LP STack packets." alt="" coords="184,400,268,425"/>
-<area shape="rect" id="node11" href="$group__S2LP__Gpio.html" title="Configuration and management of S2LP GPIO." alt="" coords="199,449,253,475"/>
-<area shape="rect" id="node12" href="$group__S2LP__PktWMbus.html" title="Configuration and management of S2LP WMbus packets." alt="" coords="179,499,273,524"/>
-<area shape="rect" id="node13" href="$group__S2LP__Fifo.html" title="Configuration and management of S2LP FIFO." alt="" coords="200,548,252,573"/>
-<area shape="rect" id="node14" href="$group__S2LP__Csma.html" title="Configuration and management of S2LP CSMA." alt="" coords="196,597,256,623"/>
-<area shape="rect" id="node15" href="$group__S2LP__SPI__Driver.html" title="Header file for low level S2LP SPI driver." alt="" coords="183,647,269,672"/>
-<area shape="rect" id="node16" href="$group__S2LP__PktCommon.html" title="Configuration and management of the common features of S2LP packets." alt="" coords="173,696,279,721"/>
-<area shape="rect" id="node17" href="$group__S2LP__General.html" title="Configuration and management of S2LP General functionalities." alt="" coords="189,745,263,771"/>
+<area shape="rect" id="node1" href="$group__S2LP__Configuration.html" title="S2LP Configuration and useful defines. " alt="" coords="165,5,263,32"/>
+<area shape="rect" id="node3" href="$group__S2LP__Radio.html" title="Configuration and management of S2LP RF Analog and Digital part. " alt="" coords="186,56,242,83"/>
+<area shape="rect" id="node4" href="$group__S2LP__Commands.html" title="Management of S2LP Commands. " alt="" coords="169,107,259,133"/>
+<area shape="rect" id="node5" href="$group__S2LP__Qi.html" title="Configuration and management of S2LP QI. " alt="" coords="195,157,233,184"/>
+<area shape="rect" id="node6" href="$group__S2LP__Timer__ex.html" title="Configuration and management of S2LP Timers using floating point. " alt="" coords="160,208,268,235"/>
+<area shape="rect" id="node7" href="$group__S2LP__Timer.html" title="Configuration and management of S2LP Timers. " alt="" coords="187,259,241,285"/>
+<area shape="rect" id="node8" href="$group__S2LP__Types.html" title="Module for S2LP types definition. " alt="" coords="185,309,243,336"/>
+<area shape="rect" id="node9" href="$group__S2LP__PktBasic.html" title="Configuration and management of S2LP Basic packets. " alt="" coords="175,360,253,387"/>
+<area shape="rect" id="node10" href="$group__S2LP__PktStack.html" title="Configuration and management of S2LP STack packets. " alt="" coords="172,411,256,437"/>
+<area shape="rect" id="node11" href="$group__S2LP__Gpio.html" title="Configuration and management of S2LP GPIO. " alt="" coords="187,461,241,488"/>
+<area shape="rect" id="node12" href="$group__S2LP__PktWMbus.html" title="Configuration and management of S2LP WMbus packets. " alt="" coords="169,512,259,539"/>
+<area shape="rect" id="node13" href="$group__S2LP__Fifo.html" title="Configuration and management of S2LP FIFO. " alt="" coords="188,563,240,589"/>
+<area shape="rect" id="node14" href="$group__S2LP__Csma.html" title="Configuration and management of S2LP CSMA. " alt="" coords="183,613,245,640"/>
+<area shape="rect" id="node15" href="$group__S2LP__SPI__Driver.html" title="Header file for low level S2LP SPI driver. " alt="" coords="173,664,255,691"/>
+<area shape="rect" id="node16" href="$group__S2LP__PktCommon.html" title="Configuration and management of the common features of S2LP packets. " alt="" coords="165,715,263,741"/>
+<area shape="rect" id="node17" href="$group__S2LP__General.html" title="Configuration and management of S2LP General functionalities. " alt="" coords="181,765,247,792"/>
 </map>

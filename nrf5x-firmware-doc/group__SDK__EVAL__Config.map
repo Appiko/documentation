@@ -1,12 +1,11 @@
 <map id="SDK EVAL Config" name="SDK EVAL Config">
-<area shape="rect" id="node1" href="$group__SDK__EVAL__Config__Private__Defines.html" title=" " alt="" coords="381,5,561,45"/>
-<area shape="rect" id="node2" href="$group__SDK__EVAL__Config__Private__FunctionPrototypes.html" title=" " alt="" coords="381,69,561,109"/>
-<area shape="rect" id="node3" href="$group__SDK__EVAL__Config__Exported__Functions.html" title=" " alt="" coords="375,133,567,173"/>
-<area shape="rect" id="node4" href="$group__SDK__EVAL__Config__Private__Macros.html" title=" " alt="" coords="381,197,561,237"/>
-<area shape="rect" id="node5" title="SDK EVAL configuration." alt="" coords="196,237,327,262"/>
-<area shape="rect" id="node6" href="$group__SDK__EVAL__Config__Private__TypesDefinitions.html" title=" " alt="" coords="381,261,561,301"/>
-<area shape="rect" id="node7" href="$group__SDK__EVAL__Config__Exported__Constants.html" title=" " alt="" coords="375,325,567,365"/>
-<area shape="rect" id="node9" href="$group__SDK__EVAL__Config__Private__Functions.html" title=" " alt="" coords="381,389,561,429"/>
-<area shape="rect" id="node10" href="$group__SDK__EVAL__Config__Private__Variables.html" title=" " alt="" coords="381,453,561,493"/>
-<area shape="rect" id="node8" href="$group__SDK__EVAL__NUCLEO.html" title="This module is used to configure the SDK Eval board and allows to manage its peripherals in a simple ..." alt="" coords="5,237,148,262"/>
+<area shape="rect" id="node1" href="$group__SDK__EVAL__Config__Private__Defines.html" title="SDK EVAL Config Private\l Defines" alt="" coords="386,5,561,47"/>
+<area shape="rect" id="node2" href="$group__SDK__EVAL__Config__Private__FunctionPrototypes.html" title="SDK EVAL Config Private\l Function Prototypes" alt="" coords="386,71,561,112"/>
+<area shape="rect" id="node3" href="$group__SDK__EVAL__Config__Exported__Functions.html" title="SDK EVAL Config Exported\l Functions" alt="" coords="380,136,567,177"/>
+<area shape="rect" id="node4" href="$group__SDK__EVAL__Config__Private__Macros.html" title="SDK EVAL Config Private\l Macros" alt="" coords="386,201,561,243"/>
+<area shape="rect" id="node6" href="$group__SDK__EVAL__Config__Private__TypesDefinitions.html" title="SDK EVAL Config Private\l Types Definitions" alt="" coords="386,267,561,308"/>
+<area shape="rect" id="node7" href="$group__SDK__EVAL__Config__Exported__Constants.html" title="SDK EVAL Config Exported\l Constants" alt="" coords="380,332,567,373"/>
+<area shape="rect" id="node9" href="$group__SDK__EVAL__Config__Private__Functions.html" title="SDK EVAL Config Private\l Functions" alt="" coords="386,397,561,439"/>
+<area shape="rect" id="node10" href="$group__SDK__EVAL__Config__Private__Variables.html" title="SDK EVAL Config Private\l Variables" alt="" coords="386,463,561,504"/>
+<area shape="rect" id="node8" href="$group__SDK__EVAL__NUCLEO.html" title="This module is used to configure the SDK Eval board and allows to manage its peripherals in a simple ..." alt="" coords="5,242,153,269"/>
 </map>

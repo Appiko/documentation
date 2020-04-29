@@ -1,9 +1,8 @@
 <map id="SDK EVAL Spi" name="SDK EVAL Spi">
-<area shape="rect" id="node1" href="$group__SPI__Private__Variables.html" title=" " alt="" coords="385,5,548,31"/>
-<area shape="rect" id="node2" href="$group__SPI__Private__Macros.html" title=" " alt="" coords="392,55,541,80"/>
-<area shape="rect" id="node3" title="SPI functions implementation." alt="" coords="196,104,305,129"/>
-<area shape="rect" id="node4" href="$group__SPI__Private__Functions.html" title=" " alt="" coords="385,104,549,129"/>
-<area shape="rect" id="node5" href="$group__SPI__Private__FunctionPrototypes.html" title=" " alt="" coords="353,153,580,179"/>
-<area shape="rect" id="node7" href="$group__SPI__Private__Defines.html" title=" " alt="" coords="391,203,542,228"/>
-<area shape="rect" id="node6" href="$group__SDK__EVAL__NUCLEO.html" title="This module is used to configure the SDK Eval board and allows to manage its peripherals in a simple ..." alt="" coords="5,104,148,129"/>
+<area shape="rect" id="node1" href="$group__SPI__Private__Variables.html" title="SPI_Private_Variables" alt="" coords="389,5,543,32"/>
+<area shape="rect" id="node2" href="$group__SPI__Private__Macros.html" title="SPI_Private_Macros" alt="" coords="395,56,537,83"/>
+<area shape="rect" id="node4" href="$group__SPI__Private__Functions.html" title="SPI_Private_Functions" alt="" coords="388,107,544,133"/>
+<area shape="rect" id="node5" href="$group__SPI__Private__FunctionPrototypes.html" title="SPI_Private_FunctionPrototypes" alt="" coords="360,157,572,184"/>
+<area shape="rect" id="node7" href="$group__SPI__Private__Defines.html" title="SPI_Private_Defines" alt="" coords="394,208,538,235"/>
+<area shape="rect" id="node6" href="$group__SDK__EVAL__NUCLEO.html" title="This module is used to configure the SDK Eval board and allows to manage its peripherals in a simple ..." alt="" coords="5,107,153,133"/>
 </map>

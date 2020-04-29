@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['year_2750',['year',['../struct____attribute____.html#aaeaea5d4a6a1258330888f683c0bb0b2',1,'__attribute__']]],
-  ['yy_2751',['yy',['../struct____attribute____.html#a872bcb0f2cddbc184b5ec60179ebdab3',1,'__attribute__']]]
+  ['window_5fduration_5fms',['window_duration_ms',['../structtssp__detect__config__t.html#ac1f360dbc7b8fa559808e32bcbf88dc6',1,'tssp_detect_config_t']]]
 ];

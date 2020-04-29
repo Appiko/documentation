@@ -1,6 +1,5 @@
 <map id="SPI_Private_Defines" name="SPI_Private_Defines">
-<area shape="rect" id="node1" href="$group__SPI__Headers.html" title=" " alt="" coords="423,5,525,31"/>
-<area shape="rect" id="node2" href="$group__SDK__EVAL__Spi__Peripheral__Gpio.html" title=" " alt="" coords="361,55,587,80"/>
-<area shape="rect" id="node3" href="$group__SDK__EVAL__Spi.html" title="SPI functions implementation." alt="" coords="5,31,115,56"/>
-<area shape="rect" id="node4" title=" " alt="" coords="163,31,313,56"/>
+<area shape="rect" id="node1" href="$group__SPI__Headers.html" title="SPI_Headers" alt="" coords="414,5,514,32"/>
+<area shape="rect" id="node2" href="$group__SDK__EVAL__Spi__Peripheral__Gpio.html" title="SDK_EVAL_Spi_Peripheral_Gpio" alt="" coords="356,56,572,83"/>
+<area shape="rect" id="node3" href="$group__SDK__EVAL__Spi.html" title="SPI functions implementation. " alt="" coords="5,31,116,57"/>
 </map>

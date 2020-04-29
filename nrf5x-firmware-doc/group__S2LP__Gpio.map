@@ -1,8 +1,7 @@
 <map id="GPIO" name="GPIO">
-<area shape="rect" id="node1" href="$group__S2LP__Libraries.html" title="This firmware implements libraries which allow the user to manage the features of S2LP without knowin..." alt="" coords="5,80,119,105"/>
-<area shape="rect" id="node4" title="Configuration and management of S2LP GPIO." alt="" coords="167,80,221,105"/>
-<area shape="rect" id="node2" href="$group__Gpio__Exported__Functions.html" title=" " alt="" coords="269,5,452,31"/>
-<area shape="rect" id="node3" href="$group__Gpio__Exported__Types.html" title=" " alt="" coords="282,55,439,80"/>
-<area shape="rect" id="node5" href="$group__Gpio__Private__Macros.html" title=" " alt="" coords="283,104,438,129"/>
-<area shape="rect" id="node6" href="$group__Gpio__Private__Functions.html" title=" " alt="" coords="275,153,446,179"/>
+<area shape="rect" id="node1" href="$group__S2LP__Libraries.html" title="This firmware implements libraries which allow the user to manage the features of S2LP without knowin..." alt="" coords="5,81,112,108"/>
+<area shape="rect" id="node2" href="$group__Gpio__Exported__Functions.html" title="GPIO Exported Functions" alt="" coords="263,5,435,32"/>
+<area shape="rect" id="node3" href="$group__Gpio__Exported__Types.html" title="GPIO Exported Types" alt="" coords="273,56,424,83"/>
+<area shape="rect" id="node5" href="$group__Gpio__Private__Macros.html" title="GPIO Private Macros" alt="" coords="275,107,422,133"/>
+<area shape="rect" id="node6" href="$group__Gpio__Private__Functions.html" title="GPIO Private Functions" alt="" coords="268,157,429,184"/>
 </map>

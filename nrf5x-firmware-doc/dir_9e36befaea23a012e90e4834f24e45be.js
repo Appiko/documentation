@@ -21,6 +21,8 @@ var dir_9e36befaea23a012e90e4834f24e45be =
     [ "hal_twim.h", "hal__twim_8h_source.html", null ],
     [ "hal_uart.c", "hal__uart_8c_source.html", null ],
     [ "hal_uart.h", "hal__uart_8h_source.html", null ],
+    [ "hal_uarte.c", "hal__uarte_8c_source.html", null ],
+    [ "hal_uarte.h", "hal__uarte_8h_source.html", null ],
     [ "hal_wdt.c", "hal__wdt_8c_source.html", null ],
     [ "hal_wdt.h", "hal__wdt_8h_source.html", null ]
 ];

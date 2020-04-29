@@ -1,5 +1,4 @@
-<map id="/home/prathik/workspace/appiko/nrf5x&#45;firmware/application/rf_data_tx_rx/STM32_Nucleo/Inc/SDK_EVAL_Com.h" name="/home/prathik/workspace/appiko/nrf5x&#45;firmware/application/rf_data_tx_rx/STM32_Nucleo/Inc/SDK_EVAL_Com.h">
-<area shape="rect" id="node1" title="This file contains definitions for Software Development Kit eval board COM ports." alt="" coords="121,5,317,91"/>
-<area shape="rect" id="node2" href="$SDK__EVAL__Com__UART_8c_source.html" title=" " alt="" coords="5,139,203,224"/>
-<area shape="rect" id="node3" href="$SDK__EVAL__Com__UART__DMA__TX_8c_source.html" title=" " alt="" coords="227,139,440,224"/>
+<map id="/home/tejas_tj/workspace/nrf5x&#45;firmware/application/rf_data_tx_rx/STM32_Nucleo/Inc/SDK_EVAL_Com.h" name="/home/tejas_tj/workspace/nrf5x&#45;firmware/application/rf_data_tx_rx/STM32_Nucleo/Inc/SDK_EVAL_Com.h">
+<area shape="rect" id="node2" href="$SDK__EVAL__Com__UART_8c_source.html" title="/home/tejas_tj/workspace\l/nrf5x&#45;firmware/application\l/rf_data_tx_rx/STM32_Nucleo\l/Src/SDK_EVAL_Com_UART.c" alt="" coords="5,124,215,195"/>
+<area shape="rect" id="node3" href="$SDK__EVAL__Com__UART__DMA__TX_8c_source.html" title="/home/tejas_tj/workspace\l/nrf5x&#45;firmware/application\l/rf_data_tx_rx/STM32_Nucleo\l/Src/SDK_EVAL_Com_UART_DMA_TX.c" alt="" coords="239,124,509,195"/>
 </map>

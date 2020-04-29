@@ -1,4 +1,3 @@
 <map id="Delay with NOPs" name="Delay with NOPs">
-<area shape="rect" id="node1" href="$group__group__hal.html" title="Hardware abstraction layer for the peripherals to be used with the hal defines in the SDK." alt="" coords="5,5,168,45"/>
-<area shape="rect" id="node2" title="Hardware abstraction layer creating us and ms delay using the processor&#39;s NOP instruction." alt="" coords="216,13,347,38"/>
+<area shape="rect" id="node1" href="$group__group__hal.html" title="Hardware abstraction layer for the peripherals to be used with the hal defines in the SDK..." alt="" coords="5,5,153,47"/>
 </map>

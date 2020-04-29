@@ -1,7 +1,4 @@
 <map id="The code for the PIR based Sense units." name="The code for the PIR based Sense units.">
-<area shape="rect" id="node1" href="$group__ble__support.html" title="The active IR sense application&#39;s support file that handles ble operations." alt="" coords="363,5,519,60"/>
-<area shape="rect" id="node2" href="$group__group__appln.html" title="All the applications that this repository contains." alt="" coords="5,99,108,124"/>
-<area shape="rect" id="node4" title="The PIR sense application&#39;s main file that makes it operate." alt="" coords="156,91,309,131"/>
-<area shape="rect" id="node3" href="$group__store__sensepi__config.html" title="Functions to store and manage sensepi_configs in non volatile memory. This will enable the firmware t..." alt="" coords="357,84,524,139"/>
-<area shape="rect" id="node5" href="$group__cam__trigg__support.html" title="The PIR sense application&#39;s support file that handles camera triggering." alt="" coords="361,163,520,217"/>
+<area shape="rect" id="node1" href="$group__group__appln.html" title="All the applications that this repository contains. " alt="" coords="5,20,99,47"/>
+<area shape="rect" id="node2" href="$group__store__sensepi__ble__config.html" title="Functions to store and manage sensepi_ble_configs in non volatile memory. This will enable the firmwa..." alt="" coords="339,5,516,61"/>
 </map>

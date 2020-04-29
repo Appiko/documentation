@@ -1,4 +1,3 @@
 <map id="TWI Master HAL" name="TWI Master HAL">
-<area shape="rect" id="node1" href="$group__group__hal.html" title="Hardware abstraction layer for the peripherals to be used with the hal defines in the SDK." alt="" coords="5,5,168,45"/>
-<area shape="rect" id="node2" title="Hardware abstraction layer of the Two Wire Interface in Master mode. This driver is completely event ..." alt="" coords="216,13,343,38"/>
+<area shape="rect" id="node1" href="$group__group__hal.html" title="Hardware abstraction layer for the peripherals to be used with the hal defines in the SDK..." alt="" coords="5,5,153,47"/>
 </map>

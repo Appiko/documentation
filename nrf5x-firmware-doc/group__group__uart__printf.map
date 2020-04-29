@@ -1,4 +1,3 @@
 <map id="UART printf" name="UART printf">
-<area shape="rect" id="node1" href="$group__group__peripheral__modules.html" title="Modules that are strongly tied to peripheral(s) directly for their operation" alt="" coords="5,5,152,31"/>
-<area shape="rect" id="node2" title="UART Driver for sending printf messages. To be used in conjunction with tinyprintf...." alt="" coords="200,5,296,31"/>
+<area shape="rect" id="node1" href="$group__group__peripheral__modules.html" title="Modules that are strongly tied to peripheral(s) directly for their operation. " alt="" coords="5,5,139,32"/>
 </map>

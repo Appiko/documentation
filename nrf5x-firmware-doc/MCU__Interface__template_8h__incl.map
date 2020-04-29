@@ -1,21 +1,18 @@
-<map id="/home/prathik/workspace/appiko/nrf5x&#45;firmware/application/rf_data_tx_rx/S2LP_Library/Inc/MCU_Interface_template.h" name="/home/prathik/workspace/appiko/nrf5x&#45;firmware/application/rf_data_tx_rx/S2LP_Library/Inc/MCU_Interface_template.h">
-<area shape="rect" id="node1" title="Header file for low level S2LP SPI driver. To be copied in the application floder and customized acco..." alt="" coords="894,5,1080,91"/>
-<area shape="rect" id="node2" href="$S2LP__Config_8h.html" title="S2LP Configuration and useful defines ." alt="" coords="930,139,1044,165"/>
-<area shape="rect" id="node3" href="$S2LP__Regs_8h.html" title="This file contains all the registers address and masks." alt="" coords="635,363,739,389"/>
-<area shape="rect" id="node4" href="$S2LP__Commands_8h.html" title="Management of S2&#45;LP Commands." alt="" coords="455,288,602,315"/>
-<area shape="rect" id="node5" href="$S2LP__Types_8h.html" title="Header file for S2&#45;LP types." alt="" coords="902,363,1011,389"/>
-<area shape="rect" id="node8" href="$S2LP__Csma_8h.html" title="Configuration and management of S2&#45;LP CSMA." alt="" coords="1164,288,1274,315"/>
-<area shape="rect" id="node9" href="$S2LP__General_8h.html" title="Configuration and management of S2&#45;LP General functionalities." alt="" coords="626,288,748,315"/>
-<area shape="rect" id="node10" href="$S2LP__Gpio_8h.html" title="Configuration and management of S2&#45;LP GPIO." alt="" coords="24,288,126,315"/>
-<area shape="rect" id="node11" href="$S2LP__Timer_8h.html" title="Configuration and management of S2&#45;LP Timers." alt="" coords="151,288,260,315"/>
-<area shape="rect" id="node12" href="$S2LP__Fifo_8h.html" title="Configuration and management of S2&#45;LP Fifo." alt="" coords="284,288,380,315"/>
-<area shape="rect" id="node13" href="$S2LP__PacketHandler_8h.html" title="Configuration and management of the common features of S2&#45;LP packets." alt="" coords="874,288,1038,315"/>
-<area shape="rect" id="node14" href="$S2LP__PktBasic_8h.html" title="Configuration and management of S2&#45;LP Basic packets." alt="" coords="1079,213,1207,240"/>
-<area shape="rect" id="node15" href="$S2LP__PktWMbus_8h.html" title="Configuration and management of S2&#45;LP WMbus packets." alt="" coords="863,213,1004,240"/>
-<area shape="rect" id="node16" href="$S2LP__PktStack_8h.html" title="Configuration and management of S2&#45;LP STack packets." alt="" coords="709,213,838,240"/>
-<area shape="rect" id="node17" href="$S2LP__Radio_8h.html" title="Configuration and management of S2&#45;LP RF Analog and Digital part." alt="" coords="1298,288,1407,315"/>
-<area shape="rect" id="node18" href="$S2LP__Qi_8h.html" title="Configuration and management of S2LP QI." alt="" coords="1482,288,1569,315"/>
-<area shape="rect" id="node19" href="$MCU__Interface_8h.html" title="Header file for low level S2LP SPI driver." alt="" coords="1644,213,1775,240"/>
-<area shape="rect" id="node6" title=" " alt="" coords="874,437,945,464"/>
-<area shape="rect" id="node7" title=" " alt="" coords="970,437,1036,464"/>
+<map id="/home/tejas_tj/workspace/nrf5x&#45;firmware/application/rf_data_tx_rx/S2LP_Library/Inc/MCU_Interface_template.h" name="/home/tejas_tj/workspace/nrf5x&#45;firmware/application/rf_data_tx_rx/S2LP_Library/Inc/MCU_Interface_template.h">
+<area shape="rect" id="node2" href="$S2LP__Config_8h.html" title="S2LP Configuration and useful defines . " alt="" coords="906,124,1017,151"/>
+<area shape="rect" id="node3" href="$S2LP__Regs_8h.html" title="This file contains all the registers address and masks. " alt="" coords="616,348,718,375"/>
+<area shape="rect" id="node4" href="$S2LP__Commands_8h.html" title="Management of S2&#45;LP Commands. " alt="" coords="446,273,584,300"/>
+<area shape="rect" id="node5" href="$S2LP__Types_8h.html" title="Header file for S2&#45;LP types. " alt="" coords="877,348,985,375"/>
+<area shape="rect" id="node8" href="$S2LP__Csma_8h.html" title="Configuration and management of S2&#45;LP CSMA. " alt="" coords="1136,273,1243,300"/>
+<area shape="rect" id="node9" href="$S2LP__General_8h.html" title="Configuration and management of S2&#45;LP General functionalities. " alt="" coords="608,273,726,300"/>
+<area shape="rect" id="node10" href="$S2LP__Gpio_8h.html" title="Configuration and management of S2&#45;LP GPIO. " alt="" coords="23,273,122,300"/>
+<area shape="rect" id="node11" href="$S2LP__Timer_8h.html" title="Configuration and management of S2&#45;LP Timers. " alt="" coords="146,273,252,300"/>
+<area shape="rect" id="node12" href="$S2LP__Fifo_8h.html" title="Configuration and management of S2&#45;LP Fifo. " alt="" coords="276,273,370,300"/>
+<area shape="rect" id="node13" href="$S2LP__PacketHandler_8h.html" title="Configuration and management of the common features of S2&#45;LP packets. " alt="" coords="852,273,1010,300"/>
+<area shape="rect" id="node14" href="$S2LP__PktBasic_8h.html" title="Configuration and management of S2&#45;LP Basic packets. " alt="" coords="1052,199,1178,225"/>
+<area shape="rect" id="node15" href="$S2LP__PktWMbus_8h.html" title="Configuration and management of S2&#45;LP WMbus packets. " alt="" coords="840,199,977,225"/>
+<area shape="rect" id="node16" href="$S2LP__PktStack_8h.html" title="Configuration and management of S2&#45;LP STack packets. " alt="" coords="689,199,816,225"/>
+<area shape="rect" id="node17" href="$S2LP__Radio_8h.html" title="Configuration and management of S2&#45;LP RF Analog and Digital part. " alt="" coords="1267,273,1374,300"/>
+<area shape="rect" id="node18" href="$S2LP__Qi_8h.html" title="Configuration and management of S2LP QI. " alt="" coords="1448,273,1534,300"/>
+<area shape="rect" id="node19" href="$MCU__Interface_8h.html" title="Header file for low level S2LP SPI driver. " alt="" coords="1608,199,1731,225"/>
 </map>

@@ -1,0 +1,13 @@
+<map id="__attribute__" name="__attribute__">
+<area shape="rect" id="node2" href="$structdetection__functionality__t.html" title="17Bytes " alt="" coords="255,17,417,44"/>
+<area shape="rect" id="node7" href="$unionfunction__settings__t.html" title="function_settings_t" alt="" coords="555,69,687,96"/>
+<area shape="rect" id="node3" href="$structsettings__t.html" title="settings_t" alt="" coords="838,179,917,205"/>
+<area shape="rect" id="node4" href="$structcam__settings__t.html" title="9Bytes " alt="" coords="565,203,676,229"/>
+<area shape="rect" id="node5" href="$structcam__trig__t.html" title="cam_trig_t" alt="" coords="295,203,377,229"/>
+<area shape="rect" id="node6" href="$unionmode__settings__t.html" title="mode_settings_t" alt="" coords="5,271,124,297"/>
+<area shape="rect" id="node8" href="$structbeam__functionality__t.html" title="17Bytes " alt="" coords="265,83,407,109"/>
+<area shape="rect" id="node9" href="$structtime__cond__t.html" title="time_cond_t" alt="" coords="831,343,924,369"/>
+<area shape="rect" id="node10" href="$structdate__ble__t.html" title="3Bytes " alt="" coords="836,393,919,420"/>
+<area shape="rect" id="node11" href="$structlight__cond__t.html" title="light_cond_t" alt="" coords="831,444,923,471"/>
+<area shape="rect" id="node12" href="$structradio__control__t.html" title="26 Bytes " alt="" coords="824,495,931,521"/>
+</map>

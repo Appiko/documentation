@@ -1,8 +1,7 @@
 <map id="Configuration" name="Configuration">
-<area shape="rect" id="node1" title="S2LP Configuration and useful defines." alt="" coords="167,109,276,134"/>
-<area shape="rect" id="node3" href="$group__Configuration__Exported__Constants.html" title=" " alt="" coords="324,5,495,45"/>
-<area shape="rect" id="node4" href="$group__Configuration__Exported__Types.html" title=" " alt="" coords="324,69,495,109"/>
-<area shape="rect" id="node5" href="$group__Configuration__Exported__Macros.html" title=" " alt="" coords="324,133,495,173"/>
-<area shape="rect" id="node6" href="$group__Configuration__Exported__Functions.html" title=" " alt="" coords="324,197,495,237"/>
-<area shape="rect" id="node2" href="$group__S2LP__Libraries.html" title="This firmware implements libraries which allow the user to manage the features of S2LP without knowin..." alt="" coords="5,109,119,134"/>
+<area shape="rect" id="node3" href="$group__Configuration__Exported__Constants.html" title="Configuration Exported\l Constants" alt="" coords="307,5,461,47"/>
+<area shape="rect" id="node4" href="$group__Configuration__Exported__Types.html" title="Configuration Exported\l Types" alt="" coords="307,71,461,112"/>
+<area shape="rect" id="node5" href="$group__Configuration__Exported__Macros.html" title="Configuration Exported\l Macros" alt="" coords="307,136,461,177"/>
+<area shape="rect" id="node6" href="$group__Configuration__Exported__Functions.html" title="Configuration Exported\l Functions" alt="" coords="307,201,461,243"/>
+<area shape="rect" id="node2" href="$group__S2LP__Libraries.html" title="This firmware implements libraries which allow the user to manage the features of S2LP without knowin..." alt="" coords="5,111,112,138"/>
 </map>

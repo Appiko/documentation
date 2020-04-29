@@ -1,5 +1,4 @@
 <map id="Configuration Common" name="Configuration Common">
-<area shape="rect" id="node1" href="$group__SDK__Examples.html" title=" " alt="" coords="5,13,123,38"/>
-<area shape="rect" id="node2" title="Radio and packet parameters definitions." alt="" coords="171,13,343,38"/>
-<area shape="rect" id="node3" href="$group__Configuration__Common__Exported__Constants.html" title=" " alt="" coords="391,5,563,45"/>
+<area shape="rect" id="node1" href="$group__SDK__Examples.html" title="SDK Examples" alt="" coords="5,13,117,39"/>
+<area shape="rect" id="node3" href="$group__Configuration__Common__Exported__Constants.html" title="Configuration Common\l Exported Constants" alt="" coords="369,5,525,47"/>
 </map>

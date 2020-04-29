@@ -1,0 +1,11 @@
+<map id="senseberx_config_t" name="senseberx_config_t">
+<area shape="rect" id="node2" href="$structsettings__t.html" title="settings_t" alt="" coords="97,273,176,300"/>
+<area shape="rect" id="node3" href="$structcam__settings__t.html" title="9Bytes " alt="" coords="9,184,120,211"/>
+<area shape="rect" id="node4" href="$structcam__trig__t.html" title="cam_trig_t" alt="" coords="23,95,106,121"/>
+<area shape="rect" id="node5" href="$unionmode__settings__t.html" title="mode_settings_t" alt="" coords="5,5,124,32"/>
+<area shape="rect" id="node6" href="$unionfunction__settings__t.html" title="function_settings_t" alt="" coords="144,184,276,211"/>
+<area shape="rect" id="node7" href="$structbeam__functionality__t.html" title="17Bytes " alt="" coords="135,95,277,121"/>
+<area shape="rect" id="node8" href="$structdetection__functionality__t.html" title="17Bytes " alt="" coords="302,95,465,121"/>
+<area shape="rect" id="node9" href="$structdate__ble__t.html" title="3Bytes " alt="" coords="226,273,309,300"/>
+<area shape="rect" id="node10" href="$structradio__control__t.html" title="26 Bytes " alt="" coords="333,273,439,300"/>
+</map>

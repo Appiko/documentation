@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['gpio_5flevel_5fcfg_1914',['gpio_level_cfg',['../structgpio__level__cfg.html',1,'']]]
+  ['function_5fsettings_5ft',['function_settings_t',['../unionfunction__settings__t.html',1,'']]]
 ];

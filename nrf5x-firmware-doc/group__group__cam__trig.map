@@ -1,4 +1,3 @@
 <map id="Camera Trigger" name="Camera Trigger">
-<area shape="rect" id="node1" href="$group__group__peripheral__modules.html" title="Modules that are strongly tied to peripheral(s) directly for their operation" alt="" coords="5,5,152,31"/>
-<area shape="rect" id="node2" title="Driver triggers the camera according to configuration sent by application. This Driver uses out_patte..." alt="" coords="200,5,321,31"/>
+<area shape="rect" id="node1" href="$group__group__peripheral__modules.html" title="Modules that are strongly tied to peripheral(s) directly for their operation. " alt="" coords="5,5,139,32"/>
 </map>

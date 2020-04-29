@@ -1,4 +1,3 @@
 <map id="Profiler timer" name="Profiler timer">
-<area shape="rect" id="node1" href="$group__group__peripheral__modules.html" title="Modules that are strongly tied to peripheral(s) directly for their operation" alt="" coords="5,5,152,31"/>
-<area shape="rect" id="node2" title="Driver to use timer for code profiling and time&#45;stamping." alt="" coords="200,5,307,31"/>
+<area shape="rect" id="node1" href="$group__group__peripheral__modules.html" title="Modules that are strongly tied to peripheral(s) directly for their operation. " alt="" coords="5,5,139,32"/>
 </map>

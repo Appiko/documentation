@@ -1,7 +1,4 @@
-<map id="/home/prathik/workspace/appiko/nrf5x&#45;firmware/application/rf_data_tx_rx/S2LP_Library/Inc/S2LP_Fifo.h" name="/home/prathik/workspace/appiko/nrf5x&#45;firmware/application/rf_data_tx_rx/S2LP_Library/Inc/S2LP_Fifo.h">
-<area shape="rect" id="node1" title="Configuration and management of S2&#45;LP Fifo." alt="" coords="7,5,238,76"/>
-<area shape="rect" id="node2" href="$S2LP__Regs_8h.html" title="This file contains all the registers address and masks." alt="" coords="5,124,109,151"/>
-<area shape="rect" id="node3" href="$S2LP__Types_8h.html" title="Header file for S2&#45;LP types." alt="" coords="133,124,243,151"/>
-<area shape="rect" id="node4" title=" " alt="" coords="106,199,177,225"/>
-<area shape="rect" id="node5" title=" " alt="" coords="201,199,268,225"/>
+<map id="/home/tejas_tj/workspace/nrf5x&#45;firmware/application/rf_data_tx_rx/S2LP_Library/Inc/S2LP_Fifo.h" name="/home/tejas_tj/workspace/nrf5x&#45;firmware/application/rf_data_tx_rx/S2LP_Library/Inc/S2LP_Fifo.h">
+<area shape="rect" id="node2" href="$S2LP__Regs_8h.html" title="This file contains all the registers address and masks. " alt="" coords="5,124,108,151"/>
+<area shape="rect" id="node3" href="$S2LP__Types_8h.html" title="Header file for S2&#45;LP types. " alt="" coords="132,124,240,151"/>
 </map>

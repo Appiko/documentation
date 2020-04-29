@@ -1,12 +1,12 @@
 <map id="Applications" name="Applications">
-<area shape="rect" id="node1" href="$group__hello__world__rtt.html" title="A simple application that blinks a LED and outputs a printf statement over SEGGER&#39;s Real Time Transfe..." alt="" coords="179,5,343,31"/>
-<area shape="rect" id="node2" title="All the applications that this repository contains." alt="" coords="5,263,108,288"/>
-<area shape="rect" id="node3" href="$group__sys__lvl__testing.html" title="The main file for System level testing application which is used to test functioning of board." alt="" coords="180,55,343,109"/>
-<area shape="rect" id="node4" href="$group__simple__statemachine.html" title="A simple state machine of three states is implemented in this example both switch statement and funct..." alt="" coords="187,134,336,174"/>
-<area shape="rect" id="node5" href="$group__sensebe__appln.html" title="The active IR sense application&#39;s main file that makes it operate." alt="" coords="175,198,347,238"/>
-<area shape="rect" id="node6" href="$group__hello__world__blinky.html" title="A simple application that blinks a LED." alt="" coords="191,263,332,288"/>
-<area shape="rect" id="node7" href="$group__testing__appln.html" title="The main file for hardware testing application which is used to test functioning of board." alt="" coords="156,313,367,353"/>
-<area shape="rect" id="node8" href="$group__sense__appln.html" title="The PIR sense application&#39;s main file that makes it operate." alt="" coords="185,377,338,417"/>
-<area shape="rect" id="node9" href="$group__bluey__demo.html" title="A Bluey demo." alt="" coords="172,441,351,481"/>
-<area shape="rect" id="node10" href="$group__saadc__logger.html" title="Low power analog data logger with the SAADC peripheral. The image below gives the flow of how the per..." alt="" coords="203,505,319,531"/>
+<area shape="rect" id="node1" href="$group__hello__world__rtt.html" title="A simple application that blinks a LED and outputs a printf statement over SEGGER&#39;s Real Time Transfe..." alt="" coords="163,5,317,32"/>
+<area shape="rect" id="node3" href="$group__sys__lvl__testing.html" title="The main file for System level testing application which is used to test functioning of board..." alt="" coords="166,56,314,112"/>
+<area shape="rect" id="node4" href="$group__simple__statemachine.html" title="A simple state machine of three states is implemented in this example both switch statement and funct..." alt="" coords="173,137,307,178"/>
+<area shape="rect" id="node5" href="$group__sensebe__appln.html" title="The active IR sense application&#39;s main file that makes it operate. " alt="" coords="162,202,318,243"/>
+<area shape="rect" id="node6" href="$group__hello__world__blinky.html" title="A simple application that blinks a LED. " alt="" coords="175,268,305,295"/>
+<area shape="rect" id="node7" href="$group__testing__appln.html" title="The main file for hardware testing application which is used to test functioning of board..." alt="" coords="147,319,333,361"/>
+<area shape="rect" id="node8" href="$group__sense__appln.html" title="The PIR sense application&#39;s main file that makes it operate. " alt="" coords="168,385,312,426"/>
+<area shape="rect" id="node9" href="$group__bluey__demo.html" title="A Bluey demo. " alt="" coords="160,450,320,491"/>
+<area shape="rect" id="node10" href="$group__opt3101__testing.html" title="A simple application to test codebase for TI&#39;s OPT3101 ToF sensor. " alt="" coords="178,516,302,543"/>
+<area shape="rect" id="node11" href="$group__saadc__logger.html" title="Low power analog data logger with the SAADC peripheral. The image below gives the flow of how the per..." alt="" coords="184,567,296,593"/>
 </map>

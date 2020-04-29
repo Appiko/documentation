@@ -7,7 +7,7 @@ var group__group__aux__clk =
     ] ],
     [ "aux_clk_setup_t", "structaux__clk__setup__t.html", [
       [ "arr_cc_ms", "structaux__clk__setup__t.html#a3fa4392912d098850888119fa1806f28", null ],
-      [ "arr_ppi_cnf", "structaux__clk__setup__t.html#a258d04b02668d9f5b8c07ed22ff204ab", null ],
+      [ "arr_ppi_cnf", "structaux__clk__setup__t.html#aea286bbb7b77dc719780a6bc314c5966", null ],
       [ "callback_handler", "structaux__clk__setup__t.html#a9d2f26c630aeb250e18b3e1f736d6f66", null ],
       [ "events_en", "structaux__clk__setup__t.html#a7b3031d51d98c011b97804463ae309fc", null ],
       [ "irq_priority", "structaux__clk__setup__t.html#a22cd927da1406ae584bad62d710437c0", null ],
@@ -31,7 +31,9 @@ var group__group__aux__clk =
     ] ],
     [ "aux_clk_clear", "group__group__aux__clk.html#ga6bab2f4b2cd048b9f617dc8a6caac994", null ],
     [ "aux_clk_dis_evt", "group__group__aux__clk.html#ga17a1d71d6c80b4cd5eb92c6810bda184", null ],
+    [ "aux_clk_dis_ppi_ch", "group__group__aux__clk.html#gada863dfba05d419dd92044d796d3eac3", null ],
     [ "aux_clk_en_evt", "group__group__aux__clk.html#ga59779505958fe303bcbc9d0ce817a27c", null ],
+    [ "aux_clk_en_ppi_ch", "group__group__aux__clk.html#ga44e2897f117a2e6a1bfa5235ab72473d", null ],
     [ "aux_clk_get_ms", "group__group__aux__clk.html#gaaf25db3f1ee4dc2f32cf8b7cc382c162", null ],
     [ "aux_clk_select_src", "group__group__aux__clk.html#gaa6198918a91843327182c16bfacbaf7d", null ],
     [ "aux_clk_set", "group__group__aux__clk.html#gaa5c3745aebc7265cc42914c25acb4882", null ],

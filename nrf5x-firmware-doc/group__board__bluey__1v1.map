@@ -1,4 +1,3 @@
 <map id="Bluey rev 1.1" name="Bluey rev 1.1">
-<area shape="rect" id="node1" title="The defines for the Bluey board 1.1 by Electonut." alt="" coords="139,5,247,31"/>
-<area shape="rect" id="node2" href="$group__group__platform.html" title="All the hardware platforms that the applications can run on." alt="" coords="5,5,91,31"/>
+<area shape="rect" id="node2" href="$group__group__platform.html" title="All the hardware platforms that the applications can run on. " alt="" coords="5,5,84,32"/>
 </map>

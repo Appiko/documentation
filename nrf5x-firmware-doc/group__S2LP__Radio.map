@@ -1,12 +1,11 @@
 <map id="Radio" name="Radio">
-<area shape="rect" id="node1" href="$group__S2LP__Libraries.html" title="This firmware implements libraries which allow the user to manage the features of S2LP without knowin..." alt="" coords="5,194,119,219"/>
-<area shape="rect" id="node3" title="Configuration and management of S2LP RF Analog and Digital part." alt="" coords="167,194,225,219"/>
-<area shape="rect" id="node2" href="$group__Radio__Private__FunctionPrototypes.html" title=" " alt="" coords="283,5,451,45"/>
-<area shape="rect" id="node4" href="$group__Radio__Private__Macros.html" title=" " alt="" coords="287,70,447,95"/>
-<area shape="rect" id="node5" href="$group__Radio__Exported__Functions.html" title=" " alt="" coords="273,119,460,145"/>
-<area shape="rect" id="node6" href="$group__Radio__Private__Functions.html" title=" " alt="" coords="279,169,454,194"/>
-<area shape="rect" id="node7" href="$group__Radio__Private__Defines.html" title=" " alt="" coords="285,218,448,243"/>
-<area shape="rect" id="node8" href="$group__Radio__Public__Functions.html" title=" " alt="" coords="283,267,451,293"/>
-<area shape="rect" id="node9" href="$group__Radio__Exported__Types.html" title=" " alt="" coords="285,317,448,342"/>
-<area shape="rect" id="node10" href="$group__Radio__Private__Variables.html" title=" " alt="" coords="280,366,453,391"/>
+<area shape="rect" id="node1" href="$group__S2LP__Libraries.html" title="This firmware implements libraries which allow the user to manage the features of S2LP without knowin..." alt="" coords="5,198,112,225"/>
+<area shape="rect" id="node2" href="$group__Radio__Private__FunctionPrototypes.html" title="Radio Private Function\l Prototypes" alt="" coords="273,5,428,47"/>
+<area shape="rect" id="node4" href="$group__Radio__Private__Macros.html" title="Radio Private Macros" alt="" coords="277,71,425,98"/>
+<area shape="rect" id="node5" href="$group__Radio__Exported__Functions.html" title="Radio Exported Functions" alt="" coords="264,122,437,149"/>
+<area shape="rect" id="node6" href="$group__Radio__Private__Functions.html" title="Radio Private Functions" alt="" coords="269,173,432,199"/>
+<area shape="rect" id="node7" href="$group__Radio__Private__Defines.html" title="Radio Private Defines" alt="" coords="275,223,426,250"/>
+<area shape="rect" id="node8" href="$group__Radio__Public__Functions.html" title="Radio Public Functions" alt="" coords="272,274,429,301"/>
+<area shape="rect" id="node9" href="$group__Radio__Exported__Types.html" title="Radio Exported Types" alt="" coords="275,325,427,351"/>
+<area shape="rect" id="node10" href="$group__Radio__Private__Variables.html" title="Radio Private Variables" alt="" coords="271,375,430,402"/>
 </map>
