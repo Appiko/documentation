@@ -44657,7 +44657,7 @@ var $async$m4=P.a2(function(c,d){if(c===1)return P.a4(d,s)
 while(true)switch(t){case 0:n='query {getManufacturer(id: "'+H.b(b)+'"){name,logoUrl}}'
 m=H.iG(n,'"','\\"')
 n=u.N
-n=P.aN(["x-api-key","da2-jmcdpof2gfdcpferhhhlv26yce"],n,n)
+n=P.aN(["x-api-key","da2-5phjknez5be4dlefutt6hierd4"],n,n)
 t=3
 return P.aq(G.a1M("https://3i4kybjafnb6tgxoy3rnnx47ce.appsync-api.ap-south-1.amazonaws.com/graphql",'{"query": "'+m+'"}',n),$async$m4)
 case 3:p=d
