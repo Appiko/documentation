@@ -7,7 +7,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "manifest.json": "5675593dbcbdeca204436f1b9571dde5",
-"main.dart.js": "4a4bf41dc396022a35e5148145132447",
+"main.dart.js": "c8e3621c91cb52e4238a25d310ab3c84",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/LICENSE": "2636366446bab7c390f6e84c78bc7f37",
 "assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",

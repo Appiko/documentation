@@ -38495,10 +38495,10 @@ P.en(t.r.referrer)
 t.bu()},
 L:function(a){var t,s=this,r=null,q="domain_name",p=u.tE,o=$.rH().$1$0(p).a,n=s.d
 if(n!=null){t=s.r
-n=!J.rK(t.referrer,J.R(n,q))&&t.referrer.length!==0}else n=!1
+n=!J.rK(t.referrer,J.R(n,q))||t.referrer.length!==0}else n=!1
 n=n?L.SE("Cannot be embebed on this website.",K.c_(a).Z.a):T.Ul(H.b([T.UJ(M.k2(r,r,r,r,r,r,r,r,r),2),T.UJ(new Y.nz(r),9)],u.p))
 t=s.r
-if(!J.rK(t.referrer,J.R(s.d,q))&&t.referrer.length!==0)p=r
+if(!J.rK(t.referrer,J.R(s.d,q))||t.referrer.length!==0)p=r
 else{p=$.rH().$1$0(p).a
 t=H.b([C.pu,L.SE("CALCULATE",r),C.pu],u.p)
 p=M.k2(r,new T.kH(C.tp,M.k2(r,new T.ib(C.ar,r,r,new E.ng(new E.yV(new T.wW(C.x,C.kT,C.uw,C.jD,r,C.cl,r,t,r),r),p,r,!0,C.qr,r),r),r,r,S.t9(r,r,H.b([new O.eX(0,C.r9,new P.u(0,-3),24)],u.xq),C.j,r,r,C.S),100,r,r,1/0),r),C.cq,r,r,100,r,r,1/0)}return M.Sy(o,n,p)},
