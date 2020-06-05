@@ -54546,7 +54546,7 @@ p=r.x
 q=M.yu(r.Q)+" "
 l=r.e
 k=u.z
-return new B.zF(C.bg,C.qK,C.qL,C.pz,C.uh,new B.Zt(),H.a([t,B.a5J(P.a5Y(P.aw(["dimentions",this.b,"specs",s,"quote",P.aw(["manufacturing",o,"shipping",P.aw(["days",p,"cost",q+(l==null?"INR":l)+" / "+M.yu(r.Q/r.ch)+" "+H.b(r.d)],n,m),"total",r.y/r.ch,"session_id",$.Y().$1$0(i).r],k,k)],n,k),j,C.c.N(" ",4)),B.F8(j,j,j,j,j,j,new B.kY(C.kZ),j,j,j,j,8,j,j,j,!0,j,j,j,j)),new B.Az(1,C.pS,new B.yK(C.uK,new B.Fw(new B.Lx("https://pcbqgen.com"),B.a5J("Powered by PCBQGen",B.F8(j,Q.agg("#0000FF"),j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j)))))],u.nF))}}
+return new B.zF(C.bg,C.qK,C.qL,C.pz,C.uh,new B.Zt(),H.a([t,B.a5J(P.a5Y(P.aw(["dimentions",this.b,"specs",s,"quote",P.aw(["manufacturing",o,"shipping",P.aw(["days",p,"cost",q+(l==null?"INR":l)+" / "+M.yu(r.Q/r.ch)+" "+H.b(r.d)],n,m),"total",r.y/r.ch,"session_id",$.Y().$1$0(i).r.i(0)],k,k)],n,k),j,C.c.N(" ",4)),B.F8(j,j,j,j,j,j,new B.kY(C.kZ),j,j,j,j,8,j,j,j,!0,j,j,j,j)),new B.Az(1,C.pS,new B.yK(C.uK,new B.Fw(new B.Lx("https://pcbqgen.com"),B.a5J("Powered by PCBQGen",B.F8(j,Q.agg("#0000FF"),j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j)))))],u.nF))}}
 A.zs.prototype={
 G:function(a){var t=this.d
 return T.XO(new H.a0(t,new A.Mp(this,a),H.ad(t).j("a0<1,hM>")).bp(0),5,5)},
